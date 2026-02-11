@@ -118,23 +118,21 @@ def discover_runs(exp_dir: Path) -> List[RunInfo]:
     return runs
 
 
-def plot_loss_curves(runs: List[RunInfo], title: str, output_path: Path) -> None:
+def plot_loss_curves(
+    runs: List[RunInfo],
+    title: str,
+    output_path: Path,
+    loss_key: str,
+    step_key: str,
+    label_prefix: str,
+) -> None:
     plt.figure(figsize=(8, 5))
     for run in runs:
         data = parse_training_log(run.training_log)
-        if not data:
+        if not data or len(data[step_key]) == 0:
             continue
         label = f"{run.param_name}={run.param_value}"
-        if len(data["iter"]) > 0:
-            plt.plot(data["iter"], data["train_loss"], label=f"train {label}")
-        if len(data["eval_step"]) > 0:
-            plt.plot(
-                data["eval_step"],
-                data["eval_val_loss"],
-                marker="o",
-                linestyle="--",
-                label=f"val {label}",
-            )
+        plt.plot(data[step_key], data[loss_key], label=f"{label_prefix} {label}")
     plt.xlabel("Iteration")
     plt.ylabel("Loss")
     plt.title(title)
@@ -302,9 +300,25 @@ def main(exp_dir: Path = DEFAULT_EXP_DIR, results_dir: Path = RESULTS_DIR) -> No
     grouped = group_runs_by_sweep(runs)
 
     for sweep, sweep_runs in grouped.items():
-        loss_path = results_dir / f"{sweep}_loss_curves.png"
+        train_loss_path = results_dir / f"{sweep}_train_loss_curves.png"
+        val_loss_path = results_dir / f"{sweep}_val_loss_curves.png"
         bar_path = results_dir / f"{sweep}_final_train_loss.png"
-        plot_loss_curves(sweep_runs, title=f"Loss Curves - {sweep}", output_path=loss_path)
+        plot_loss_curves(
+            sweep_runs,
+            title=f"Training Loss Curves - {sweep}",
+            output_path=train_loss_path,
+            loss_key="train_loss",
+            step_key="iter",
+            label_prefix="train",
+        )
+        plot_loss_curves(
+            sweep_runs,
+            title=f"Validation Loss Curves - {sweep}",
+            output_path=val_loss_path,
+            loss_key="eval_val_loss",
+            step_key="eval_step",
+            label_prefix="val",
+        )
         final_loss_bar(sweep_runs, title=f"Final Train Loss - {sweep}", output_path=bar_path)
 
         lines = []
