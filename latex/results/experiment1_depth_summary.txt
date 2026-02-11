@@ -1,0 +1,24 @@
+Sweep: experiment1_depth
+
+Diversity metrics:
+run                      #samples  distinct-1  distinct-2  TTR     
+n_layer=2                17        0.313       0.735       0.313   
+n_layer=4                13        0.302       0.723       0.302   
+n_layer=8                15        0.277       0.692       0.277   
+n_layer=12               14        0.271       0.675       0.271   
+
+Approx parameter sizes:
+run                      n_layer n_head  n_embd  params(M) 
+n_layer=2                2       8       256     1.70      
+n_layer=4                4       8       256     3.27      
+n_layer=8                8       8       256     6.42      
+n_layer=12               12      8       256     9.56      
+
+Samples:
+--- n_layer=2 sample 1 ---
+The balloon roared balls on the road. He always had a good day. He had lots of fun with his family. All his family was not grateful for Joe and his mom.
+...
+
+--- n_layer=2 sample 2 ---
+One day, a girl named Mia went to the store with her mom. She saw a big star on the store and the store. She looked around and saw a little horse near her grandma. She was scared but she wanted to help her. A kind bird came by and said, "Hi, here is so dirty!" Mia said, painting the story and fast. "We are here?" The store he had a day. It was a secret surprise coming up the story. The story had a
+...

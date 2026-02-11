@@ -1,0 +1,111 @@
+Experiment: experiment2_width
+Parameter value: 128
+Timestamp: 2026-01-28 15:54:58
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment2_width-n_embd_128'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 1.21M
+Loading meta from data/tinystories/meta.pkl...
+
+The sall cat was feeling very serious. She realized that the shelf was lost and her body. 
+Her mom walked everywhere shouter and ran back to her house. Her mom said and said it was too expensive. And she had to get ready bow its scared to start the shelf.
+One day, Mom and her mom went to the park to get the hone. They saw a big pool. Mom said, "That's a tall pool. Can we poke the honey?" They ran and ran the honest and laughed as they could play together.
+When Mom and Dad saw the game of pool, they were okay. They wondered what they wanted to have careful for their bed. They decided to peek the honey coal. They took the game and carefully to their house.
+"Hello, I don't want to play with me!" Ben said to them.
+"They did not get stuck one!" Ben said. "Yes, you can. I'm sorry. I really you and and helped them share. We will help you the game."
+They went on the game. They had heard a loud noise. They could not wait for them and try watch them. They all counted them and close the pile. The
+---------------
+
+But the boy was not as a talking squirrel. He wanted to try it, but he was scared. He tried to be careful with him.
+The next day, Tim and his family had lots of fun. They went inside the squirrel. One day, they found a big spirit of a small tall tree. The tall spider and began to start to be powerful. Tim was very happy to have such a new friend.
+Later, the tall man was so understanding. The squirrel was happy to have a new friend where the tall very well. Tim played with the tall tree and had lots of fun whistle friends. They liked to find friends than too.
+The tall man said, "Tim, let's make you surrendersso we can be happy again." Tim and his mom went to see what to do. They were so happy, and they went home.
+<|endoftext|>
+Once upon a time, in a big forest, there lived a little boy named Tim. Tim was feeling very good at color. He ran up the park, but his favorite was weaky in the water. Tom opened, trying to read a big party. He was so excited for the park to fix it.
+One sunny race
+---------------
+
+The next day, they became good friends. They enjoyed the pastel and had fun. They were happy that they could have learned the jewelry next day.
+<|endoftext|>
+Once upon a time, there was a little girl named Sam. Sam loved to catch things to make things. One day, Sam saw a big box in hanging. He wanted to catch it.
+Sam took his box and said "Dad! What do you think? Why have your candy." Sam felt sad, but she had to help a doll on his tail. Sam tried to help Sam, but they couldn't wait to play.
+Sam and Sam took the box and found a fun trick. They both laughed and thought about it was together. They were very sorry and had a big smile for everyone. And they all lived happily ever after.
+<|endoftext|>
+One day, a little boy named Tim went to the park. He saw a fish with a big tree. Tim wanted to play with the tree. He ran to the tree. He saw a lot of cars on it.
+Tim wanted to come back to his finger. He asked his friend, "Can we show you wash the tree?" His mom said, "No, we have it together
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They walked and walked until the sun went down. The park, the bird, and they all worked together to each other. The park was delicious for his mom and dad.
+One day, a little boy came to the park with his friend's toy. They played together all day long. The boy was not angry. They were proud of their work and went to find one and the shiny park.
+<|endoftext|>
+One day, a boy named Tim went to the store with his mom. They were very smart. Tim was very happy, but they did not want to find the shiny park. Tim wanted to help the shiny party by the park.
+They ate the shiny shiny park and played with the shiny field. They had so much fun playing with the shiny park. Tim and Sam was happy.
+<|endoftext|>
+Once upon a time, there was a wore man named Tom. He lived in a big park. Tom was sad because his favorite said "new things to make a big, green people."
+Tom was very sad and did not know what to do. He asked his friends to see who c
+---------------
+
+<|endoftext|>
+Once upon a time, in a small house, there was a little boy named Tim. Tim was very grateful for his tail. He wanted to go to his friend, "Can I go for you and see when I see if it was."
+One day, Tim met a new friend named Sam. Sam said, "Sam, why is a beautiful girl. Let's be careful and starts to talk about her dance. You are not nice and nice. I will be your dangerous."
+They looked at the girl and kicked around the seek. "I'm sorry, Sam. I will help you. I will keep you safe now."
+They got home, and they were brave. They felt better from the dancer. They said, "No, thank you, don't display. You are my dangerous." They started to tire and shouted, "Let's sail from the dance again! You are good friends!"
+So, they became enjoyed for friends. They all laughed and had a great day for their time. They learned to being more careful when we sleeping and need to be kind anymore.
+<|endoftext|>
+One day, a little cat named Tom went to school the park. He wanted to skip with his sur
+---------------
+
+Tim saw a big treat with a collar. He was scared of the prize. He heard a loud noise. It was a magic whole on the floor.
+"Hi, Tim!" Sam said. He took a big rock. The sun was loud bright and hard. But Tim was not lonely. He was sad and went home. He looked for his doll and sang the green fire. He saw the green place and thought it was a treasure. He did not care anything so he was angry.
+The green grew bigger and birds. The green hugged the green bird and finally came by food. The green grew bigger and soon felt so he kept the green sign around the green land. The green bird and the bird became best friends.
+<|endoftext|>
+Once upon a time, in a small town, there lived a little girl named Liz. Lizzy loved to run and play, having lots of fun. One day, while plant on her favourite toy car with her brother, and the girl was very independent. She had many days at the broccoli and run to open a bright shade.
+One day, Lily met a cool car named Lily. She was very sad and did not know what to do
+---------------
+
+Latel was so excited to settle and wanted to show his friend, so the toys started to show he had never seen before. As the toys, Tim got to walk in the ground, something strawberries happened. The twins were all very good at the toys.
+Tim found a small game before. He was sad and scared, but he wanted to show a big toy. The game rolled away, listening to his mom and dad. He went to the game with his best friend, the big game with a dependable dressisten to his mom. Tim's mom said, "Tim, always how much will do a good time?" Tim nodded and said, "It's okay, but you must be kind to be good." They both took a red beach and started to feel every disappeared.
+<|endoftext|>
+Once upon a time, there was a little girl named Sue. Sue loved to feel better with ants and beautiful. She was very surprised but she could not find it.
+One day, Sue found a brick in the grass. He was cold. Sue wanted to play with Sue. Sue had a friend named Tom. She had a tear than to play with. Tom took her to the brick
+---------------
+
+Once upon a time, in a time, there was a little boy named Tim. Tim loved to play with his toys. He loved play outside, but he was still sad.
+One day, Tim's friend, Sam, who said to hide in his house. They played together and had fun together. Tim learned a lesson time, and they continued help the way spot. The moral of the sun sow that it could visit when we can make you can play with our mom. And he enjoyed the way to play with the morning together.
+<|endoftext|>
+
+Once upon a time, there was a bug secret. He had a secret day at the page and sat on the secret. He went to the secret couch and said, "Hello, flowers that! Let's cozy!"
+One day, with a smile of the cow and asked a bug flood and a fast for itsect low. The bug said, "I am a loud fright!" The bug was ready to come over, but it wanted to wash the fastest.
+Suddenly, a big friendly came to the forest. The friend said, "I am a magic car. Maybe you can play with your friends." They played with the friend all day.
+<|endoftext|>
+Once
+---------------
+
+<|endoftext|>
+Once upon a time, there was a little girl named Amy. She loved to join her toys in the yard. One day, Amy noticed that it was a red book with a big red red apples. She was wearing over and other fluttering and wanted to teaspoon the book.
+Amy was going to a book to find a real. She said to Sue and get the book. They said their red seat and laughed all day. Sue and her mom went home with the book and said goodbye.
+Mom decided to the book. Sue played with the book all day. She said, "This is so big, pretty red book. It is not safe anything up. I was very sad. Can you help me see the book?" Sue asked, "Yes, book, I can help you find my friend."
+The next day, Sue woke up to his friend, and it was to have a new friend too. They all liked to play together and have fun. "Thank you for helping me," the new friend for the new friend.
+<|endoftext|>
+Once upon a time, there was a little girl named Amy. She loved to nap with her friends. One day, she wanted to take with her friend Tom
+---------------
+
+Max ran to her house and helped Mommy feel sorry. Mommy said, "What is Mommy, Daddy. I want to have fun too. We don't balance and have fun."
+Smopy and Max went to Tommy. They wanted to show the perfect to Mommy's house. Mommy said, "I am Peter. I love you, but alert or a good too." Mommy knew Mommy and they shared the wood all day long.
+Mommy smiled her daddy and wiggled everything. He said sorry and she said goodbye. She started to complete and pushed with her complain and her songs. She could all the woods with shapes and only words. She helped her rock the woods and culves and jumped out of the house.
+Her friends laughed and came a banket. They were full of fun things. They had so much fun together. From that day on, they were best friends again.
+<|endoftext|>
+Once upon a time, in a small town, there lived a cube. The cube had a big surfbard on a safari. One day, a big window came to the sign and saw a brave. The squirrel was very sad.
+The squirrel thought the squirrel wanted to pla
+---------------

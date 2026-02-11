@@ -1,0 +1,86 @@
+\subsection{Experimental Design}
+
+Three controlled sweeps were performed. In each sweep, only one architectural dimension was varied while all other hyperparameters were kept fixed.
+
+This allows causal interpretation of how each architectural choice influences performance.
+
+\subsection{Experiment 1: Depth Sweep (\texorpdfstring{$n\_layer$}{n\_layer})}
+
+Fixed:
+\begin{itemize}
+    \item $n\_head = 8$
+    \item $n\_embd = 256$
+\end{itemize}
+
+Varied:
+\[
+n\_layer \in \{2, 4, 8, 12\}
+\]
+
+Record:
+\begin{itemize}
+    \item Final validation loss
+    \item Parameter count
+    \item Generated samples
+\end{itemize}
+
+\subsection{Experiment 2: Width Sweep (\texorpdfstring{$n\_embd$}{n\_embd})}
+
+Fixed:
+\begin{itemize}
+    \item $n\_layer = 6$
+    \item $n\_head = 8$
+\end{itemize}
+
+Varied:
+\[
+n\_embd \in \{128, 192, 256, 384\}
+\]
+
+Diversity metric:
+\[
+\text{Diversity} = \frac{n_{\text{unique words}}}{n_{\text{total words}}}
+\]
+
+The metric was computed on fixed-length generated samples from each model.
+All samples were tokenized into words using the same preprocessing, and the ratio was taken per sample and averaged.
+
+\subsection{Experiment 3: Attention Head Sweep (\texorpdfstring{$n\_head$}{n\_head})}
+
+Fixed:
+\begin{itemize}
+    \item $n\_layer = 6$
+    \item $n\_embd = 256$
+\end{itemize}
+
+Varied:
+\[
+n\_head \in \{4, 8, 16, 32\}
+\]
+
+Note that $n\_embd$ must be divisible by $n\_head$.
+
+\subsection{Model Configuration Summary}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lccccc}
+\toprule
+Experiment & $n\_layer$ & $n\_embd$ & $n\_head$ & Parameters & Val Loss \\
+\midrule
+Depth-2 & 2 & 256 & 8 &  &  \\
+Depth-4 & 4 & 256 & 8 &  &  \\
+Depth-8 & 8 & 256 & 8 &  &  \\
+Depth-12 & 12 & 256 & 8 &  &  \\
+Width-128 & 6 & 128 & 8 &  &  \\
+Width-192 & 6 & 192 & 8 &  &  \\
+Width-256 & 6 & 256 & 8 &  &  \\
+Width-384 & 6 & 384 & 8 &  &  \\
+Heads-4 & 6 & 256 & 4 &  &  \\
+Heads-8 & 6 & 256 & 8 &  &  \\
+Heads-16 & 6 & 256 & 16 &  &  \\
+Heads-32 & 6 & 256 & 32 &  &  \\
+\bottomrule
+\end{tabular}
+\caption{Model configuration summary for all sweeps.}
+\end{table}

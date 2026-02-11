@@ -1,0 +1,24 @@
+Sweep: experiment2_width
+
+Diversity metrics:
+run                      #samples  distinct-1  distinct-2  TTR     
+n_embd=128               15        0.289       0.712       0.289   
+n_embd=192               15        0.274       0.687       0.274   
+n_embd=256               10        0.275       0.699       0.275   
+n_embd=384               13        0.276       0.690       0.276   
+
+Approx parameter sizes:
+run                      n_layer n_head  n_embd  params(M) 
+n_embd=128               6       8       128     1.24      
+n_embd=192               6       8       192     2.75      
+n_embd=256               6       8       256     4.84      
+n_embd=384               6       8       384     10.80     
+
+Samples:
+--- n_embd=128 sample 1 ---
+The sall cat was feeling very serious. She realized that the shelf was lost and her body.  Her mom walked everywhere shouter and ran back to her house. Her mom said and said it was too expensive. And she had to get ready bow its scared to start the shelf. One day, Mom and her mom went to the park to get the hone. They saw a big pool. Mom said, "That's a tall pool. Can we poke the honey?" They ran 
+...
+
+--- n_embd=128 sample 2 ---
+Once upon a time, in a big forest, there lived a little boy named Tim. Tim was feeling very good at color. He ran up the park, but his favorite was weaky in the water. Tom opened, trying to read a big party. He was so excited for the park to fix it. One sunny race   The next day, they became good friends. They enjoyed the pastel and had fun. They were happy that they could have learned the jewelry
+...

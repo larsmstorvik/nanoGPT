@@ -1,0 +1,118 @@
+Experiment: experiment1_depth
+Parameter value: 4
+Timestamp: 2026-01-28 15:49:09
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment1_depth-n_layer_4'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 3.21M
+Loading meta from data/tinystories/meta.pkl...
+
+The saltory rabbit barked at the bad watch, but he was so sad. He wanted to help the rabbit Ben. He decided to be like the grass racing in the bake and make a wish. It was dangerous and could wash it for him.
+Now was shaking to his head, and so did not have the bad sister. He said, "Ok, mom, I need you. The wind is broken and bumpy."
+He smiled and said, "You are both very nice to each other. Now we can dangerous."
+And they all had fun and learned that being a good friend is good. From that day on, they knew they had something fun, and they had a very good friend.
+<|endoftext|>
+
+Once upon a time, there was a baby who was only the other baby games. Every day, the baby wanted to see a big sand. But one day a toy boat was a little boat. It saw a note and said, "No, I can reach the baby inside!" He pushed and reached for the note. The baby was still scared, but it did not care. The baby said, "No, baby careful and reach the baby."
+One day, a big wind came and blew the baby carefully. The wi
+---------------
+
+<|endoftext|>
+Once upon a time, there was a big, friendly bird. The bird was very friendly. It was a pretty and a nice bird. The bird lived in a big house with a long stone.
+One day, the bird saw a big tree with yummy fruits. The bird said, "Hello, bird! Do you want to play with me?" The bird nodded and walked until it was time to go home.
+The bird said, "I will teach you the fruits. It's funny." The bird nodded and wanted to help the bird. The bird felt bad for a little scared. The bird was not fit anymore. The bird and the bird played together all the way back home.
+<|endoftext|>
+Once upon a time, in a small town, there was a big strong with many animals. One day, the bird was flying to the strong with her mom. He was very happy.
+The other animals came to the strong when the sun went down. They looked for a picnic to each other. They looked around and saw a little girl with a big smile. She said, "That's a surprise! We are so curious. We want to find an adventure!"
+So, Lily and her m
+---------------
+
+The next day, they went to the beach and yelled in agreement. The weird fragile turtle wanted to be special again. They both decided to look for the gum.
+Soon, the fragile turtle slowly reached the leaves. They played together and had a great day at the beach. The fragile turtle was happy to see the gum, and they all thanked the turtle. They were both very tired and shared the crane.
+<|endoftext|>
+Once upon a time, there was a boy named Tim. Tim loved to draw in his room. He would draw pretty colors and make the sand in his room. One day, Tim saw a big mean that made his pet color toy gun. He wanted to eat it, but it was too late.
+Tim took the mean to the park. But his mom said no. The mean toy gun looked nice. Tim was sad and wanted to help. He tried to find it when his mom finally was finished. He decided to be nice. The mean toy gun was finished. It was a successful tree that made the way.
+Tim walked and walked. He heard a loud noise coming from a noise. The little kitten said, "Wow
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They saw a small box that the surf was clear that knew what to do. Tim wanted to eat it, but he decided to eat it with his mom.
+At the park, Tim saw a big box. He wanted to see what was behind the box. Tim asked his mom, "Can I have some box?" His mom said, "Yes, you can have the box." Tim was happy and said, "Thank you, Tim!"
+They played a game, and they both played together. They had fun and became good friends. They were the best of friends.
+<|endoftext|>
+
+
+Anna and Ben are friends. They like to play with their ball. They have a ball and a book. They take turns with their ball and go to his house.
+One day, they see a sign that said "Look". The sign is singing and "Be faster" again. They like said.
+They use the sign to see some yummy treats. They reach for some pillows and see a big balloon. They pretend they were some honest balloons and step and roll. They feel sorry and sorry.
+They decided to try again and animals. The
+---------------
+
+<|endoftext|>
+Once upon a time, in a big open forest, there was a cat named Fluffy. Fluffy had a big road every year that could strokey. It was the most beautiful color and the winter saw how she was dropped. She looked at the big road and thought it was fun.
+One day, Fluffy saw a big, old box. The box had a big pot on it. He did not know what was inside the box, but he wanted to play.
+Fluffy said, "What is happening?" Her mom said, "My name is Lising. Can I play more?" Fluffy said, "Listen, that's a cool pot." The box said, "Yes, we can all be friends!" So they both played together. They raced around the house and jumped high in the sky. Fluffy started to feel happy and safe.
+As they were from the tree, Listen started to cry. He said, "That's a fun idea, Spot!" They went on the floor and went for a walk again. They flew over the trees! It was great and running. Listen, Listen caught Miss Spot. "Thank you, Listen," they said. Spot was happy and his friend followed Listen to his mom. Th
+---------------
+
+Tim saw a lady with a big smile on his face. They were so happy to see her thoughtful that they all restole to the bird. They all went to find the one with the lady.
+<|endoftext|>
+
+Once there was a little boy who was walking around. He saw a big shop. The shop had three years on it, expected things that could make a delicious delicious treat. He set up all of a special delicious party and never felt sad again.
+<|endoftext|>
+
+Once upon a time, there was a family who lived in a big tree. The family loved to play with the baseball made sunligh for being reliable. People were always three for hours to recognize the skull.
+One day, a pale named Jill came out of the tree. She saw the family and wanted to play with the baseball. So, she went to bed a big storm called a red vest. Suddenly, the baseball rolled into the ground! She couldn't come out and play with it.
+Then, something unexpected happened. The vest baseball hid under a big tree. Suddenly, the baseball heard a large tight. "That's n
+---------------
+
+"OK, how could be a honest church and help the words?" asked Max.
+"Sure, no!" Lily took him to the church of the pond and helped him get to the pond. "Oh no!" said Tom. "I will get something help from the big dog!"
+But Lily didn't want to fight over the bed. She stood on it every day. She looked up and saw something. It was shiny and bright and strong. She shook her head. "You did not fight me!" she cried.
+Lily felt bad and angry. She read her sister, and the bed hands. Lily and Tom loved her. They were very happy.
+<|endoftext|>
+Once upon a time, there was a boy named Tim. Tim liked to watch the shiny things together. One day, he found a new toy. The new toy was big and brown. Tim wanted to fit the toy too. He decided to play with it.
+Tim put the toy back in the toy box. He started to get deaf. Suddenly, a little bird flew by and saw the toy box. Tim was surprised and said, "All these toys, Tim! I told you not to give your toy back." Tim learned that it's okay to be careful and careful
+---------------
+
+One day, a little girl named Lily found a big blue stick in the ground. She put the stick on the ground and did not win. Lily wanted to help the stick. She held the stick to see it and cook pretty wardrobe.
+So, she went to her mom and opened the stick. She saw her toy hand and across the stick. Her mom said, "Wow, it's so pretty!" Her mom said, "That's a toy! It might be careful." The stick started to sing and snow. It was so happy and not fun!
+The little girl's mom was sad, too. The big fish was gone, and the stick was too small. The girl and her mom were happy and enjoyed the hug color from the bench. The stick was not a toy, and the stick was not safe anymore.
+<|endoftext|>
+
+
+Anna and Ben are playing in the park. They see a big slide and a small slide. They want to open it.
+"Can we help put down?" Anna asks.
+"Of course, mom," Anna says. She is playful and fun. She is scared of her help.
+"Go away, driver," Anna and Ben say.
+They look at the slide. They nod and drive fast. They drive 
+---------------
+
+While they were walking, Tim met a big, friendly dog. The dog was happy because the dog was clean. Tim wanted to clean in the sand and wanted to help the dog. The dog was happy and had a fun in the forest.
+Tim and the dog went outside together. They were happy to help the dog. The dog saw them on the floor and said, "Too dog! That dog!" Tim was so happy. They both started to bake the dog with the dog.
+In the end, the dog was happy to see the dog. They played on the swings and the dog. The dog pushed the dog and pulled it away. The dog was happy and sad. The end.
+<|endoftext|>
+One day, a little boy named Tim went to the park. He saw a big tree and wanted to climb it. He jumped on the tree to show his friend Tim. They were sad because they could not climb the tree.
+The little boy heard the noise and came out of the tree. He saw the broken tree and was scared. He knew he wanted to help the broken tree. He said, "Sure, broke the tree!" The little boy thought for a moment and said, "Don't w
+---------------
+
+Mia and the cat were excited to play outside. Mia said, "Let's go to the park with the spider, so it can open the store." Bob and Sam went to the park together. They saw a big tree with many trees and makes a loud noise. They wanted to see the tree for the tree.
+"Look, a dog!" Ben said. He found a deep tree and deep. It was locked. It was a big tree heard that could swing. It was shiny and yellow and shiny. It was a pretty tree!
+"Wow, you like an ambulance!" Lily shouted.
+"I want to play with our ball," Ben said. "It's okay. I want to play here. They ran and jumped high."
+The tree said, "I don't like nice. I want to play with the tree too."
+The moral of the story is: a dog cat and a dog can make everything happy.
+<|endoftext|>
+
+Once upon a time there was a little girl called Amy. She liked to find a cool toy car, but she was very brave. One day, she was tearing a big beach when she started to feel better. She knew she was writing a little boy. She had two cool pillows. Amy's mom was ve
+---------------

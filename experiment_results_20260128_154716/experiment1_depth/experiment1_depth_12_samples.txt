@@ -1,0 +1,107 @@
+Experiment: experiment1_depth
+Parameter value: 12
+Timestamp: 2026-01-28 15:53:40
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment1_depth-n_layer_12'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 9.50M
+Loading meta from data/tinystories/meta.pkl...
+
+The balloon rolled back and pushed the balloon down. The balloon flew down and the balloon was the best sign he could find! The balloon was fast and windy. The balloon was sad because it was broken by a box.
+A little boy saw the balloon and asked his mom, "Why is the balloon balloon make the balloon sad?" His mom said, "It's okay, and we can find our balloon together." The balloon filled the balloon and made a new balloon. The balloon felt better and happy. The balloon was happy again and shared the balloon with his son.
+<|endoftext|>
+Once upon a time, there was a little boy named Tom. Tom loved to play with his toys. One day, they decided to build a mixer together. They wanted to fill a big cartoon with blocks. Tom was having so much fun.
+A new kid came to the mixer with Tom. The kid said, "Hello, kids! Do you want to build a yummy face?" Tom was sad, but he did not want to build a big cartoon too.
+The kids were happy and thanked Tom and they all played all day. They were both very gl
+---------------
+
+<|endoftext|>
+Once upon a time, there was a big, friendly bird. The bird was very friendly. It could talk with other birds. The bird made the bird feel the warm place. The bird was very happy.
+One day, the bird found a big stick. The stick was sharp and juicy. The bird was sad because it was very tall. It wanted to talk to its friends too. The bird was not nice and went to find the stick.
+The bird found a new stick to help the bird. It was not like the bird's stick. The bird was happy again. The bird and the stick had a fun party together.
+<|endoftext|>
+Once upon a time, there was a little boy named Tim. Tim was sad because he could not find his favorite toy at the cabin. One day, he met a big bird named Ben. Ben was a small bird who liked to play with balls.
+Ben said, "Ben, don't worry! I will help you find your toy." Tim was excited and started to sing his toy at the cabin. But then, something unexpected happened. The toy broke into many balls! Tim was sad because it had lost his toy
+---------------
+
+The next day, they went to the beach and tried to catch him. But the beach was too high for them. The sun started to move and the children were stuck. The beach was dead and scared.
+Suddenly, the beach soaked and said, "Welcome! Let's go inside to see." They went inside and it was clear and clean. They went to the store to dance to have a lot of fun.
+After they were done, they crossed their house. Lily was happy that she could find the beach and designed the mistake. They went inside to look for it and found the same most fun adventures together.
+<|endoftext|>
+Once upon a time, there was a big bear named Ben. Ben was a very stubborn bear who lived in a dependable house near a big park. One day, Ben found a box full of boxes in the kitchen. He didn't know what was inside.
+Ben decided to take the box from the park. He put the box on the stage and opened it with his mouth. The box was so shiny and dark. Ben was so happy that he could hear it again.
+Lily wanted the box and so ready to the 
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They wanted to play on the swings and the sand. There was a man with a big spark and a kite. Tim was scared and did not know what to do.
+The man said, "I am scared. I need a kite to show you something real." Tim listened to his mom and said, "Don't worry, little boy. I will help you save my kite." The man showed Tim a kite on its head. The water gave the kite a big hug.
+Tim was happy. He said, "Thank you, magic kite!" Tim was so happy. He played with his kite and had a fun day. The man and Tim became good friends.
+<|endoftext|>
+Once upon a time, there was a little girl named Lily. She had a big, unique friend, a small monkey. Lily liked to play with her friends in the park. One day, Lily thought there was a sweet dragon in the drain. She wanted to prepare the dragon for her help.
+Lily put on a pretty dragon and went to the park. She put on her pedals and a big fan. She was very happy to see them and they were the best of fr
+---------------
+
+<|endoftext|>
+Once upon a time, in a small house, there lived a little girl named Lily. She loved to read books with her mom in the kitchen. One day, she saw a big book with a swing. Lily wanted to say knocked on the books too.
+Lily said to her mom, "I know, Mom. Let's cover the book with the books!" Her mom smiled and said, "That's a very lovely book, Lily. Let's incredible the bookshelf together."
+When they arrived, Lily's mom came over to see their room. "Lily, be careful with the books! It will be fun!" she said. Lily was so happy and thanked her mom. She hugged her mom and thanked her mom. From that day on, Lily and her mom played together and had lots of fun.
+<|endoftext|>
+Once upon a time, there was a little boy named Tim. Tim loved to play with his toys and run around in the sun. One day, Tim saw a big stick in the dirt. He went to look at it. The stick was green, but Tim was scared.
+Tim saw a small bird with crayons. He wanted to squeeze the bird from the stick. Tim was scared
+---------------
+
+Tim saw a big tree with lots of mud and a smooth log on it. He wanted to jump on the sock too. He tried to jump on the same log, but it was too heavy. So, Tim said to Sue, "Don't be stupid! We can leave the same log and the sun will hurt you!" Sue listened and finished Tim jumping high in the air. They both enjoyed the same day and went home.
+<|endoftext|>
+Once upon a time, there was a boy named Tim. Tim was an enthusiastic boy who loved to go on adventures. He was very obedient and finally stupid his mom all every day. Tim was so excited that he could bloom and wait for his turn.
+One day, Tim was walking along with his mom's mom, he noticed his mom's toys in a big pile. She wanted to play with them, but her mom said no. Tim thought Lily was ruined and didn't permit his turn. He knew it was time to go home.
+Tim said to Kim, "Let's come and enjoy the pile together." Kim was happy that he wanted to keep the pile for the peace. They put it on and put it in the pile together. They cooked s
+---------------
+
+Max and Max agreed that they worked together to help the soup stay away. They put the soup stick and went off to play again. Max and the soup had a great day, and Max knew that the soup was the best soup ever.
+<|endoftext|>
+Once there was a boy named Tim. Tim was very excited because he had a toy he liked. One day, Tim's mom told him that it was important to be careful when playing with his toys.
+Tim asked his mom, "What do the right thing is?" His mom said, "The right thing is a toy right thing to do. I want it to be dangerous." Tim was very excited to see the right thing.
+Tim's mom saw him and said, "Tim, let's share it with your toys." Tim closed his eyes and they began to play with the right thing. They played with it all day long. The right thing to be successful. They had so much fun together.
+After playing, Tim and his mom went home. Tim said, "Thank you, right thing! You are the best of fun!" All their friends were happy too. Their mom was happy too and they all enjoyed the rig
+---------------
+
+One day, a little girl named Lily found a big box in her room. She looked inside the box and saw a rod with many colorful balloons. Lily's mom said, "Lily, what is this?" Lily replied, "My balloons are colorful and yellow. She can make any noise with it."
+Lily looked at the balloons. "Thank you, mom, you are their friend. You look so wonderful. You are so mean and colorful leaves."
+Ben looked at Lily and smiled. He saw the balloons and the balloons. He wanted to get the balloons. He said, "I like the balloons. They are cool and sweet. Do you want to share?"
+Lily said, "Yes, Ben, I want to come with me. I want to have fun and cook."
+Ben said, "Anna, Lily, I will pay you too. But be careful. It is cool and cool."
+Anna shook her head. She said, "Thank you, Ben. You are a very clever cat. I love you."
+Ben smiled. He said, "I love you, Lily. You are the best. You are helpful."
+Lily and Ben smiled. They went home. They played with their toys and barked. They dreamed of playing outside. The s
+---------------
+
+<|endoftext|>
+Once upon a time, there was a little girl named Amy. She loved to jump and play in the sun. One day, she saw a rock on the ground. It was a hole in the hole.
+Amy picked up the hole and held it tight. She was very happy with her cold. She showed it to her friends to play and all the kids. They all smiled and enjoyed the cold idea.
+As they played, Amy's mom watched her, and they could not take her to the park. Amy thought it was fun, but she had to kick her all the cold in her hand. The kids let her play dress and had lots of fun.
+Amy and her mom went home to play together. They played with the beautiful incredible ball. Amy was so happy to see her ball dress and shared her song with her ball in her backyard. Every day, Amy would come to her room and play with her toys.
+<|endoftext|>
+Once upon a time, in a small town, there was a friendly cat named Fred. Fred liked to eat the sunset. One day, she saw a small apple on the ground. The apple was yellow and had a big big wind.
+
+---------------
+
+Mia and the cat were excited to play on the seahed. They went up and down, down, and laughed and played with the cat until it was time to go home. Mia and the cat said goodbye and went home with their mom. Mia went home and continued to solve and play with the cat.
+<|endoftext|>
+Once upon a time, in a small town, there was a little pony. In this pony, there was a big, shiny bug. The bug liked to know what a treasure could be there. Everyone was happy.
+One day, a big bird came to the town. The bird was scared. The bird missed his home with its friends. The bird flew high up in the sky. The bird was happy.
+The bird said, "Thank you, Tim! Your home is good for you!" Tim listened to the bird and started to weep. The bird was so happy to see his home safe again. They played and played with the bird all day.
+<|endoftext|>
+Once upon a time, there was a big parade. One day, a little girl named Lily went to the parade. She saw a powerful package in her room. Lily was very excited to see it.
+Lil
+---------------

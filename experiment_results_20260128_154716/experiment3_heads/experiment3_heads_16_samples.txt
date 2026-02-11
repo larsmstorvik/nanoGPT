@@ -1,0 +1,104 @@
+Experiment: experiment3_heads
+Parameter value: 16
+Timestamp: 2026-01-28 16:04:35
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment3_heads-n_head_16'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 4.78M
+Loading meta from data/tinystories/meta.pkl...
+
+The balloon rolled back on the ground. She realized that the shell was lost. The child felt sad. She didn't know that the child was fixed. She wanted to help the people find it.
+Max went to the shell and out came with his landtand. He took the balloon to the shell. He gave it to the ground. He put it on the finish and gave it back to a tree. He put it on a big hole and even said it was all over than any more. The shell was big and strong, but the shell was faster.
+The family was very happy and thanked the ground. She said goodbye and went home. The ground had a special money on her face. The shell hurried again, and then the shell gentle got better. The dead made her feel good for free.
+<|endoftext|>
+Once upon a time, there was a little girl named Lily. Lily loved to watch her room in the garage. One day, Lily's room was watching her room. She was sad, but she wanted to play with it.
+Lily folded her room with a big stick, and she was sad. She wanted to show her mom the stick. Her mom t
+---------------
+
+<|endoftext|>
+Once upon a time, there was a big, friendly building named Billy. Billy loved to bathe and do amazing pretty dragon. He was very happy.
+One day, Billy was playing with his toy dragon. He did not want to bathe anything. He decided to bathe and try to bathe on. But when he got bathere, he saw a small frog shaking. The frog said, "I can make new friends and play with them."
+Billy wanted to play near the frog and make new friends. So, he picked it up and gave it to the man. The frog said, "Now it is not nice. It is a frog too."
+Billy smiled and said, "You're welcome, friends. But I love to show you something to do. Can I see the frog?"
+His mom smiled and said, "Of course! Let's see what we can throw the frog and the frog will fix it again." Billy thought for a moment and then shraid, "Mom. We can see the frog and see if we can supply and new friends." His mom smiled and said, "Okay, let's go, Billy."
+They decided to be brave enough for a new friend and play in the snow every 
+---------------
+
+The next day, they went to the beach to play. They wanted to eat it. It was not the beach. They saw a small bug. The bug had a big hole in it. The bug said, "Thank you, Tim! You are a good bird."
+The bug and the new bug played together. They had lots of fun. They were very happy.
+<|endoftext|>
+Once upon a time, there was a dog named Max. Max was a pretty cat who liked to play with his ball. He had many balls and family liked to swim all day long. Max had a big bag and a long tail.
+One day, Max's ball felt antion in his bag. He wanted it to be his ball. So, he played with the ball all day. He saw the ball, soft cloud, and in the water. The ball flew away, and Max was sad. The ball went back to playing with his ball.
+Max forgot and the ball played with his friends. They were very good at the ball and had so much fun. Max felt better and went back home with his friends. And they both shared their ball together and had lots of fun.
+<|endoftext|>
+Once upon a time, there was a little girl na
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They wanted to play on the swings, but they loved to play near the swings. Tim was scared, but he wanted to help his mom.
+But when Tim reached the swings, he took the swings and fell down. He was very reliable. He started to look, but Tim was scared. Then, he had an idea. He would remember what he was behind the swing and the wind. He picked up some flour, swings, and red, swings.
+As Tim swam, he saw a shot piece of people higher. Tim was scared, but he wanted to help. But when he opened the people would wander shiver, he decided to get off. He called his friends and they all planned until he was tired from the park. They were both just left the pieces of forever. Tim was so happy and he thanked the park for his help and went to sleep in the woods. The park was very happy and shared his finger with Tim.
+<|endoftext|>
+Once upon a time, there was a brown dog named Spot. Spot loved to spend time in the big blue sea. He would g
+---------------
+
+<|endoftext|>
+Once upon a time, in a big of the race, there was a cheap owl named Ben. Ben had a big roar that looked like a goose. Ben wanted to be friends with Ben. He had a best friend named Ben.
+One day, Ben saw a big cat. He wanted to play with Ben too. Ben did not know what to do. He jumped on the cat and took a deep breath. He felt sad and asked, "What are you doing with the cat?"
+Ben said, "I am finished out, so you will be careful and breakfast." Ben and Lily walked together and found a big box of toys! They both opened their own toys and smiled. They were very happy and played all day and had a great day.
+But then, the cat's tail started to grow bigger and stronger! The tail started to move and Lily and Spot didn't make a picture of the box. They tried to make the pictures stronger, but they were not scared. They did not give up. It made them happy and thanked the picture.
+"Mine is growing, Lily, what are you doing?" Lily asked. The man was happy to help. "It knows why it soo
+---------------
+
+Tim saw a big nest in the sky. He wanted to open it, but it was too heavy. He felt sad. He called his friend, Mittens, and said, "Let's open the nest!" Mittens were trying to open it.
+But when Mittens felt so happy, a big bird saw Mittens and the nest and said, "Let's operat a big plate! Let's make sure you had sandwiches our eyes to see." Mittens were so excited, and they started to pass the bathtub away.
+They did not want to share their plate with other birds anymore. They wanted to share and be passed. They went to the big plate and laughed together. They shared a lesson to eat the bathtub. The bear felt very happy and tired.
+But then, something unexpected happened. The bear stopped and looked at the bear's home. The bear thought for a moment and said, "I'm sorry, bear. I thought it was too big. I liked to wear peace and show many you and how to get the bear."
+The bear and the bear packed the bear up and the bear went outside. They hopped together and played for the tea party. They 
+---------------
+
+Later, Later, it said no. They ran as fast as they could. But soon Sally needed help to give the stick to others. They were all very tired and could not play with the stick. Sally said to Ben, "Be careful, Mommy. I have a stick to play with." They started to play, on it, and had a fun day at the beach.
+When they were done, they felt tired. They wished they had been ready for bed. They learned to be careful with friends. The moral of the story is to share and then have fun. Sometimes, remains a hot day if we don't leave the beach.
+<|endoftext|>
+Once upon a time, there was a little boy named Tim. Tim loved to listen to his mom. One day, he saw a big, shiny muscle on the floor. 
+Tim wanted to play, but his mom said she was already too. Their mom said to Tim, "That muscle is too mine!" Tim felt astrayed. He did not know what to do. He felt very fast and sad.
+Later, Tim's mom told him, "We need to clean the doth to faster. What are you doing in the kitchen, you know what we see?" Tim was sa
+---------------
+
+One day, a little girl named Lily found a big box of water. Inside the box was a surprise of a marker. She opened the box and saw some water on the sand. She was so happy to see it close to the marker.
+Lily walked to the market and saw a little dog. The dog said, "I love the market, but I don't like the marker anymore." Lily smiled and said, "Thank you, dog!"
+The market felt happy too. And from that day on, Lily's mom and dad were the best of friends. They learned their lesson and never got the market from the town. They did not quarrel anymore.
+<|endoftext|>
+One day, a little dog named Max saw a big cat. The cat was cold and shiny. Max wanted to join them. He told his mom, "Mom, I will join the cat and see where it can be free."
+Max looked at the cat and said, "I will help you, dog!" The cat walked to the cat. Max was very happy. He had an idea. "Let's write with our ice cream now!" he said. Max lied up and they played together.
+But then, they found a big ball. They played with the ba
+---------------
+
+<|endoftext|>
+Once upon a time, there was a little girl named Amy. She loved to jump and play in the sea. One day, Amy saw a big jump on her bracelet and had an idea. She wanted to have a pen like a heart.
+Amy walked around the town with her mom and dad. But when she got to the jungle, she saw a small bird on a tree. Tom was amazed. He could not see the jungle. He stepped on the jungle and began to help. From then on, grabbed the jungle.
+As they bought a tree for being along at enough places. Tom was very glad to help his friend. He ran back to his friend, and they played together in the big forest. They had a lot of fun, but they did not help the tree anymore.
+<|endoftext|>
+Once upon a time, there was a brave bar named Bobo. Bobo loved to read. He would read books all day long. He had a lot of fun with his family. They all loved to zoom around the big kite.
+One day, Bobo found a big purple ball. He thought it would be fun to play with. He wanted to print it right away, but he wanted t
+---------------
+
+Mia and the cat were excited to play a game. But they had a wonderful time. The cat felt sad and angry. They did not know what to do. They wished they had been proud of what they could shoot on their steel. They did not know what they shooted and played together.
+The raindrop then saw the cat and the dog. Tom and Max felt happy again and said, "Thank you, little dog! You are my friend." They played together and had a fun day together.
+<|endoftext|>
+
+Once upon a time, there was a brave mouse and a boy named Tim. Tim always helped his mom and dad and dad. They went on a drive and they all became friends.
+One day, they found a big bottle of animals in the forest. The boy was very happy and thanked them for his dad and they both went back to the forest.
+When the boy saw that the boy, he said, "Now you are the best driver ever. You can send your arm again. You are our fault and huroes."
+The boy thought it was strange to send a warm and could talk with it. He took it home and put it in his p
+---------------

@@ -1,0 +1,50 @@
+EXPERIMENT SUMMARY
+================================================================================
+
+Timestamp: 2026-01-28 16:06:26
+
+
+Depth Sweep (n_layer)
+--------------------------------------------------------------------------------
+Parameter varied: n_layer
+Values tested: [2, 4, 8, 12]
+
+  n_layer = 2: ✓ SUCCESS
+    Output dir: out-experiment1_depth-n_layer_2
+  n_layer = 4: ✓ SUCCESS
+    Output dir: out-experiment1_depth-n_layer_4
+  n_layer = 8: ✓ SUCCESS
+    Output dir: out-experiment1_depth-n_layer_8
+  n_layer = 12: ✓ SUCCESS
+    Output dir: out-experiment1_depth-n_layer_12
+
+
+Width Sweep (n_embd)
+--------------------------------------------------------------------------------
+Parameter varied: n_embd
+Values tested: [128, 192, 256, 384]
+
+  n_embd = 128: ✓ SUCCESS
+    Output dir: out-experiment2_width-n_embd_128
+  n_embd = 192: ✓ SUCCESS
+    Output dir: out-experiment2_width-n_embd_192
+  n_embd = 256: ✓ SUCCESS
+    Output dir: out-experiment2_width-n_embd_256
+  n_embd = 384: ✓ SUCCESS
+    Output dir: out-experiment2_width-n_embd_384
+
+
+Attention Head Sweep (n_head)
+--------------------------------------------------------------------------------
+Parameter varied: n_head
+Values tested: [4, 8, 16, 32]
+
+  n_head = 4: ✓ SUCCESS
+    Output dir: out-experiment3_heads-n_head_4
+  n_head = 8: ✓ SUCCESS
+    Output dir: out-experiment3_heads-n_head_8
+  n_head = 16: ✓ SUCCESS
+    Output dir: out-experiment3_heads-n_head_16
+  n_head = 32: ✓ SUCCESS
+    Output dir: out-experiment3_heads-n_head_32
+

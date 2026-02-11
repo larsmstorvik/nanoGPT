@@ -1,0 +1,29 @@
+Experiment: Depth Sweep (n_layer)
+Parameter varied: n_layer = 8
+Output directory: out-experiment1_depth-n_layer_8
+Timestamp: 2026-01-28 15:50:57
+
+Configuration:
+  always_save_checkpoint: False
+  batch_size: 64
+  beta2: 0.99
+  block_size: 256
+  dataset: tinystories
+  device: cuda:1
+  dropout: 0.0
+  eval_interval: 250
+  eval_iters: 200
+  gradient_accumulation_steps: 1
+  learning_rate: 0.001
+  log_interval: 10
+  lr_decay_iters: 5000
+  max_iters: 5000
+  min_lr: 0.0001
+  n_embd: 256
+  n_head: 8
+  n_layer: 8
+  out_dir: out-experiment1_depth-n_layer_8
+  wandb_log: False
+  wandb_project: tinystories
+  wandb_run_name: experiment1_depth_n_layer_8
+  warmup_iters: 100

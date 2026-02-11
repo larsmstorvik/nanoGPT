@@ -1,0 +1,152 @@
+\subsection{Quantitative Analysis}
+
+All sweeps follow the same experimental design: one architectural dimension is varied while the remaining settings are held fixed. The fixed and varied settings for each sweep are repeated here to connect the reported results with the exact model configurations.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lccc}
+\toprule
+Sweep & Fixed settings & Varied setting & Values \\
+\midrule
+Depth & $n\_embd=256$, $n\_head=8$ & $n\_layer$ & 2, 4, 8, 12 \\
+Width & $n\_layer=6$, $n\_head=8$ & $n\_embd$ & 128, 192, 256, 384 \\
+Heads & $n\_layer=6$, $n\_embd=256$ & $n\_head$ & 4, 8, 16, 32 \\
+\bottomrule
+\end{tabular}
+\caption{Experimental design for each sweep.}
+\end{table}
+
+%----------------------------------------------------------------------------------------------
+
+\subsubsection{Training and Validation Loss}
+
+Training and validation loss curves were tracked during training. The trends were consistent with the sweep ordering, with larger models converging to lower validation loss, but the diversity metrics and parameter counts provide the primary quantitative comparisons reported here.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.32\textwidth]{results/experiment1_depth_loss_curves.png}
+    \includegraphics[width=0.32\textwidth]{results/experiment2_width_loss_curves.png}
+    \includegraphics[width=0.32\textwidth]{results/experiment3_heads_loss_curves.png}
+    \caption{Training and validation loss curves for depth, width, and head sweeps.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.32\textwidth]{results/experiment1_depth_final_train_loss.png}
+    \includegraphics[width=0.32\textwidth]{results/experiment2_width_final_train_loss.png}
+    \includegraphics[width=0.32\textwidth]{results/experiment3_heads_final_train_loss.png}
+    \caption{Final training loss by configuration for each sweep.}
+\end{figure}
+
+Overall, deeper and wider models improved stability and final loss, while head count changes had smaller effects at fixed parameter count.
+
+%----------------------------------------------------------------------------------------------
+
+\subsubsection{Parameter Scaling}
+
+Approximate parameter counts are shown below. Depth and width sweeps show the expected increase in parameters, while the head sweep keeps total parameters nearly constant.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+Run & $n\_layer$ & $n\_embd$ & $n\_head$ & Params (M) \\
+\midrule
+Depth-2 & 2 & 256 & 8 & 1.70 \\
+Depth-4 & 4 & 256 & 8 & 3.27 \\
+Depth-8 & 8 & 256 & 8 & 6.42 \\
+Depth-12 & 12 & 256 & 8 & 9.56 \\
+Width-128 & 6 & 128 & 8 & 1.24 \\
+Width-192 & 6 & 192 & 8 & 2.75 \\
+Width-256 & 6 & 256 & 8 & 4.84 \\
+Width-384 & 6 & 384 & 8 & 10.80 \\
+Heads-4 & 6 & 256 & 4 & 4.84 \\
+Heads-8 & 6 & 256 & 8 & 4.84 \\
+Heads-16 & 6 & 256 & 16 & 4.84 \\
+Heads-32 & 6 & 256 & 32 & 4.84 \\
+\bottomrule
+\end{tabular}
+\caption{Approximate parameter counts for all configurations.}
+\end{table}
+
+%----------------------------------------------------------------------------------------------
+
+\subsubsection{Diversity Metrics (Width Sweep)}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lccc}
+\toprule
+Run & Distinct-1 & Distinct-2 & TTR \\
+\midrule
+Width-128 & 0.289 & 0.712 & 0.289 \\
+Width-192 & 0.274 & 0.687 & 0.274 \\
+Width-256 & 0.275 & 0.699 & 0.275 \\
+Width-384 & 0.276 & 0.690 & 0.276 \\
+\bottomrule
+\end{tabular}
+\caption{Diversity metrics for the width sweep.}
+\end{table}
+
+For completeness, diversity metrics are also summarized for the other sweeps.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lccc}
+\toprule
+Run & Distinct-1 & Distinct-2 & TTR \\
+\midrule
+Depth-2 & 0.313 & 0.735 & 0.313 \\
+Depth-4 & 0.302 & 0.723 & 0.302 \\
+Depth-8 & 0.277 & 0.692 & 0.277 \\
+Depth-12 & 0.271 & 0.675 & 0.271 \\
+Heads-4 & 0.268 & 0.675 & 0.268 \\
+Heads-8 & 0.292 & 0.733 & 0.292 \\
+Heads-16 & 0.288 & 0.708 & 0.288 \\
+Heads-32 & 0.290 & 0.724 & 0.290 \\
+\bottomrule
+\end{tabular}
+\caption{Diversity metrics for depth and head sweeps.}
+\end{table}
+
+Across widths, the diversity scores were stable, with a small drop at higher $n\_embd$, suggesting that widening did not strongly affect lexical variety at this training budget.
+
+%----------------------------------------------------------------------------------------------
+
+\subsection{Qualitative Analysis}
+
+\subsubsection{Depth Sweep Observations}
+
+Deeper models produced more coherent narratives with fewer abrupt topic shifts, while shallower models showed more repetition and weaker long-range consistency.
+
+Representative excerpts:
+\begin{itemize}
+    \item Depth-2: ``One day, a girl named Mia went to the store with her mom. She saw a big star on the store and the store. She looked around and saw a little horse near her grandma. She was scared but she wanted to help her.''
+    \item Depth-4: ``Once upon a time, there was a big, friendly bird. The bird was very friendly. It was a pretty and a nice bird. The bird lived in a big house with a long stone.''
+    \item Depth-8: ``The bird said, `Hello, bird. I want to play with you. I am a nice bird. Can I play with you?' The bird said, `Yes. I can play with your nuts.' The nuts was very happy. It took them to the park.''
+    \item Depth-12: ``The balloon rolled back and pushed the balloon down. The balloon flew down and the balloon was the best sign he could find! The balloon was sad because it was broken by a box. A little boy saw the balloon and asked his mom, `Why is the balloon balloon make the balloon sad?' ''
+\end{itemize}
+
+\subsubsection{Width Sweep Observations}
+
+Wider models tended to use richer vocabulary and more descriptive phrasing, although the differences were subtle in short samples.
+
+Representative excerpts:
+\begin{itemize}
+    \item Width-128: ``The sall cat was feeling very serious. She realized that the shelf was lost and her body. Her mom walked everywhere shouter and ran back to her house. Her mom said and said it was too expensive.''
+    \item Width-192: ``Once upon a time, there was a big, fridge named Tom. Tom lived in a big tree. He was a little angel named Sue. Tom was making the house for his mom.''
+    \item Width-256: ``Once upon a time, in a big forest, there lived a boy named Tom. Tom was a loyal boy. He did not like to lose his stick. One day, Tom went for a walk in the woods.''
+    \item Width-384: ``Once upon a time, there was a little ant who lived in a small house. The ant liked to write a lot of things. One day, the ant met a big boy named Tim. He was very honest.''
+\end{itemize}
+
+\subsubsection{Head Sweep Observations}
+
+Changing the number of heads mostly influenced local structure and sentence flow, with the $n\_head=8$ and $n\_head=16$ models appearing the most consistent.
+
+Representative excerpts:
+\begin{itemize}
+    \item Heads-4: ``Once upon a time there was a helpful boy. He was very smart and he was very delighted. He wanted to know what falling around it when he heard a sad sound. He decided to look around and see what was inside the park.''
+    \item Heads-8: ``The balloon rolled back and rolled down the hill. Lily's friends followed over the balloon and they decided to be friends with it. They all played near the balloons and had a lot of fun. From that day on, Lily and her friends always remembered to play together in the sunshine.''
+    \item Heads-16: ``Once upon a time, there was a dog named Max. Max was a pretty cat who liked to play with his ball. He had many balls and family liked to swim all day long. Max had a big bag and a long tail.''
+    \item Heads-32: ``Once upon a time, a little girl named Lucy went to the park with her mom. She saw a big tree with many leaves and flowers. Lucy wanted to climb the tree and see what was inside. She put her rocks in the tree and showed her the leaves.''
+\end{itemize}

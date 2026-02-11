@@ -1,0 +1,592 @@
+Overriding config with config/train_tinystories.py:
+# train a miniature character-level shakespeare model
+# good for debugging and playing on macbooks and such
+
+out_dir = 'out-experiment1_depth-n_layer_12'
+eval_interval = 250
+eval_iters = 200
+log_interval = 10
+
+# we expect to overfit on this small dataset, so only save when val improves
+always_save_checkpoint = False
+
+wandb_log = False
+wandb_project = 'tinystories'
+wandb_run_name = 'experiment1_depth_n_layer_12'
+
+dataset = 'tinystories'
+gradient_accumulation_steps = 1
+batch_size = 64
+block_size = 256
+
+# baby GPT model :)
+n_layer = 12
+n_head = 8
+n_embd = 256
+dropout = 0.0
+
+learning_rate = 0.001
+max_iters = 5000
+lr_decay_iters = 5000
+min_lr = 0.0001
+beta2 = 0.99
+
+warmup_iters = 100
+
+device = 'cuda:1'
+
+tokens per iteration will be: 16,384
+found vocab_size = 228 (inside data/tinystories/meta.pkl)
+Initializing a new model from scratch
+number of parameters: 9.50M
+num decayed parameter tensors: 50, with 9,561,088 parameters
+num non-decayed parameter tensors: 25, with 6,400 parameters
+using fused AdamW: True
+compiling the model... (takes a ~minute)
+step 0: train loss 5.4077, val loss 5.4077
+iter 0: loss 5.4097, time 16332.19ms, mfu -100.00%
+iter 10: loss 3.9033, time 10.93ms, mfu 31.92%
+iter 20: loss 3.3418, time 11.77ms, mfu 31.69%
+iter 30: loss 2.8815, time 11.70ms, mfu 31.50%
+iter 40: loss 2.5620, time 11.80ms, mfu 31.31%
+iter 50: loss 2.4354, time 11.82ms, mfu 31.13%
+iter 60: loss 2.3696, time 11.83ms, mfu 30.97%
+iter 70: loss 2.3596, time 11.88ms, mfu 30.81%
+iter 80: loss 2.3169, time 11.81ms, mfu 30.68%
+iter 90: loss 2.3258, time 11.82ms, mfu 30.57%
+iter 100: loss 2.2658, time 11.84ms, mfu 30.46%
+iter 110: loss 2.2288, time 11.85ms, mfu 30.36%
+iter 120: loss 2.1952, time 11.86ms, mfu 30.26%
+iter 130: loss 2.1920, time 11.90ms, mfu 30.17%
+iter 140: loss 2.1391, time 11.84ms, mfu 30.10%
+iter 150: loss 2.1055, time 11.85ms, mfu 30.04%
+iter 160: loss 2.0607, time 11.86ms, mfu 29.97%
+iter 170: loss 2.1014, time 11.89ms, mfu 29.91%
+iter 180: loss 1.9971, time 12.49ms, mfu 29.71%
+iter 190: loss 1.9999, time 11.87ms, mfu 29.68%
+iter 200: loss 1.9984, time 11.81ms, mfu 29.67%
+iter 210: loss 1.8528, time 11.84ms, mfu 29.65%
+iter 220: loss 1.8671, time 11.86ms, mfu 29.63%
+iter 230: loss 1.7638, time 11.80ms, mfu 29.62%
+iter 240: loss 1.7445, time 11.89ms, mfu 29.60%
+step 250: train loss 1.7099, val loss 1.7087
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 250: loss 1.7176, time 2334.11ms, mfu 26.65%
+iter 260: loss 1.6009, time 11.20ms, mfu 27.10%
+iter 270: loss 1.6119, time 11.75ms, mfu 27.36%
+iter 280: loss 1.5429, time 11.83ms, mfu 27.58%
+iter 290: loss 1.4804, time 11.88ms, mfu 27.75%
+iter 300: loss 1.4573, time 11.86ms, mfu 27.92%
+iter 310: loss 1.4619, time 11.88ms, mfu 28.07%
+iter 320: loss 1.4108, time 11.87ms, mfu 28.20%
+iter 330: loss 1.4177, time 11.81ms, mfu 28.33%
+iter 340: loss 1.4126, time 11.88ms, mfu 28.44%
+iter 350: loss 1.3485, time 11.97ms, mfu 28.51%
+iter 360: loss 1.3173, time 11.89ms, mfu 28.59%
+iter 370: loss 1.2563, time 11.83ms, mfu 28.68%
+iter 380: loss 1.2420, time 11.78ms, mfu 28.78%
+iter 390: loss 1.2690, time 11.86ms, mfu 28.84%
+iter 400: loss 1.2573, time 11.87ms, mfu 28.90%
+iter 410: loss 1.2254, time 11.91ms, mfu 28.94%
+iter 420: loss 1.2170, time 11.86ms, mfu 28.98%
+iter 430: loss 1.1888, time 11.84ms, mfu 29.03%
+iter 440: loss 1.2341, time 11.85ms, mfu 29.07%
+iter 450: loss 1.1966, time 11.95ms, mfu 29.09%
+iter 460: loss 1.1081, time 11.90ms, mfu 29.11%
+iter 470: loss 1.1493, time 11.90ms, mfu 29.13%
+iter 480: loss 1.1056, time 11.90ms, mfu 29.15%
+iter 490: loss 1.1037, time 11.86ms, mfu 29.18%
+step 500: train loss 1.1201, val loss 1.1175
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 500: loss 1.1101, time 3092.06ms, mfu 26.27%
+iter 510: loss 1.1048, time 9.29ms, mfu 27.40%
+iter 520: loss 1.0808, time 10.85ms, mfu 27.88%
+iter 530: loss 1.1213, time 11.72ms, mfu 28.07%
+iter 540: loss 1.0601, time 12.81ms, mfu 27.98%
+iter 550: loss 1.0572, time 12.07ms, mfu 28.08%
+iter 560: loss 1.0214, time 12.08ms, mfu 28.16%
+iter 570: loss 1.0698, time 12.23ms, mfu 28.19%
+iter 580: loss 1.0687, time 11.76ms, mfu 28.34%
+iter 590: loss 1.0723, time 11.84ms, mfu 28.46%
+iter 600: loss 1.0173, time 11.78ms, mfu 28.57%
+iter 610: loss 0.9837, time 13.73ms, mfu 28.26%
+iter 620: loss 0.9925, time 11.04ms, mfu 28.59%
+iter 630: loss 0.9955, time 9.94ms, mfu 29.25%
+iter 640: loss 0.9910, time 11.73ms, mfu 29.30%
+iter 650: loss 1.0100, time 11.95ms, mfu 29.29%
+iter 660: loss 0.9884, time 11.28ms, mfu 29.45%
+iter 670: loss 0.9671, time 11.75ms, mfu 29.48%
+iter 680: loss 0.9860, time 11.89ms, mfu 29.46%
+iter 690: loss 0.9922, time 11.99ms, mfu 29.43%
+iter 700: loss 0.9232, time 12.93ms, mfu 29.18%
+iter 710: loss 0.9223, time 11.65ms, mfu 29.26%
+iter 720: loss 0.9542, time 14.77ms, mfu 28.70%
+iter 730: loss 0.9501, time 10.43ms, mfu 29.18%
+iter 740: loss 0.9330, time 11.50ms, mfu 29.29%
+step 750: train loss 0.9311, val loss 0.9276
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 750: loss 0.9329, time 3031.81ms, mfu 26.38%
+iter 760: loss 0.9392, time 11.12ms, mfu 26.88%
+iter 770: loss 0.9236, time 11.68ms, mfu 27.18%
+iter 780: loss 0.9518, time 13.93ms, mfu 26.96%
+iter 790: loss 0.9371, time 15.52ms, mfu 26.51%
+iter 800: loss 0.9285, time 11.48ms, mfu 26.90%
+iter 810: loss 0.9083, time 12.46ms, mfu 27.01%
+iter 820: loss 0.8816, time 12.32ms, mfu 27.15%
+iter 830: loss 0.8839, time 11.88ms, mfu 27.37%
+iter 840: loss 0.8873, time 11.41ms, mfu 27.69%
+iter 850: loss 0.8782, time 11.89ms, mfu 27.85%
+iter 860: loss 0.9161, time 12.34ms, mfu 27.90%
+iter 870: loss 0.9015, time 11.98ms, mfu 28.02%
+iter 880: loss 0.8681, time 14.64ms, mfu 27.60%
+iter 890: loss 0.8876, time 12.04ms, mfu 27.74%
+iter 900: loss 0.8638, time 11.97ms, mfu 27.88%
+iter 910: loss 0.8629, time 11.85ms, mfu 28.04%
+iter 920: loss 0.8902, time 12.29ms, mfu 28.07%
+iter 930: loss 0.8764, time 11.80ms, mfu 28.22%
+iter 940: loss 0.8928, time 11.83ms, mfu 28.35%
+iter 950: loss 0.8589, time 11.11ms, mfu 28.66%
+iter 960: loss 0.8335, time 12.22ms, mfu 28.64%
+iter 970: loss 0.8213, time 12.02ms, mfu 28.68%
+iter 980: loss 0.8550, time 11.84ms, mfu 28.76%
+iter 990: loss 0.8680, time 12.95ms, mfu 28.58%
+step 1000: train loss 0.8387, val loss 0.8385
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 1000: loss 0.8523, time 3133.24ms, mfu 25.73%
+iter 1010: loss 0.8207, time 11.43ms, mfu 26.22%
+iter 1020: loss 0.8142, time 12.40ms, mfu 26.41%
+iter 1030: loss 0.8323, time 11.12ms, mfu 26.91%
+iter 1040: loss 0.8449, time 12.06ms, mfu 27.11%
+iter 1050: loss 0.8534, time 12.01ms, mfu 27.30%
+iter 1060: loss 0.8270, time 12.76ms, mfu 27.31%
+iter 1070: loss 0.8044, time 12.10ms, mfu 27.46%
+iter 1080: loss 0.8119, time 11.85ms, mfu 27.66%
+iter 1090: loss 0.8151, time 11.79ms, mfu 27.85%
+iter 1100: loss 0.8778, time 11.95ms, mfu 27.99%
+iter 1110: loss 0.8053, time 12.10ms, mfu 28.07%
+iter 1120: loss 0.8065, time 12.38ms, mfu 28.08%
+iter 1130: loss 0.7893, time 11.32ms, mfu 28.36%
+iter 1140: loss 0.7713, time 11.88ms, mfu 28.46%
+iter 1150: loss 0.7887, time 11.84ms, mfu 28.56%
+iter 1160: loss 0.8166, time 12.13ms, mfu 28.58%
+iter 1170: loss 0.7542, time 12.01ms, mfu 28.63%
+iter 1180: loss 0.8028, time 11.89ms, mfu 28.70%
+iter 1190: loss 0.7848, time 11.84ms, mfu 28.78%
+iter 1200: loss 0.7964, time 11.85ms, mfu 28.84%
+iter 1210: loss 0.7628, time 10.61ms, mfu 29.25%
+iter 1220: loss 0.8193, time 13.34ms, mfu 28.94%
+iter 1230: loss 0.8215, time 12.28ms, mfu 28.89%
+iter 1240: loss 0.7743, time 12.12ms, mfu 28.88%
+step 1250: train loss 0.7768, val loss 0.7745
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 1250: loss 0.7568, time 3251.82ms, mfu 26.00%
+iter 1260: loss 0.7686, time 11.33ms, mfu 26.48%
+iter 1270: loss 0.8518, time 11.64ms, mfu 26.83%
+iter 1280: loss 0.7778, time 12.00ms, mfu 27.06%
+iter 1290: loss 0.7852, time 11.89ms, mfu 27.29%
+iter 1300: loss 0.7699, time 11.94ms, mfu 27.48%
+iter 1310: loss 0.7736, time 11.94ms, mfu 27.65%
+iter 1320: loss 0.7736, time 12.27ms, mfu 27.73%
+iter 1330: loss 0.7935, time 12.37ms, mfu 27.78%
+iter 1340: loss 0.7327, time 11.84ms, mfu 27.95%
+iter 1350: loss 0.7684, time 11.97ms, mfu 28.07%
+iter 1360: loss 0.7591, time 11.79ms, mfu 28.22%
+iter 1370: loss 0.7639, time 11.99ms, mfu 28.31%
+iter 1380: loss 0.7543, time 11.93ms, mfu 28.40%
+iter 1390: loss 0.7373, time 11.94ms, mfu 28.49%
+iter 1400: loss 0.7548, time 12.23ms, mfu 28.49%
+iter 1410: loss 0.7509, time 12.41ms, mfu 28.45%
+iter 1420: loss 0.7499, time 11.75ms, mfu 28.58%
+iter 1430: loss 0.7073, time 11.94ms, mfu 28.64%
+iter 1440: loss 0.7584, time 12.73ms, mfu 28.52%
+iter 1450: loss 0.7713, time 11.92ms, mfu 28.60%
+iter 1460: loss 0.7431, time 11.91ms, mfu 28.67%
+iter 1470: loss 0.7192, time 13.04ms, mfu 28.48%
+iter 1480: loss 0.7593, time 12.29ms, mfu 28.47%
+iter 1490: loss 0.7299, time 11.65ms, mfu 28.61%
+step 1500: train loss 0.7384, val loss 0.7397
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 1500: loss 0.7487, time 2962.85ms, mfu 25.77%
+iter 1510: loss 0.7288, time 12.46ms, mfu 25.99%
+iter 1520: loss 0.7380, time 9.90ms, mfu 26.92%
+iter 1530: loss 0.7220, time 12.99ms, mfu 26.91%
+iter 1540: loss 0.6858, time 11.95ms, mfu 27.14%
+iter 1550: loss 0.7434, time 10.98ms, mfu 27.60%
+iter 1560: loss 0.7107, time 13.07ms, mfu 27.51%
+iter 1570: loss 0.7613, time 10.32ms, mfu 28.14%
+iter 1580: loss 0.7307, time 10.45ms, mfu 28.67%
+iter 1590: loss 0.7140, time 11.87ms, mfu 28.74%
+iter 1600: loss 0.7339, time 12.06ms, mfu 28.76%
+iter 1610: loss 0.7229, time 11.95ms, mfu 28.80%
+iter 1620: loss 0.7295, time 12.00ms, mfu 28.83%
+iter 1630: loss 0.7391, time 11.93ms, mfu 28.87%
+iter 1640: loss 0.6961, time 11.97ms, mfu 28.90%
+iter 1650: loss 0.7180, time 12.00ms, mfu 28.92%
+iter 1660: loss 0.7272, time 11.97ms, mfu 28.94%
+iter 1670: loss 0.7261, time 12.01ms, mfu 28.95%
+iter 1680: loss 0.7232, time 11.96ms, mfu 28.97%
+iter 1690: loss 0.7337, time 12.08ms, mfu 28.96%
+iter 1700: loss 0.7525, time 12.08ms, mfu 28.96%
+iter 1710: loss 0.7300, time 11.98ms, mfu 28.97%
+iter 1720: loss 0.6948, time 11.95ms, mfu 29.00%
+iter 1730: loss 0.7294, time 11.95ms, mfu 29.02%
+iter 1740: loss 0.7010, time 12.02ms, mfu 29.02%
+step 1750: train loss 0.7177, val loss 0.7192
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 1750: loss 0.7248, time 3193.19ms, mfu 26.13%
+iter 1760: loss 0.6917, time 11.09ms, mfu 26.66%
+iter 1770: loss 0.7339, time 11.86ms, mfu 26.94%
+iter 1780: loss 0.6920, time 12.03ms, mfu 27.14%
+iter 1790: loss 0.7116, time 12.08ms, mfu 27.32%
+iter 1800: loss 0.6938, time 12.09ms, mfu 27.47%
+iter 1810: loss 0.7064, time 12.06ms, mfu 27.62%
+iter 1820: loss 0.7042, time 12.08ms, mfu 27.74%
+iter 1830: loss 0.7001, time 12.06ms, mfu 27.86%
+iter 1840: loss 0.6864, time 11.96ms, mfu 28.00%
+iter 1850: loss 0.7217, time 12.00ms, mfu 28.10%
+iter 1860: loss 0.7211, time 12.07ms, mfu 28.18%
+iter 1870: loss 0.7149, time 12.01ms, mfu 28.27%
+iter 1880: loss 0.7210, time 12.04ms, mfu 28.34%
+iter 1890: loss 0.7162, time 12.09ms, mfu 28.39%
+iter 1900: loss 0.7204, time 12.09ms, mfu 28.44%
+iter 1910: loss 0.6846, time 12.04ms, mfu 28.49%
+iter 1920: loss 0.7153, time 12.02ms, mfu 28.55%
+iter 1930: loss 0.7192, time 12.02ms, mfu 28.59%
+iter 1940: loss 0.7078, time 12.00ms, mfu 28.64%
+iter 1950: loss 0.6849, time 12.07ms, mfu 28.67%
+iter 1960: loss 0.6786, time 12.05ms, mfu 28.70%
+iter 1970: loss 0.6911, time 12.06ms, mfu 28.72%
+iter 1980: loss 0.7280, time 12.00ms, mfu 28.75%
+iter 1990: loss 0.6811, time 12.06ms, mfu 28.77%
+step 2000: train loss 0.6893, val loss 0.6886
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 2000: loss 0.7167, time 3226.33ms, mfu 25.90%
+iter 2010: loss 0.6612, time 10.29ms, mfu 26.71%
+iter 2020: loss 0.6972, time 11.80ms, mfu 26.99%
+iter 2030: loss 0.6802, time 11.91ms, mfu 27.22%
+iter 2040: loss 0.6865, time 11.94ms, mfu 27.42%
+iter 2050: loss 0.6546, time 12.08ms, mfu 27.57%
+iter 2060: loss 0.6612, time 12.04ms, mfu 27.71%
+iter 2070: loss 0.6771, time 11.96ms, mfu 27.86%
+iter 2080: loss 0.7097, time 12.04ms, mfu 27.97%
+iter 2090: loss 0.6387, time 12.03ms, mfu 28.08%
+iter 2100: loss 0.6917, time 11.97ms, mfu 28.18%
+iter 2110: loss 0.6922, time 12.02ms, mfu 28.27%
+iter 2120: loss 0.6708, time 12.03ms, mfu 28.34%
+iter 2130: loss 0.6687, time 12.36ms, mfu 28.33%
+iter 2140: loss 0.6917, time 11.96ms, mfu 28.41%
+iter 2150: loss 0.6857, time 11.99ms, mfu 28.48%
+iter 2160: loss 0.6692, time 12.02ms, mfu 28.54%
+iter 2170: loss 0.6633, time 12.03ms, mfu 28.58%
+iter 2180: loss 0.6525, time 11.96ms, mfu 28.64%
+iter 2190: loss 0.6767, time 12.70ms, mfu 28.53%
+iter 2200: loss 0.6580, time 12.01ms, mfu 28.58%
+iter 2210: loss 0.6746, time 12.06ms, mfu 28.62%
+iter 2220: loss 0.6609, time 12.03ms, mfu 28.65%
+iter 2230: loss 0.6897, time 12.06ms, mfu 28.68%
+iter 2240: loss 0.6450, time 12.09ms, mfu 28.70%
+step 2250: train loss 0.6735, val loss 0.6699
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 2250: loss 0.6207, time 3153.33ms, mfu 25.84%
+iter 2260: loss 0.6572, time 11.49ms, mfu 26.29%
+iter 2270: loss 0.6482, time 11.85ms, mfu 26.61%
+iter 2280: loss 0.6608, time 11.87ms, mfu 26.89%
+iter 2290: loss 0.6718, time 13.36ms, mfu 26.81%
+iter 2300: loss 0.6783, time 12.00ms, mfu 27.04%
+iter 2310: loss 0.6774, time 11.89ms, mfu 27.27%
+iter 2320: loss 0.6570, time 12.14ms, mfu 27.42%
+iter 2330: loss 0.6503, time 12.07ms, mfu 27.57%
+iter 2340: loss 0.6927, time 12.12ms, mfu 27.69%
+iter 2350: loss 0.6517, time 12.17ms, mfu 27.79%
+iter 2360: loss 0.6505, time 12.09ms, mfu 27.89%
+iter 2370: loss 0.6594, time 12.03ms, mfu 28.01%
+iter 2380: loss 0.6503, time 12.03ms, mfu 28.11%
+iter 2390: loss 0.6778, time 12.14ms, mfu 28.17%
+iter 2400: loss 0.6652, time 12.07ms, mfu 28.24%
+iter 2410: loss 0.6924, time 12.13ms, mfu 28.30%
+iter 2420: loss 0.6464, time 11.59ms, mfu 28.48%
+iter 2430: loss 0.6338, time 11.96ms, mfu 28.55%
+iter 2440: loss 0.6511, time 12.99ms, mfu 28.38%
+iter 2450: loss 0.6241, time 12.15ms, mfu 28.41%
+iter 2460: loss 0.6122, time 11.62ms, mfu 28.58%
+iter 2470: loss 0.6750, time 11.86ms, mfu 28.66%
+iter 2480: loss 0.6790, time 11.93ms, mfu 28.72%
+iter 2490: loss 0.6795, time 12.05ms, mfu 28.74%
+step 2500: train loss 0.6536, val loss 0.6550
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 2500: loss 0.6602, time 3037.66ms, mfu 25.88%
+iter 2510: loss 0.6823, time 11.15ms, mfu 26.42%
+iter 2520: loss 0.6331, time 12.06ms, mfu 26.67%
+iter 2530: loss 0.6698, time 12.18ms, mfu 26.87%
+iter 2540: loss 0.6797, time 11.66ms, mfu 27.17%
+iter 2550: loss 0.6764, time 11.80ms, mfu 27.41%
+iter 2560: loss 0.6564, time 12.18ms, mfu 27.54%
+iter 2570: loss 0.6608, time 12.48ms, mfu 27.58%
+iter 2580: loss 0.6688, time 12.18ms, mfu 27.69%
+iter 2590: loss 0.6503, time 11.95ms, mfu 27.84%
+iter 2600: loss 0.6619, time 12.27ms, mfu 27.90%
+iter 2610: loss 0.6595, time 12.59ms, mfu 27.88%
+iter 2620: loss 0.6102, time 12.52ms, mfu 27.88%
+iter 2630: loss 0.6577, time 12.41ms, mfu 27.90%
+iter 2640: loss 0.6330, time 12.04ms, mfu 28.01%
+iter 2650: loss 0.6378, time 11.62ms, mfu 28.21%
+iter 2660: loss 0.6254, time 11.81ms, mfu 28.35%
+iter 2670: loss 0.6471, time 12.15ms, mfu 28.38%
+iter 2680: loss 0.6719, time 12.10ms, mfu 28.43%
+iter 2690: loss 0.6576, time 11.72ms, mfu 28.56%
+iter 2700: loss 0.6440, time 11.92ms, mfu 28.63%
+iter 2710: loss 0.6080, time 12.20ms, mfu 28.63%
+iter 2720: loss 0.6487, time 11.93ms, mfu 28.69%
+iter 2730: loss 0.6415, time 12.24ms, mfu 28.67%
+iter 2740: loss 0.6150, time 11.93ms, mfu 28.73%
+step 2750: train loss 0.6397, val loss 0.6407
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 2750: loss 0.6028, time 3060.52ms, mfu 25.87%
+iter 2760: loss 0.6512, time 11.55ms, mfu 26.31%
+iter 2770: loss 0.6280, time 11.77ms, mfu 26.64%
+iter 2780: loss 0.6471, time 11.91ms, mfu 26.91%
+iter 2790: loss 0.6608, time 12.28ms, mfu 27.06%
+iter 2800: loss 0.6079, time 12.20ms, mfu 27.21%
+iter 2810: loss 0.6581, time 12.22ms, mfu 27.34%
+iter 2820: loss 0.6466, time 11.93ms, mfu 27.54%
+iter 2830: loss 0.6497, time 12.22ms, mfu 27.64%
+iter 2840: loss 0.6421, time 12.09ms, mfu 27.76%
+iter 2850: loss 0.6124, time 11.88ms, mfu 27.92%
+iter 2860: loss 0.6452, time 12.20ms, mfu 27.99%
+iter 2870: loss 0.6596, time 12.05ms, mfu 28.09%
+iter 2880: loss 0.6479, time 12.28ms, mfu 28.12%
+iter 2890: loss 0.6106, time 12.16ms, mfu 28.18%
+iter 2900: loss 0.6249, time 11.96ms, mfu 28.28%
+iter 2910: loss 0.6470, time 12.35ms, mfu 28.27%
+iter 2920: loss 0.6155, time 11.89ms, mfu 28.38%
+iter 2930: loss 0.6292, time 12.08ms, mfu 28.43%
+iter 2940: loss 0.6176, time 11.97ms, mfu 28.50%
+iter 2950: loss 0.6181, time 12.12ms, mfu 28.53%
+iter 2960: loss 0.6106, time 12.15ms, mfu 28.55%
+iter 2970: loss 0.6490, time 12.28ms, mfu 28.54%
+iter 2980: loss 0.6191, time 12.12ms, mfu 28.56%
+iter 2990: loss 0.5835, time 12.23ms, mfu 28.56%
+step 3000: train loss 0.6289, val loss 0.6269
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 3000: loss 0.5894, time 3132.92ms, mfu 25.71%
+iter 3010: loss 0.6361, time 11.43ms, mfu 26.20%
+iter 3020: loss 0.6246, time 11.89ms, mfu 26.51%
+iter 3030: loss 0.6436, time 12.01ms, mfu 26.77%
+iter 3040: loss 0.6224, time 12.13ms, mfu 26.97%
+iter 3050: loss 0.6159, time 12.03ms, mfu 27.17%
+iter 3060: loss 0.6256, time 12.00ms, mfu 27.36%
+iter 3070: loss 0.6425, time 11.48ms, mfu 27.66%
+iter 3080: loss 0.6122, time 11.94ms, mfu 27.82%
+iter 3090: loss 0.6416, time 12.05ms, mfu 27.93%
+iter 3100: loss 0.6617, time 11.63ms, mfu 28.14%
+iter 3110: loss 0.6101, time 12.30ms, mfu 28.16%
+iter 3120: loss 0.6432, time 12.14ms, mfu 28.22%
+iter 3130: loss 0.6283, time 12.09ms, mfu 28.28%
+iter 3140: loss 0.6292, time 12.12ms, mfu 28.33%
+iter 3150: loss 0.6150, time 12.14ms, mfu 28.37%
+iter 3160: loss 0.6462, time 12.16ms, mfu 28.41%
+iter 3170: loss 0.6273, time 12.15ms, mfu 28.44%
+iter 3180: loss 0.6014, time 12.12ms, mfu 28.47%
+iter 3190: loss 0.6123, time 12.80ms, mfu 28.35%
+iter 3200: loss 0.6174, time 12.27ms, mfu 28.36%
+iter 3210: loss 0.6422, time 12.11ms, mfu 28.41%
+iter 3220: loss 0.6495, time 12.14ms, mfu 28.44%
+iter 3230: loss 0.6167, time 11.41ms, mfu 28.66%
+iter 3240: loss 0.6239, time 13.78ms, mfu 28.32%
+step 3250: train loss 0.6186, val loss 0.6177
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 3250: loss 0.6165, time 3075.57ms, mfu 25.50%
+iter 3260: loss 0.6295, time 11.33ms, mfu 26.03%
+iter 3270: loss 0.6178, time 11.93ms, mfu 26.35%
+iter 3280: loss 0.6349, time 12.10ms, mfu 26.60%
+iter 3290: loss 0.5917, time 12.12ms, mfu 26.82%
+iter 3300: loss 0.6114, time 12.13ms, mfu 27.01%
+iter 3310: loss 0.5784, time 12.08ms, mfu 27.20%
+iter 3320: loss 0.6157, time 12.20ms, mfu 27.34%
+iter 3330: loss 0.6220, time 12.09ms, mfu 27.49%
+iter 3340: loss 0.5840, time 12.09ms, mfu 27.63%
+iter 3350: loss 0.6134, time 12.17ms, mfu 27.73%
+iter 3360: loss 0.6252, time 12.18ms, mfu 27.83%
+iter 3370: loss 0.5851, time 12.20ms, mfu 27.90%
+iter 3380: loss 0.6302, time 12.10ms, mfu 28.00%
+iter 3390: loss 0.6008, time 12.09ms, mfu 28.08%
+iter 3400: loss 0.6384, time 12.10ms, mfu 28.16%
+iter 3410: loss 0.6186, time 12.10ms, mfu 28.23%
+iter 3420: loss 0.6143, time 12.10ms, mfu 28.29%
+iter 3430: loss 0.6185, time 12.09ms, mfu 28.35%
+iter 3440: loss 0.5972, time 12.08ms, mfu 28.40%
+iter 3450: loss 0.6160, time 12.09ms, mfu 28.45%
+iter 3460: loss 0.5834, time 12.15ms, mfu 28.47%
+iter 3470: loss 0.5881, time 12.06ms, mfu 28.52%
+iter 3480: loss 0.6305, time 12.02ms, mfu 28.57%
+iter 3490: loss 0.5968, time 12.11ms, mfu 28.59%
+step 3500: train loss 0.6073, val loss 0.6071
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 3500: loss 0.6311, time 3081.61ms, mfu 25.75%
+iter 3510: loss 0.6050, time 11.18ms, mfu 26.29%
+iter 3520: loss 0.6184, time 11.89ms, mfu 26.60%
+iter 3530: loss 0.6068, time 12.04ms, mfu 26.84%
+iter 3540: loss 0.6119, time 12.11ms, mfu 27.04%
+iter 3550: loss 0.6495, time 12.07ms, mfu 27.22%
+iter 3560: loss 0.6336, time 12.29ms, mfu 27.34%
+iter 3570: loss 0.6151, time 12.26ms, mfu 27.45%
+iter 3580: loss 0.6389, time 12.04ms, mfu 27.61%
+iter 3590: loss 0.5982, time 12.22ms, mfu 27.70%
+iter 3600: loss 0.6071, time 12.18ms, mfu 27.80%
+iter 3610: loss 0.5985, time 11.91ms, mfu 27.95%
+iter 3620: loss 0.6033, time 11.91ms, mfu 28.08%
+iter 3630: loss 0.5771, time 12.06ms, mfu 28.17%
+iter 3640: loss 0.5827, time 12.09ms, mfu 28.24%
+iter 3650: loss 0.5806, time 12.12ms, mfu 28.29%
+iter 3660: loss 0.5963, time 12.06ms, mfu 28.36%
+iter 3670: loss 0.5921, time 12.09ms, mfu 28.41%
+iter 3680: loss 0.5722, time 12.12ms, mfu 28.45%
+iter 3690: loss 0.6075, time 12.19ms, mfu 28.46%
+iter 3700: loss 0.6135, time 12.09ms, mfu 28.51%
+iter 3710: loss 0.6006, time 12.20ms, mfu 28.52%
+iter 3720: loss 0.6230, time 12.13ms, mfu 28.54%
+iter 3730: loss 0.5904, time 12.06ms, mfu 28.58%
+iter 3740: loss 0.6327, time 12.13ms, mfu 28.60%
+step 3750: train loss 0.5993, val loss 0.6004
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 3750: loss 0.6288, time 3111.48ms, mfu 25.75%
+iter 3760: loss 0.6176, time 11.26ms, mfu 26.27%
+iter 3770: loss 0.5861, time 12.01ms, mfu 26.55%
+iter 3780: loss 0.6011, time 12.04ms, mfu 26.80%
+iter 3790: loss 0.5792, time 12.10ms, mfu 27.00%
+iter 3800: loss 0.6009, time 12.13ms, mfu 27.18%
+iter 3810: loss 0.5869, time 12.14ms, mfu 27.33%
+iter 3820: loss 0.6177, time 12.10ms, mfu 27.48%
+iter 3830: loss 0.5864, time 12.15ms, mfu 27.61%
+iter 3840: loss 0.6018, time 12.12ms, mfu 27.73%
+iter 3850: loss 0.6045, time 12.18ms, mfu 27.82%
+iter 3860: loss 0.5613, time 12.11ms, mfu 27.92%
+iter 3870: loss 0.5779, time 12.13ms, mfu 28.00%
+iter 3880: loss 0.6019, time 12.15ms, mfu 28.07%
+iter 3890: loss 0.5944, time 12.10ms, mfu 28.15%
+iter 3900: loss 0.5605, time 12.08ms, mfu 28.22%
+iter 3910: loss 0.5932, time 12.16ms, mfu 28.27%
+iter 3920: loss 0.5927, time 12.21ms, mfu 28.30%
+iter 3930: loss 0.6115, time 12.20ms, mfu 28.33%
+iter 3940: loss 0.5884, time 12.23ms, mfu 28.35%
+iter 3950: loss 0.6254, time 12.12ms, mfu 28.40%
+iter 3960: loss 0.5915, time 12.16ms, mfu 28.43%
+iter 3970: loss 0.6089, time 12.08ms, mfu 28.47%
+iter 3980: loss 0.5834, time 12.05ms, mfu 28.52%
+iter 3990: loss 0.5800, time 12.15ms, mfu 28.54%
+step 4000: train loss 0.5907, val loss 0.5893
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 4000: loss 0.5893, time 3976.80ms, mfu 25.70%
+iter 4010: loss 0.5972, time 11.83ms, mfu 26.08%
+iter 4020: loss 0.5839, time 11.92ms, mfu 26.40%
+iter 4030: loss 0.5763, time 12.04ms, mfu 26.66%
+iter 4040: loss 0.6305, time 12.12ms, mfu 26.87%
+iter 4050: loss 0.5832, time 11.99ms, mfu 27.09%
+iter 4060: loss 0.5935, time 12.16ms, mfu 27.25%
+iter 4070: loss 0.5960, time 12.12ms, mfu 27.41%
+iter 4080: loss 0.6147, time 12.13ms, mfu 27.54%
+iter 4090: loss 0.5570, time 12.12ms, mfu 27.67%
+iter 4100: loss 0.5550, time 12.16ms, mfu 27.77%
+iter 4110: loss 0.5775, time 12.12ms, mfu 27.87%
+iter 4120: loss 0.5810, time 12.07ms, mfu 27.98%
+iter 4130: loss 0.6193, time 12.12ms, mfu 28.06%
+iter 4140: loss 0.6099, time 12.22ms, mfu 28.11%
+iter 4150: loss 0.5838, time 12.10ms, mfu 28.18%
+iter 4160: loss 0.5737, time 12.25ms, mfu 28.21%
+iter 4170: loss 0.5685, time 12.25ms, mfu 28.24%
+iter 4180: loss 0.5789, time 12.21ms, mfu 28.27%
+iter 4190: loss 0.6105, time 12.18ms, mfu 28.31%
+iter 4200: loss 0.5922, time 12.10ms, mfu 28.36%
+iter 4210: loss 0.6342, time 12.22ms, mfu 28.38%
+iter 4220: loss 0.5835, time 12.15ms, mfu 28.42%
+iter 4230: loss 0.5615, time 12.16ms, mfu 28.45%
+iter 4240: loss 0.5866, time 12.23ms, mfu 28.45%
+step 4250: train loss 0.5818, val loss 0.5849
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 4250: loss 0.5625, time 3072.93ms, mfu 25.62%
+iter 4260: loss 0.5977, time 11.41ms, mfu 26.12%
+iter 4270: loss 0.5920, time 11.93ms, mfu 26.43%
+iter 4280: loss 0.5875, time 11.98ms, mfu 26.70%
+iter 4290: loss 0.5653, time 12.10ms, mfu 26.91%
+iter 4300: loss 0.5969, time 12.05ms, mfu 27.12%
+iter 4310: loss 0.5877, time 12.05ms, mfu 27.30%
+iter 4320: loss 0.5770, time 12.14ms, mfu 27.45%
+iter 4330: loss 0.5830, time 12.09ms, mfu 27.59%
+iter 4340: loss 0.6126, time 12.11ms, mfu 27.71%
+iter 4350: loss 0.5859, time 12.09ms, mfu 27.83%
+iter 4360: loss 0.5852, time 12.24ms, mfu 27.90%
+iter 4370: loss 0.5778, time 12.23ms, mfu 27.96%
+iter 4380: loss 0.5712, time 12.15ms, mfu 28.04%
+iter 4390: loss 0.5857, time 12.16ms, mfu 28.10%
+iter 4400: loss 0.5782, time 12.19ms, mfu 28.16%
+iter 4410: loss 0.5741, time 12.12ms, mfu 28.22%
+iter 4420: loss 0.5644, time 12.06ms, mfu 28.29%
+iter 4430: loss 0.5520, time 12.23ms, mfu 28.32%
+iter 4440: loss 0.5868, time 12.04ms, mfu 28.38%
+iter 4450: loss 0.5587, time 12.18ms, mfu 28.41%
+iter 4460: loss 0.5887, time 12.18ms, mfu 28.43%
+iter 4470: loss 0.5805, time 12.04ms, mfu 28.49%
+iter 4480: loss 0.5892, time 12.21ms, mfu 28.50%
+iter 4490: loss 0.5594, time 12.07ms, mfu 28.54%
+step 4500: train loss 0.5801, val loss 0.5793
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 4500: loss 0.6093, time 3081.67ms, mfu 25.70%
+iter 4510: loss 0.5701, time 10.69ms, mfu 26.39%
+iter 4520: loss 0.5914, time 11.84ms, mfu 26.70%
+iter 4530: loss 0.5924, time 11.99ms, mfu 26.94%
+iter 4540: loss 0.5708, time 13.72ms, mfu 26.79%
+iter 4550: loss 0.5853, time 12.10ms, mfu 26.99%
+iter 4560: loss 0.5591, time 12.18ms, mfu 27.16%
+iter 4570: loss 0.5688, time 12.04ms, mfu 27.34%
+iter 4580: loss 0.5556, time 12.25ms, mfu 27.46%
+iter 4590: loss 0.5847, time 11.95ms, mfu 27.63%
+iter 4600: loss 0.5901, time 11.97ms, mfu 27.78%
+iter 4610: loss 0.5781, time 11.99ms, mfu 27.91%
+iter 4620: loss 0.5902, time 12.09ms, mfu 28.01%
+iter 4630: loss 0.5550, time 12.14ms, mfu 28.08%
+iter 4640: loss 0.5620, time 12.06ms, mfu 28.17%
+iter 4650: loss 0.5782, time 12.02ms, mfu 28.25%
+iter 4660: loss 0.5609, time 11.95ms, mfu 28.35%
+iter 4670: loss 0.5934, time 12.16ms, mfu 28.39%
+iter 4680: loss 0.5641, time 12.29ms, mfu 28.39%
+iter 4690: loss 0.5672, time 11.88ms, mfu 28.48%
+iter 4700: loss 0.5651, time 12.15ms, mfu 28.51%
+iter 4710: loss 0.6170, time 8.24ms, mfu 29.89%
+iter 4720: loss 0.5925, time 12.14ms, mfu 29.78%
+iter 4730: loss 0.5782, time 12.10ms, mfu 29.68%
+iter 4740: loss 0.5675, time 12.07ms, mfu 29.61%
+step 4750: train loss 0.5740, val loss 0.5738
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 4750: loss 0.5765, time 3052.30ms, mfu 26.66%
+iter 4760: loss 0.5489, time 11.76ms, mfu 26.96%
+iter 4770: loss 0.5744, time 12.98ms, mfu 26.95%
+iter 4780: loss 0.5869, time 12.19ms, mfu 27.12%
+iter 4790: loss 0.5731, time 11.83ms, mfu 27.36%
+iter 4800: loss 0.5757, time 12.04ms, mfu 27.52%
+iter 4810: loss 0.5550, time 12.14ms, mfu 27.64%
+iter 4820: loss 0.5763, time 12.23ms, mfu 27.73%
+iter 4830: loss 0.5660, time 12.18ms, mfu 27.82%
+iter 4840: loss 0.5771, time 12.18ms, mfu 27.90%
+iter 4850: loss 0.5593, time 11.89ms, mfu 28.05%
+iter 4860: loss 0.5524, time 12.08ms, mfu 28.13%
+iter 4870: loss 0.5523, time 12.20ms, mfu 28.18%
+iter 4880: loss 0.5754, time 12.00ms, mfu 28.27%
+iter 4890: loss 0.5507, time 12.32ms, mfu 28.27%
+iter 4900: loss 0.5725, time 12.08ms, mfu 28.34%
+iter 4910: loss 0.6036, time 11.82ms, mfu 28.45%
+iter 4920: loss 0.5790, time 10.47ms, mfu 28.94%
+iter 4930: loss 0.5510, time 11.65ms, mfu 29.04%
+iter 4940: loss 0.5888, time 12.55ms, mfu 28.92%
+iter 4950: loss 0.5946, time 13.10ms, mfu 28.69%
+iter 4960: loss 0.5960, time 11.99ms, mfu 28.73%
+iter 4970: loss 0.5679, time 12.28ms, mfu 28.70%
+iter 4980: loss 0.5793, time 12.36ms, mfu 28.65%
+iter 4990: loss 0.5812, time 12.03ms, mfu 28.69%
+step 5000: train loss 0.5708, val loss 0.5727
+saving checkpoint to out-experiment1_depth-n_layer_12
+iter 5000: loss 0.5694, time 3034.30ms, mfu 25.83%
+
+
+STDERR:
+/data/lst141/nanoGPT/train.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))

@@ -1,0 +1,108 @@
+Experiment: experiment1_depth
+Parameter value: 8
+Timestamp: 2026-01-28 15:50:57
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment1_depth-n_layer_8'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 6.35M
+Loading meta from data/tinystories/meta.pkl...
+
+The bird said, "Hello, bird. I want to play with you. I am a nice bird. Can I play with you?" The bird said, "Yes. I can play with your nuts."
+The nuts was very happy. It took them to the park. It showed them to each other. They played together all day. At night, sometimes they found their nuts, flowers, and rainbows. They had a great time, and they loved their new castle.
+<|endoftext|>
+Once upon a time, there was a dog named Ben who lived in the open park. He loved to play with his friends in the park. One day, he saw a big cat in the park. The cat was hungry.
+Ben started to feel scared and warm and cozy. He called his friend, a cat named Lily, saw him down and asked, "Can I have the cat, please?" Lily said, "Yes, let's do that!" They started to play a game called "please". The cat said, "No, I want to drink it. It will make you very happy."
+Suddenly, they heard a loud noise. It was very fast. The cat was scared! It said, "Please don't drink it." The man laughed and said, "I don't und
+---------------
+
+<|endoftext|>
+Once upon a time, there was a big, friendly bunny named Bob. Bob liked to spend time down. He liked to spend time making fun sounds and for his friends to play with. One day, Bob went to the park with his mom. Bob saw his dad said, "I want to spend my beautiful time!"
+Bob wanted to help his dad. He found a little dog named Dad. Dad said, "Dad, look at my time!" Bob was even more time. From that day on, Bob and his dad always spent their well.
+<|endoftext|>
+
+Once there was a little girl named Mary. She was always glad with her things she found. She loved to explore sit on her roof and make sure she was going to show to strong her family. 
+One day, Mary came to her room and saw the big bear. She was so excited! 
+Mary wanted to show her friends them to sit on the bear. But soon, it didn't steal anything. 
+Mary was scared and didn't know what to do. She asked her friends if they could open the door. The bear said yes and yelled at him. 
+"I know, Little bear," he replied. "But
+---------------
+
+The next day, they both went to the kitchen. They walked through the air, looking for the answer. They saw the girl and the trees and helped them. They all liked the house too. But the little boy had a box that he was too lick. He was sad. He had a bad day for their house.
+<|endoftext|>
+One day, a boy named Tim went to visit his grandma. It was so pretty and he wanted to unite a cake. So, he took his paw off his paw and told his what the cake was behind. His mix was going to the cake with him.
+Tim was very excited to rest and went to investigate. He stood near the cake and looked at it as he saw the cake, so he put it in a big bucket and started to restore his mixer. 
+His mom helped him do it again. When the cake was resting, she told him to look around and tried to be very careful. But the cake was determined burning. 
+The cake was gone, but then suddenly he saw a big trumpet. Suddenly, it started to carry a spider. It was not a big trumpet at all! It was hard and wrong. Just then, so
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They saw a small box. Tim was very curious. He went close to take a picture of his mom. But there was a big wave in the park. Tim was very curious about the box.
+Tim went to the box and saw the small box. He wanted to play with the box. But the box was glad too. The big wave was a red person. Tim could not go back anymore. He was sad and cried.
+Tim walked back to the box and asked, "How can I play with you?" The big wave did not still. It was sad because it was too heavy and listen to the big waves. Tim was sad that he could go away and carry the waves at the top of the tree. He never had a big box of her carrot again.
+<|endoftext|>
+Once upon a time, there was a little boat. The boat was very old and had much fun. But then, while the boat was eager to give the boat back. The boat was sad.
+The boat met a friendly mouse. The mouse said, "Hi, I am a boat! Can I play with you?" The mouse said, "Yes, you can play with me." The m
+---------------
+
+<|endoftext|>
+Once upon a time, in a small house, there was a little boy named Tim. Tim was not like to look at you. He wanted to eat his chocolate. Tim was good at it, but he still remembered his mom. He wanted to play with his chocolate.
+Tim asked his friend, Sam, "Can I play with you?" Sam said, "Yes, let's play together!" Tim threw the chocolate at the top of the hill. They played with it, and it was very big.
+As they played, a big, big wind came and blew a volcano. The mouse was filled with the other kids. The kids were very scared, but they were all friendly. The two kids laughed and cheered for them.
+The kids went away. They were a happy fish and friendly. They sat down and the little girl laughed a lot. Everyone was smiled and happy. The other kids thanked the two of them for the two kids. And that is the best player, the two kids could help each other and always help each other.
+<|endoftext|>
+Once upon a time, in a small town, there lived a powerful little cat named Max. Max h
+---------------
+
+Tim saw a big new boy who was sad. He wanted to help his mom and dad. He jumped on the boy's head and said, "Mom, I want to make the new boy!" His mom smiled and said, "Yes, let's go together!" They went to the boy and put his hands in the new box.
+As they played, the box opened a pretty dress and a red ball. Max and his mom were very happy. They needed the dress, and they went to the kitchen. They saw many things. They were good friends.
+<|endoftext|>
+One day, a little girl named Lily went to play outside. She saw a big stair with a girl named Lily. She wanted to have fun with Lily and her friends. She pushed a station to call them.
+"Hello, hello! How are you going?" Lily asked. Lily looked at the station and smiled. "I love you, Max." They were happy together.
+<|endoftext|>
+Once upon a time, there was a big bee. The bee lived in a big, beautiful garden. The bee liked to play all day long. Lily liked to help her friends.
+One day, the bee met a little bird. The bee said, "Hi, bee! This
+---------------
+
+Max and Lily were playing hide and seek, they heard a loud noise. It was a big train who was the sky. Max opened the train and saw a toy inside. He thought it was fragile to show what was inside. He wanted to see what was inside.
+Max looked at the toy and reached out his hand. He pulled out the window and he came up. He was surprised. He said, "Are you ready?"
+Max quickly picked up the toy and said, "Thank you, Max!" The toy was so determined! He said, "Yes, I work in the toy and I believe where the book is determining."
+Max and Emma were surprised. They said, "You all determined how to demand how it is!" They played with their toy and everyone were happy. Max was very good at making things for his laugh. They decided to play with their toys and have fun all day long.
+<|endoftext|>
+Once upon a time, there was a big house. In the house, there lived a boy named Tom. Tom had a rare, a strong bird, a strong bird, a big bed named Tom. Tom loved to talk at the strong bird. He would fly up to
+---------------
+
+Once upon a time, in a small town, there was a little girl named Amy. She loved to play with her toys and took painting with her toys. One day, she saw a small bird sitting on a branch and her toy was grown.
+Amy sat down to watch the bird and take it from her nest. She thought it was a very tiny word instead. She asked her mom if she could paint the bird, just like her bird, and the lion said, "I like to paint and make a picture of your watch."
+Amy wanted to watch the lion, but it was too heavy. She said, "Good job, Amy. You can paint good food." But then, something unexpected happened.
+Amy saw a big cat in the park. She wanted to paint the cat. The cat made a loud sound for Amy. Amy was very happy. She said, "Thank you, Amy!" The cat and the squirrel became friends. They played together every day.
+<|endoftext|>
+One day, a little girl named Lucy wanted to help her mom in the kitchen. She had a picture of a picture of a picture of a long room. Lucy's mom was very proud of herself.
+Lucy'
+---------------
+
+<|endoftext|>
+Once upon a time, there was a little girl named Amy. She loved to play with her toys all day. One day, she found a big box near the pool. She was very happy.
+Amy wanted to wear it on the stove. She thought it would be fun to taste it. So, she put the box in the box and said, "Let's play together!" So, they started to play with the stove.
+After they played, they went into the deep box. The deep lady were happy to be in the box. She asked the deep fish, "You can play with the stove. I will make a new tree." The deep lady smiled and said, "Yes, I will be your friend."
+The deep lady was not sure, but she said, "No, it is not good to play with you." The deep lady took the stove and started to play with it and make the tree go fast. The deep lady saw the cake and felt sad. She learned that it is good to be scared of the man and that it is a meal deep last like the tree.
+<|endoftext|>
+Once upon a time, there was a big farm. In the farm, there lived a little girl named Lily. She 
+---------------
+
+Mummy said, "That's a big red instead! I think his mummy we would go to the park and look for inside and I can admire balls!" 
+Mummy got some more and thanked him for finding his mummy to come. From then on, Mummy's mummy always passed him to add some corner for everyone the park. 
+<|endoftext|>
+Once upon a time, in a small house, there lived a little girl named Sue. Sue loved to eat peanuts. One day, she saw a fancy peanut on the peanut. It was pink, red and something inside. Sue wanted to eat all the peanuts, but all the peanut in the living room.
+Sue went to the fancy little tree and started to sit in. She sat under a bench and sat down on the igloo. They ran and played together, having lots of fun. Sue's mom opened the door and pale paint again.
+While they were playing, Sue accidentally told her mom that she quickly had a picnic in one time. They all laughed and continued having things together. Sue knew that even when she was climbing, she could always help her mom and dad. They l
+---------------

@@ -1,0 +1,39 @@
+\subsection{Purpose of the Study}
+
+The purpose of this study is to investigate how architectural scaling of Transformer language models affects learning dynamics,
+generalization, and generated text quality. Specifically, we examine how varying model depth, embedding width,
+and number of attention heads influences performance when training nanoGPT models on the TinyStories dataset.
+
+Scaling laws suggest that increasing model capacity improves performance in predictable ways.
+Through controlled experiments where only one architectural dimension is varied at a time,
+we aim to isolate the contribution of each component.
+
+
+\subsection{Dataset: TinyStories}
+
+TinyStories is a synthetic dataset consisting of short, simple stories designed for training small language models.
+It contains structured narrative text with relatively limited vocabulary,
+making it suitable for studying scaling behavior in small models.
+
+The dataset was prepared from the TinyStories V2 GPT-4 training text and tokenized at the character level.
+We used a simple 90/10 split for training and validation and kept preprocessing identical across all sweeps.
+
+\begin{itemize}
+    \item Training/validation split: 90\% train / 10\% validation
+    \item Number of tokens: 1,003,854 train and 111,540 validation characters
+    \item Context length used: 256 tokens
+\end{itemize}
+
+\subsection{Model Framework and Training Setup}
+
+All experiments were conducted using nanoGPT, a lightweight GPT-style Transformer decoder model.
+
+Training setup:
+\begin{itemize}
+    \item Device: NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition (CUDA)
+    \item Batch size: 64 (no gradient accumulation)
+    \item Learning rate: $1\times10^{-3}$ with warmup (100 iters) and cosine decay to $1\times10^{-4}$
+    \item Dropout: 0.0
+    \item Number of training iterations: 5,000
+    \item Context length: 256 tokens
+\end{itemize}

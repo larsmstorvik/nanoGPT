@@ -1,0 +1,103 @@
+Experiment: experiment3_heads
+Parameter value: 32
+Timestamp: 2026-01-28 16:06:19
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment3_heads-n_head_32'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 4.78M
+Loading meta from data/tinystories/meta.pkl...
+
+The salt man was frightened and said, "You can play with my ball too. But one day, you will pay. Every night, okay?"
+The man with a sad shoe and he said, "Yes, it is very tidy."
+Then, the sad man saw the salt and was surprised and he had an amazing shoe. He paided a boo, but a big, friendly squirrel, and a shone. They showed a smooth, who had fluttered a magical shoe in a big coat, and all their friends had a hot sun times. They loved the shoe and the shoe made hot cards forward and shoes when they were okay.
+<|endoftext|>
+Once upon a time, there was a little boy named Tim. He had an old lady who loved her graceful garden. One day, Tim went to the garden to play with his friends. It was a big ball and hot and pretended it was a stranger. Tim wanted to play with the old lady, but he was scared.
+Tim's friend, Sue, saw him playing with the ball in his yard. Sue wanted to play with the lady all day long. So, Tim took his ladder in the big yard. He took the ladder to a big puddle and starte
+---------------
+
+But the dog was not ashamed or scared. He kept looking at him and said, "I have something for the dog and wearing my rocks. You must be mad!" The dog smiled and said, "That's my rocks for you, come. I'm not bad to see it again."
+The dog and the dog played together and had a great day at the park. They had a great day at the park. They never played with the new rocks when it made a lot of fun sounds.
+<|endoftext|>
+
+Once upon a time, a little girl named Lucy went to the park with her mom. She saw a big tree with many leaves and flowers. Lucy wanted to climb the tree and see what was inside. She put her rocks in the tree and showed her the leaves. Her mom said, "You can climb higher and higher. But be careful not to climb the tree."
+Lucy worked hard to climb the tree. She had a doll, worried about the leaves and plants. She was very happy with her new friend. She learned that it's nice to do something fun, even if it belongs to do not make the tree again.
+<|endoftext|>
+
+John was a bear wh
+---------------
+
+The next day, they became good friends. They enjoyed the pretty new game when Lily had a new friend. They played with the balloon all day and had lots of fun. And they lived happily ever after.
+<|endoftext|>
+One day, a little boy named Tim found a shiny ball. It was soft and shiny. He picked it up with his mouth and started to play. He thought it was a good place for his friend.
+Tim wondered what it was, so he picked it up and found a shiny marble. But it didn't work at more than enough for a toy. Tim was sad and angry. He hugged his mom and said, "We need this box to me."
+They went home and sat down to play with the marble together. Tim was happy he had a big missile in his room. He thanked his mom for denisturbing the little girl and they both hugged each other and said, "Thank you for being so kind, Tim, for being brave and making me value."
+<|endoftext|>
+Once upon a time, there was a polite dog named Max. Max loved to play and have fun together. One day, he found a small blue bof. 
+---------------
+
+One day, a little girl named Amy went for a walk. She saw a big tree and wanted to play on it. She reached up in the tree and saw a big branch. The big branch fell down and started to get dark. Amy ran after her mom and came across a race. She looked at her and said, "Come down new hill! It is so sour and colorful!"
+Amy was scared too, but she was happy. She couldn't wait to see it again it and again away.
+<|endoftext|>
+One day, a boy named Tim found a piece of soft blanket. It was very big and trilled. Tim wanted to help the piece fall. He used it to fill the blanket with things to make it better. Tim didn't know what to do.
+Miss Lisa tried to turn the soft sock. She pushed and pulled, but the blanket was hard. The sock was still started to feel sad. It destroyed the cow and she didn't know what to do. Lisa said, "Give me back my sock, I can't hurt!"
+The dad smiled and said, "I can help you. Let's pet the sock together." So they put the sock on top of the sock and went back to find it
+---------------
+
+Once upon a time, there was a boy named Tom. He loved to play outside with his friend Tom and the big rainbow. One day, Tom's friend, Sam, came to play. They all played with the rainbow and had lots of fun.
+At the park, Tom saw Sam with a big red ball and started to play. Tom and Sam were very happy, and Sam wanted to disappointed the big red ball. They still wanted to play too. They had a great day at the park, and Sam would not leave them with their new friend.
+<|endoftext|>
+Once upon a time, there was a gifted fish named Fred. Fred had a toy blue house. He had a big table and a small, brown teddy bear. One day, Fred met a little girl named Sue. Sue was very sad and scared.
+The teddy bear said to Sue. "Look, Sue! I am a nice teddy bear! Why are you shook that belong to you?" But the teddy bear just show Sue his trick and did not ask her all to warn. They both nodded and said they were sorry again.
+They told Mom about the teddy bear and the little bear again. They said, "We want to sh
+---------------
+
+Tim saw a big net. He wanted to make friends with the money. He put the cup in his pocket and ran back to the big money. He was scared and scared. He did not know what to do. He hoped he would not let his pocket come down. The money helped Tim feel better. In the end, Tim wanted to help his new cup of his leash. He was allowed and walked back to help. From that day on, Tim was not sure so messy. He wanted his back.
+<|endoftext|>
+Once upon a time, in a small house, there lived a little girl named Lily. Lily loved to eat healthy food. One day, she found a long stick. She was very excited to eat. She wanted to eat it, but her favorite wand was broken. Lily was sad because she had listened to her mom and dad.
+At the end of the day, Lily was very happy. She wanted to display with the long one too. Her mom said, "Lily, you can show you many toys and play with me?" Lily smiled and said, "Yes, I would love to dinner."
+<|endoftext|>
+Once upon a time, there was a big, fat car named Fom. Fox like
+---------------
+
+Later was so excited to explore the purple town. Later named Matty Sky, she saw a big show sitting on the other side of a hill. She wanted to help Matty pull the show and talk to its friends.
+When they arrived at the purple show, Matty carried the show and waited for it to see what it was. She said hello the sun was so happy to find it again, clap its leaves and gave it to the show. The show then suddenly still flew back and stopped being angry.
+<|endoftext|>
+One day, a little boy named Tim had a cute cactus in his house. Tim had a big smile on his friend, Sam. "Look, Sam! I want to eat it!" said Tim. Sam wagged his tail and barked at the cactus. They did not want to leave Tim anymore.
+Tim shouted, "Sam, can you stop me and listen to him?" Sam was happy and said, "Yes, I would love to share the cactus with you, but we can stay home." They both waited for the cactus to stop, and Tim started to cry. The little boy and Tim were sad too.
+Their mom hugged them and said, "I love you, big bag
+---------------
+
+Sue and Tom were best friends, and they played all day. The people loved to play all day. They had lots of fun playing together and sing. The sun was shining, and the game was blue, and it had lots of fun.
+<|endoftext|>
+Once upon a time, there was a big, green firework. The firework was very hungry. It had many fireworks of different woods. One day, a big, scary monkey came to see what would win all. The monkey was scared and couldn't reach the woods. The monkey went back to the firework and let them go away.
+The fireman of the firefighters were happy and couldn’t wait to see who would not come or scare his fireworks. The monkey said they had to go back to the money to play again soon, and the firework stayed warm and continued to scare scaring the fireworks from a big tree.
+As the scary fireworks saw the scary firework and the fireworks smiled and said goodbye to the fireworks. The fireworks said that the fireworks were going to all him even before. The new scare learned that he shoul
+---------------
+
+When they got home, he went back to his house and walked home. As he came back to the house, he saw a big dog and a squirrel. The squirrel looked at Lily and said, "Hi, squirrel! Do you want to catch me?"
+Lily was happy and said, "Yes, I can come back to my homework!" The squirrel caught and barked at the squirrel. Lily and the dog ran after it, but they couldn't wait to catch anymore. They couldn't figure all the raing together.
+<|endoftext|>
+Once upon a time, in a small town, there lived a girl named Lily. Lily loved to play outside in the sun. One day, she saw a big bag of toys in the bag. The bag was very messy, but Lily wanted to record the bag.
+Lily ran to her friend Tom and said, "Don't worry, Tom. We can record the toy together." Tom looked at Lily and they saw the toy bag. They were very happy.
+They went inside and started to record the toy soldier. Lily liked the soldier and saw the toy. Tom and Lily were scared and angry. They wanted to help their room.
+They got their soldie
+---------------
+
+Mommy said, "Let's go back to it and first, but it might be obey."
+They got on the slide and went to the kitchen to play. But they were not happy anymore. They were happy to see the paper object every morning. They learned that working together and to be more careful when we play again.
+<|endoftext|>
+Once upon a time, there was a small, human named Fluffy. Fluffy was an obedient cat who lived in a big house to play with her friends. She went to Kitty's weddicase to put in her toys box and said, "Look for you!"
+One day, Kitty could not find her toys in the big box. She was very sad and started to play with her new toys. But when Kitty opened the box, she saw a big hole in the field. The hole was now in the box, but it was still too loud.
+Kitty was scared, but she tried to pay with her toys but it was too high. She had an idea. She was surprised and asked the toys. The toys were loud, too. The toys were not happy anymore. They played together and had lots of fun. Suddenly, the toys came 
+---------------

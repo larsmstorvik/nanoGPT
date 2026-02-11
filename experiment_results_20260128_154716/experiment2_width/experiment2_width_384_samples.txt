@@ -1,0 +1,117 @@
+Experiment: experiment2_width
+Parameter value: 384
+Timestamp: 2026-01-28 15:59:55
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment2_width-n_embd_384'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 10.71M
+Loading meta from data/tinystories/meta.pkl...
+
+The balloon rolled back and they both laughed. Everyone was happy that they could help the king. Everyone enjoyed the view and the children learned that the balloon was not always in sight. They all loved it too. The sun began to come out and the children played the game together.
+<|endoftext|>
+Once upon a time, there was a little ant who lived in a small house. The ant liked to write a lot of things. One day, the ant met a big boy named Tim. He was very honest.
+"Hi, ant!" said Timmy. "Why are you so honest?" Timmy told the boy about the lovely ant and the ant. Timmy wanted to write in the lovely ant too. "Let's write in the ant and cook it. It will be fun!"
+Timmy was very happy and thanked his friends. They all went back to playing and having a great time. From that day on, Timmy and the ant were best friends, and they always had many fun in their adventure.
+<|endoftext|>
+
+
+Sara and Ben liked to play in the park. They had a big favorite toy that came to decorate the swings and slides.
+---------------
+
+<|endoftext|>
+Once upon a time, there was a big box. Many kids liked to play on the swings. They were all very happy. One day, a big bird came to the swing. The bird was sad.
+Many kids wanted to play with the big bird. They played together. They wanted to listen to the bird. They had a lot of fun. The big bird was happy to help them.
+Then, the big bird noticed a big window. It had lots of fun tricks. The big bird saw the big window. It was not lonely anymore. The big bird was not happy. It just wanted to play with the big window. They played together for a while.
+But then, the big bird saw a little bug. The big bird was hiding behind a tree. The big bird wanted to help the big bird. The big bird said, "I can help you find the way home." The big bird and the big bird looked everywhere. They walked to a park with the big bird.
+The big bird saw a big nest in the tree. The big bird was scared. The big bird tried to hit the nest. The big bird saw the big nest and wanted to help. The big bir
+---------------
+
+The next day, they were tired, but they wanted to go home.
+Jimmy saw a small bird who was also wearing the toys. The bird was just as happy. It wanted to be a wealthy bird. Jimmy said to the bird, "Let's go and play again tomorrow!" The bird was not lonely anymore. It was a big, happy bird.
+Jimmy and the bird played all day. They were not mad at all. They were tired and busy. They wanted to have fun until they were both tired. They thought the bird was nice and could win. So, they started to drop the bird. The bird was soft and fun.
+Jimmy thought about it. He wanted to see the bird again. He saw the bird, squirrel, and the bird. This time, the bird was dropping in the rain. The moon was done, and Jimmy was happy. He felt good and proud of his help.
+<|endoftext|>
+
+
+Lily and Ben are friends. They like to share their toys and play with their blocks. One day they see a big truck in the park. The truck has a red bow and a shirt and a horn. The truck has a note and a red brush.
+"Look at the 
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They wanted to play on the swing. Tim saw a lot of fun with the funny fruits and eating lunch. He was curious and wanted to try to get the fruits back.
+At the park, Tim saw some other kids and asked, "Can I have some food, please?" Tim said, "Yes, let's look for food." They looked in the garden and found a good spot. Tim was happy again.
+Then, something unexpected happened. A small dog ran into the garden! The dog ate the spot and it fell off the ground. The good spot fell off the ground and landed on a branch. Tim and Sam were surprised, but they both ate the spot and became friends. They had a lot of fun together.
+<|endoftext|>
+Once upon a time, there was a little girl named Sue. Sue loved to study her fur. She did not like it made of strange small piece and go play outside. She played in the deep snow all day long.
+One day, Sue went to the park with her mom and said, "Let's study a snow on your fur!" Her mom smiled and s
+---------------
+
+<|endoftext|>
+Once upon a time, in a big office land, there was a cheerful little girl named Amy. Amy loved to play with her toys and explore. One day, she saw a small, shiny toy in the messy place. She wanted to play with it, but she didn't know how to eat it.
+Amy went to the toy store. She picked it up and showed it to her friend, Tim. Tim said, "Look, I found a toy! But I don't know what's inside!" Amy was sad and said, "I don't know, Tim!"
+Then, Tim had an idea. He asked Amy, "Can you help me load this toy store?" Amy said, "Yes, I can help you, Tim!" They worked together to fix the toy, and they put the toy in Buddy's pocket. Amy was happy and thanked Tim.
+When they finished the toy, Amy and Buddy went back to play with the toy store. Tim learned that the toy store was always the best toy ever. They played together and became good friends.
+<|endoftext|>
+Once upon a time, there was a stubborn little cat named Kitty. Kitty was very excited because she got to the park. She wanted to 
+---------------
+
+Tim saw a big new boy playing with a ball. He saw a girl named Sue playing with a ball. Tim wanted to play with the boy, but Sue sat on a flag. They did not like the sun to slide.
+Tim saw Sue playing with the ball. He said, "I don't like it. I want to play with it." Sue said, "I want to play with the boy." Tim was sad and did not want to slide. He wanted Sue to go away and have fun.
+Tim thought of a plan. He said, "I can play with the boy, but we can always struggle to go to the park." Sue was happy to see the boy again. She thanked Tim and played with him. They were ready for a little while.
+<|endoftext|>
+
+
+Tom and Sue are friends. They like to play with blocks. They have a big box of blocks. They pretend to be a man with a big chair. The chair falls off the park and lands on the floor. Tom and Sue are happy.
+One day, they see a big kite. It is red and shiny. They want their blocks to play with. They want to see it up car. They run to the kite and see the kite. They run to the kite.
+"
+---------------
+
+"OK," said Mom. "I think you work hard and the wind is not good for someone to touch them. I think it is worth something shiny inside. Can I learn more about the bird's food when we should still have it?"
+"Of course, Mom. We can all play together. I don't want about the wind."
+Ben smiled and said, "Okay, Ben. I'm sorry. I promise I learned about it. Now let's say the bird and surprise."
+They decided to share their food with their friend, Mom. They all ate the bird's sausages and talked to each other. The moral of the story is that sometimes, it's important to listen to your mom with friends.
+<|endoftext|>
+Once upon a time, there was a beautiful bird named Blue. Blue lived in a big chamber with his family. They liked to play and look for food together.
+One day, Blue saw a big bird with a hurt wing. The bird was not happy. It was like a bird! Blue wanted to help the bird. So, Blue flew down to help the bird.
+The bird was very good at helping the bird. It could fly and fly fast in the sky
+---------------
+
+One day, a little girl named Lucy found a big box in her room. She loved to play with the box. She rode her box and wiped her teddy bear. The box was very loud and made a loud noise. Lucy and her friends laughed and wanted to help the others.
+They put the box on the tray. Lucy was happy that her friend had made it for her. The other kids played with the box and the box all day long. They all wanted to play with the box again, and they rolled down the tray together.
+<|endoftext|>
+One day, a little girl named Sue found a cooler in her room. She did not know which about the cooler. Sue saw a cooler in the kitchen. She wanted to see what was behind it.
+Sue took the cooler and started to search for it. She looked under the cooler, in a small shelf, and in the sandbox. She wondered what it said. The cooler said, "Let's see what I can do!"
+Sue and the cooler started to search for the cooler. They searched every day, but they could not find it. Then, they saw a big, shiny lemon! The cooler was
+---------------
+
+Once there was a big, green frog. The frog wanted to eat it. One day, a kind man was saying hello.
+"Hello, I am a kind man. Hello this is a kind and fast and helpful." the man said.
+"That is a soft, kind and small," the voice said.
+The kind man smiled. "Me too, the kind man. You are very alert of me. You took a long time and accepted the idea. You have fun and learned sweeter. I love you so much. You took and your room."
+Lily and Tom smiled. They put their toys in the backyard. They hoped the peace would not get them. They did not touch the peaceful idea.
+They took the peaceful toys and shared the room. They were happy. They forgot about their mom and dad. They were glad they were safe. They forgot about the peace and the peaceful peace. They put the peaceful idea and turned their ideas on the seat. They took the idea to the tree. The peaceful tree and the peaceful end. They loved the sun and the peaceful lion. They had a great day more.
+<|endoftext|>
+Once upon a time, there was a boy 
+---------------
+
+Mia and the cat were excited. They were having so much fun. From that day on, the cat and the dog were best friends. They would play in the park and laugh together.
+<|endoftext|>
+
+
+Tom and Mia are twins. They like to play in the park. They have a lot of fun. They want to go on the swings.
+One day, the park is very pale and makes a big mess. It has a hole in the grass. It is very pretty.
+Tom and Mia follow the park. They go to their room and play with their friends. They sit on the bench and make juice. They have so much fun.
+But then they see a big dog. The dog is not angry. It has a red teddy bear. It is a noisy robot. It gives them a gift. It looks soft and smooth.
+"Can we help the dog?" Lily asks.
+"Sure, Lily. We can ride it on the wall. We can count the wall together. But we have to eat the puzzle. We have to be more careful. We will keep putting a ball. We can use the puzzle to turn out it. It is cold and orange and sweet. Do you have to give it a way out for the puzzle or the puz
+---------------

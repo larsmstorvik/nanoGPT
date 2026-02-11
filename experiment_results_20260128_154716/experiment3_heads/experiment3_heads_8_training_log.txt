@@ -1,0 +1,592 @@
+Overriding config with config/train_tinystories.py:
+# train a miniature character-level shakespeare model
+# good for debugging and playing on macbooks and such
+
+out_dir = 'out-experiment3_heads-n_head_8'
+eval_interval = 250
+eval_iters = 200
+log_interval = 10
+
+# we expect to overfit on this small dataset, so only save when val improves
+always_save_checkpoint = False
+
+wandb_log = False
+wandb_project = 'tinystories'
+wandb_run_name = 'experiment3_heads_n_head_8'
+
+dataset = 'tinystories'
+gradient_accumulation_steps = 1
+batch_size = 64
+block_size = 256
+
+# baby GPT model :)
+n_layer = 6
+n_head = 8
+n_embd = 256
+dropout = 0.0
+
+learning_rate = 0.001
+max_iters = 5000
+lr_decay_iters = 5000
+min_lr = 0.0001
+beta2 = 0.99
+
+warmup_iters = 100
+
+device = 'cuda:1'
+
+tokens per iteration will be: 16,384
+found vocab_size = 228 (inside data/tinystories/meta.pkl)
+Initializing a new model from scratch
+number of parameters: 4.78M
+num decayed parameter tensors: 26, with 4,842,496 parameters
+num non-decayed parameter tensors: 13, with 3,328 parameters
+using fused AdamW: True
+compiling the model... (takes a ~minute)
+step 0: train loss 5.4053, val loss 5.4054
+iter 0: loss 5.4060, time 2830.58ms, mfu -100.00%
+iter 10: loss 4.0945, time 6.02ms, mfu 29.13%
+iter 20: loss 3.4587, time 4.56ms, mfu 30.06%
+iter 30: loss 2.9138, time 4.66ms, mfu 30.82%
+iter 40: loss 2.6004, time 4.66ms, mfu 31.51%
+iter 50: loss 2.4076, time 4.91ms, mfu 31.93%
+iter 60: loss 2.3629, time 4.48ms, mfu 32.65%
+iter 70: loss 2.3430, time 4.53ms, mfu 33.26%
+iter 80: loss 2.2796, time 4.63ms, mfu 33.72%
+iter 90: loss 2.2882, time 4.56ms, mfu 34.19%
+iter 100: loss 2.3226, time 4.48ms, mfu 34.69%
+iter 110: loss 2.2676, time 4.49ms, mfu 35.13%
+iter 120: loss 2.2070, time 4.50ms, mfu 35.51%
+iter 130: loss 2.2176, time 4.49ms, mfu 35.86%
+iter 140: loss 2.1765, time 4.38ms, mfu 36.28%
+iter 150: loss 2.1428, time 4.40ms, mfu 36.64%
+iter 160: loss 2.1143, time 4.49ms, mfu 36.89%
+iter 170: loss 2.0575, time 4.52ms, mfu 37.08%
+iter 180: loss 2.0098, time 4.44ms, mfu 37.32%
+iter 190: loss 2.0184, time 4.46ms, mfu 37.52%
+iter 200: loss 1.9760, time 4.44ms, mfu 37.72%
+iter 210: loss 1.9197, time 4.38ms, mfu 37.95%
+iter 220: loss 1.8726, time 4.23ms, mfu 38.30%
+iter 230: loss 1.8076, time 4.42ms, mfu 38.44%
+iter 240: loss 1.7520, time 4.22ms, mfu 38.75%
+step 250: train loss 1.7201, val loss 1.7166
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 250: loss 1.7135, time 1446.88ms, mfu 34.89%
+iter 260: loss 1.7177, time 4.65ms, mfu 35.17%
+iter 270: loss 1.6263, time 4.53ms, mfu 35.53%
+iter 280: loss 1.5835, time 4.70ms, mfu 35.71%
+iter 290: loss 1.6117, time 4.44ms, mfu 36.08%
+iter 300: loss 1.5575, time 4.51ms, mfu 36.36%
+iter 310: loss 1.5112, time 4.43ms, mfu 36.69%
+iter 320: loss 1.4300, time 4.49ms, mfu 36.92%
+iter 330: loss 1.4284, time 4.22ms, mfu 37.38%
+iter 340: loss 1.4050, time 4.66ms, mfu 37.41%
+iter 350: loss 1.3985, time 4.48ms, mfu 37.59%
+iter 360: loss 1.2960, time 4.56ms, mfu 37.67%
+iter 370: loss 1.3539, time 4.44ms, mfu 37.85%
+iter 380: loss 1.3076, time 4.55ms, mfu 37.93%
+iter 390: loss 1.2702, time 4.45ms, mfu 38.08%
+iter 400: loss 1.2954, time 4.53ms, mfu 38.14%
+iter 410: loss 1.2623, time 4.26ms, mfu 38.45%
+iter 420: loss 1.2598, time 4.51ms, mfu 38.49%
+iter 430: loss 1.1784, time 4.68ms, mfu 38.39%
+iter 440: loss 1.1664, time 4.42ms, mfu 38.52%
+iter 450: loss 1.2168, time 4.48ms, mfu 38.58%
+iter 460: loss 1.1983, time 4.22ms, mfu 38.88%
+iter 470: loss 1.1860, time 4.55ms, mfu 38.85%
+iter 480: loss 1.1515, time 4.21ms, mfu 39.14%
+iter 490: loss 1.1224, time 4.46ms, mfu 39.15%
+step 500: train loss 1.1286, val loss 1.1289
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 500: loss 1.1622, time 1820.70ms, mfu 35.25%
+iter 510: loss 1.1270, time 4.47ms, mfu 35.65%
+iter 520: loss 1.0739, time 4.66ms, mfu 35.85%
+iter 530: loss 1.0801, time 4.35ms, mfu 36.30%
+iter 540: loss 1.1069, time 4.54ms, mfu 36.53%
+iter 550: loss 1.0692, time 4.36ms, mfu 36.90%
+iter 560: loss 1.0492, time 4.64ms, mfu 36.98%
+iter 570: loss 1.0287, time 4.25ms, mfu 37.41%
+iter 580: loss 1.0958, time 4.46ms, mfu 37.60%
+iter 590: loss 1.0444, time 4.29ms, mfu 37.93%
+iter 600: loss 1.0268, time 4.51ms, mfu 38.03%
+iter 610: loss 1.0436, time 4.53ms, mfu 38.10%
+iter 620: loss 0.9917, time 4.66ms, mfu 38.05%
+iter 630: loss 1.0527, time 4.27ms, mfu 38.36%
+iter 640: loss 1.0237, time 4.58ms, mfu 38.35%
+iter 650: loss 1.0287, time 4.41ms, mfu 38.50%
+iter 660: loss 0.9912, time 4.46ms, mfu 38.58%
+iter 670: loss 1.0025, time 4.51ms, mfu 38.62%
+iter 680: loss 0.9771, time 4.61ms, mfu 38.56%
+iter 690: loss 1.0183, time 4.44ms, mfu 38.65%
+iter 700: loss 0.9752, time 4.43ms, mfu 38.75%
+iter 710: loss 0.9574, time 4.56ms, mfu 38.72%
+iter 720: loss 0.9866, time 4.80ms, mfu 38.50%
+iter 730: loss 0.9258, time 4.41ms, mfu 38.63%
+iter 740: loss 0.9802, time 4.44ms, mfu 38.71%
+step 750: train loss 0.9481, val loss 0.9467
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 750: loss 0.9683, time 1786.97ms, mfu 34.85%
+iter 760: loss 0.9550, time 4.59ms, mfu 35.19%
+iter 770: loss 0.9314, time 4.49ms, mfu 35.58%
+iter 780: loss 0.9383, time 4.55ms, mfu 35.88%
+iter 790: loss 0.9150, time 4.65ms, mfu 36.06%
+iter 800: loss 0.9231, time 4.62ms, mfu 36.26%
+iter 810: loss 0.9292, time 4.52ms, mfu 36.51%
+iter 820: loss 0.8838, time 4.55ms, mfu 36.71%
+iter 830: loss 0.9624, time 4.74ms, mfu 36.74%
+iter 840: loss 0.9428, time 4.57ms, mfu 36.90%
+iter 850: loss 0.9229, time 4.27ms, mfu 37.33%
+iter 860: loss 0.9230, time 4.28ms, mfu 37.69%
+iter 870: loss 0.9172, time 4.58ms, mfu 37.75%
+iter 880: loss 0.8432, time 4.49ms, mfu 37.89%
+iter 890: loss 0.8615, time 4.47ms, mfu 38.03%
+iter 900: loss 0.9054, time 4.44ms, mfu 38.18%
+iter 910: loss 0.8628, time 4.46ms, mfu 38.29%
+iter 920: loss 0.9081, time 4.45ms, mfu 38.41%
+iter 930: loss 0.8955, time 4.54ms, mfu 38.43%
+iter 940: loss 0.8526, time 4.28ms, mfu 38.68%
+iter 950: loss 0.8473, time 4.56ms, mfu 38.66%
+iter 960: loss 0.8871, time 4.58ms, mfu 38.62%
+iter 970: loss 0.8146, time 4.27ms, mfu 38.87%
+iter 980: loss 0.8534, time 4.66ms, mfu 38.74%
+iter 990: loss 0.8859, time 4.38ms, mfu 38.88%
+step 1000: train loss 0.8503, val loss 0.8490
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 1000: loss 0.8123, time 1777.38ms, mfu 35.00%
+iter 1010: loss 0.8207, time 4.61ms, mfu 35.30%
+iter 1020: loss 0.8845, time 4.52ms, mfu 35.65%
+iter 1030: loss 0.7890, time 4.51ms, mfu 35.98%
+iter 1040: loss 0.8418, time 4.63ms, mfu 36.17%
+iter 1050: loss 0.8211, time 4.59ms, mfu 36.37%
+iter 1060: loss 0.8076, time 4.27ms, mfu 36.84%
+iter 1070: loss 0.8415, time 4.52ms, mfu 37.04%
+iter 1080: loss 0.8465, time 4.46ms, mfu 37.26%
+iter 1090: loss 0.8753, time 4.58ms, mfu 37.37%
+iter 1100: loss 0.8386, time 4.55ms, mfu 37.49%
+iter 1110: loss 0.7886, time 4.59ms, mfu 37.56%
+iter 1120: loss 0.8360, time 4.70ms, mfu 37.53%
+iter 1130: loss 0.8471, time 4.50ms, mfu 37.68%
+iter 1140: loss 0.8181, time 4.60ms, mfu 37.73%
+iter 1150: loss 0.7986, time 4.45ms, mfu 37.90%
+iter 1160: loss 0.8157, time 4.34ms, mfu 38.15%
+iter 1170: loss 0.8005, time 4.51ms, mfu 38.22%
+iter 1180: loss 0.8045, time 4.48ms, mfu 38.31%
+iter 1190: loss 0.8121, time 4.52ms, mfu 38.36%
+iter 1200: loss 0.8171, time 4.57ms, mfu 38.36%
+iter 1210: loss 0.8051, time 4.75ms, mfu 38.22%
+iter 1220: loss 0.7801, time 4.38ms, mfu 38.40%
+iter 1230: loss 0.8100, time 4.63ms, mfu 38.35%
+iter 1240: loss 0.8024, time 4.22ms, mfu 38.67%
+step 1250: train loss 0.8001, val loss 0.7976
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 1250: loss 0.8284, time 1799.06ms, mfu 34.81%
+iter 1260: loss 0.7795, time 4.60ms, mfu 35.14%
+iter 1270: loss 0.7816, time 4.40ms, mfu 35.61%
+iter 1280: loss 0.8077, time 4.58ms, mfu 35.88%
+iter 1290: loss 0.7756, time 4.29ms, mfu 36.38%
+iter 1300: loss 0.7918, time 4.58ms, mfu 36.57%
+iter 1310: loss 0.7654, time 4.47ms, mfu 36.83%
+iter 1320: loss 0.7882, time 4.49ms, mfu 37.06%
+iter 1330: loss 0.8116, time 4.63ms, mfu 37.14%
+iter 1340: loss 0.7972, time 4.56ms, mfu 37.27%
+iter 1350: loss 0.7740, time 4.51ms, mfu 37.43%
+iter 1360: loss 0.8015, time 4.25ms, mfu 37.82%
+iter 1370: loss 0.7477, time 4.59ms, mfu 37.86%
+iter 1380: loss 0.7630, time 4.49ms, mfu 37.98%
+iter 1390: loss 0.7908, time 4.24ms, mfu 38.32%
+iter 1400: loss 0.7526, time 4.51ms, mfu 38.38%
+iter 1410: loss 0.7517, time 4.71ms, mfu 38.26%
+iter 1420: loss 0.7151, time 4.33ms, mfu 38.48%
+iter 1430: loss 0.7736, time 4.39ms, mfu 38.63%
+iter 1440: loss 0.7776, time 4.25ms, mfu 38.89%
+iter 1450: loss 0.7369, time 4.57ms, mfu 38.84%
+iter 1460: loss 0.7308, time 4.29ms, mfu 39.04%
+iter 1470: loss 0.7605, time 4.49ms, mfu 39.04%
+iter 1480: loss 0.7602, time 4.52ms, mfu 39.02%
+iter 1490: loss 0.7569, time 4.70ms, mfu 38.85%
+step 1500: train loss 0.7598, val loss 0.7587
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 1500: loss 0.7767, time 1783.61ms, mfu 34.98%
+iter 1510: loss 0.7499, time 4.52ms, mfu 35.35%
+iter 1520: loss 0.7944, time 5.54ms, mfu 34.98%
+iter 1530: loss 0.7625, time 4.75ms, mfu 35.17%
+iter 1540: loss 0.7605, time 4.53ms, mfu 35.53%
+iter 1550: loss 0.7899, time 4.27ms, mfu 36.09%
+iter 1560: loss 0.7379, time 4.73ms, mfu 36.19%
+iter 1570: loss 0.7622, time 4.50ms, mfu 36.46%
+iter 1580: loss 0.7468, time 4.41ms, mfu 36.80%
+iter 1590: loss 0.7480, time 4.23ms, mfu 37.26%
+iter 1600: loss 0.7444, time 4.40ms, mfu 37.52%
+iter 1610: loss 0.7391, time 4.26ms, mfu 37.88%
+iter 1620: loss 0.7685, time 6.31ms, mfu 36.88%
+iter 1630: loss 0.7352, time 4.22ms, mfu 37.35%
+iter 1640: loss 0.7519, time 4.22ms, mfu 37.77%
+iter 1650: loss 0.7124, time 4.46ms, mfu 37.92%
+iter 1660: loss 0.7337, time 4.29ms, mfu 38.22%
+iter 1670: loss 0.7321, time 4.67ms, mfu 38.15%
+iter 1680: loss 0.7163, time 4.53ms, mfu 38.21%
+iter 1690: loss 0.7758, time 4.51ms, mfu 38.28%
+iter 1700: loss 0.7527, time 4.25ms, mfu 38.58%
+iter 1710: loss 0.7223, time 4.39ms, mfu 38.72%
+iter 1720: loss 0.7401, time 4.46ms, mfu 38.78%
+iter 1730: loss 0.6915, time 4.41ms, mfu 38.88%
+iter 1740: loss 0.7566, time 4.24ms, mfu 39.13%
+step 1750: train loss 0.7350, val loss 0.7367
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 1750: loss 0.7246, time 1799.75ms, mfu 35.22%
+iter 1760: loss 0.7263, time 4.60ms, mfu 35.52%
+iter 1770: loss 0.7342, time 4.27ms, mfu 36.07%
+iter 1780: loss 0.7404, time 4.28ms, mfu 36.56%
+iter 1790: loss 0.7375, time 4.56ms, mfu 36.76%
+iter 1800: loss 0.7181, time 4.64ms, mfu 36.86%
+iter 1810: loss 0.7364, time 4.23ms, mfu 37.33%
+iter 1820: loss 0.7384, time 4.34ms, mfu 37.64%
+iter 1830: loss 0.7488, time 4.52ms, mfu 37.75%
+iter 1840: loss 0.7130, time 4.48ms, mfu 37.89%
+iter 1850: loss 0.7327, time 4.29ms, mfu 38.20%
+iter 1860: loss 0.7260, time 4.47ms, mfu 38.30%
+iter 1870: loss 0.7506, time 4.31ms, mfu 38.54%
+iter 1880: loss 0.6915, time 4.54ms, mfu 38.55%
+iter 1890: loss 0.7451, time 4.56ms, mfu 38.55%
+iter 1900: loss 0.6822, time 4.26ms, mfu 38.81%
+iter 1910: loss 0.7247, time 4.38ms, mfu 38.93%
+iter 1920: loss 0.7376, time 4.28ms, mfu 39.13%
+iter 1930: loss 0.7334, time 4.53ms, mfu 39.10%
+iter 1940: loss 0.7060, time 4.42ms, mfu 39.16%
+iter 1950: loss 0.7243, time 4.43ms, mfu 39.20%
+iter 1960: loss 0.7226, time 4.65ms, mfu 39.05%
+iter 1970: loss 0.7021, time 4.46ms, mfu 39.07%
+iter 1980: loss 0.7402, time 4.27ms, mfu 39.28%
+iter 1990: loss 0.7223, time 4.54ms, mfu 39.21%
+step 2000: train loss 0.7166, val loss 0.7145
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 2000: loss 0.7023, time 1783.63ms, mfu 35.30%
+iter 2010: loss 0.7110, time 4.65ms, mfu 35.54%
+iter 2020: loss 0.6734, time 4.24ms, mfu 36.12%
+iter 2030: loss 0.7305, time 4.47ms, mfu 36.43%
+iter 2040: loss 0.7244, time 4.58ms, mfu 36.62%
+iter 2050: loss 0.6618, time 4.52ms, mfu 36.84%
+iter 2060: loss 0.7402, time 4.57ms, mfu 36.99%
+iter 2070: loss 0.6698, time 4.52ms, mfu 37.17%
+iter 2080: loss 0.7139, time 4.51ms, mfu 37.35%
+iter 2090: loss 0.6733, time 4.60ms, mfu 37.42%
+iter 2100: loss 0.6802, time 4.55ms, mfu 37.54%
+iter 2110: loss 0.7078, time 4.35ms, mfu 37.82%
+iter 2120: loss 0.7045, time 4.51ms, mfu 37.93%
+iter 2130: loss 0.7290, time 4.23ms, mfu 38.28%
+iter 2140: loss 0.7147, time 4.60ms, mfu 38.27%
+iter 2150: loss 0.7154, time 4.30ms, mfu 38.52%
+iter 2160: loss 0.7344, time 4.55ms, mfu 38.53%
+iter 2170: loss 0.7122, time 4.50ms, mfu 38.57%
+iter 2180: loss 0.6966, time 4.61ms, mfu 38.51%
+iter 2190: loss 0.7000, time 4.44ms, mfu 38.62%
+iter 2200: loss 0.6834, time 4.30ms, mfu 38.83%
+iter 2210: loss 0.7146, time 4.25ms, mfu 39.07%
+iter 2220: loss 0.7015, time 4.59ms, mfu 38.99%
+iter 2230: loss 0.6764, time 4.46ms, mfu 39.02%
+iter 2240: loss 0.6833, time 4.47ms, mfu 39.04%
+step 2250: train loss 0.6944, val loss 0.6930
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 2250: loss 0.6636, time 1806.03ms, mfu 35.15%
+iter 2260: loss 0.7289, time 4.55ms, mfu 35.48%
+iter 2270: loss 0.6803, time 4.84ms, mfu 35.56%
+iter 2280: loss 0.7194, time 4.71ms, mfu 35.73%
+iter 2290: loss 0.6763, time 4.67ms, mfu 35.91%
+iter 2300: loss 0.6989, time 4.57ms, mfu 36.16%
+iter 2310: loss 0.7300, time 4.52ms, mfu 36.42%
+iter 2320: loss 0.7108, time 4.58ms, mfu 36.61%
+iter 2330: loss 0.6822, time 4.57ms, mfu 36.79%
+iter 2340: loss 0.6923, time 4.57ms, mfu 36.94%
+iter 2350: loss 0.7471, time 4.77ms, mfu 36.93%
+iter 2360: loss 0.7126, time 4.62ms, mfu 37.04%
+iter 2370: loss 0.7247, time 4.61ms, mfu 37.14%
+iter 2380: loss 0.6723, time 4.51ms, mfu 37.32%
+iter 2390: loss 0.6738, time 4.32ms, mfu 37.65%
+iter 2400: loss 0.7024, time 4.31ms, mfu 37.95%
+iter 2410: loss 0.7323, time 4.38ms, mfu 38.16%
+iter 2420: loss 0.6592, time 4.50ms, mfu 38.24%
+iter 2430: loss 0.7076, time 4.24ms, mfu 38.55%
+iter 2440: loss 0.6643, time 4.57ms, mfu 38.54%
+iter 2450: loss 0.6943, time 4.62ms, mfu 38.48%
+iter 2460: loss 0.6750, time 4.52ms, mfu 38.51%
+iter 2470: loss 0.6698, time 4.28ms, mfu 38.76%
+iter 2480: loss 0.7010, time 4.27ms, mfu 38.99%
+iter 2490: loss 0.6812, time 4.27ms, mfu 39.20%
+step 2500: train loss 0.6823, val loss 0.6853
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 2500: loss 0.6634, time 1784.82ms, mfu 35.29%
+iter 2510: loss 0.6749, time 4.59ms, mfu 35.58%
+iter 2520: loss 0.6933, time 4.56ms, mfu 35.87%
+iter 2530: loss 0.6963, time 4.29ms, mfu 36.37%
+iter 2540: loss 0.6789, time 4.50ms, mfu 36.64%
+iter 2550: loss 0.6789, time 4.56ms, mfu 36.82%
+iter 2560: loss 0.6826, time 4.48ms, mfu 37.05%
+iter 2570: loss 0.6716, time 4.31ms, mfu 37.42%
+iter 2580: loss 0.6817, time 4.31ms, mfu 37.74%
+iter 2590: loss 0.7226, time 4.39ms, mfu 37.96%
+iter 2600: loss 0.6722, time 4.32ms, mfu 38.22%
+iter 2610: loss 0.6644, time 4.70ms, mfu 38.13%
+iter 2620: loss 0.6793, time 4.42ms, mfu 38.29%
+iter 2630: loss 0.6492, time 4.57ms, mfu 38.30%
+iter 2640: loss 0.7003, time 4.30ms, mfu 38.55%
+iter 2650: loss 0.6792, time 4.45ms, mfu 38.64%
+iter 2660: loss 0.6767, time 4.38ms, mfu 38.78%
+iter 2670: loss 0.6857, time 4.45ms, mfu 38.84%
+iter 2680: loss 0.6773, time 4.37ms, mfu 38.97%
+iter 2690: loss 0.6505, time 4.26ms, mfu 39.19%
+iter 2700: loss 0.7022, time 4.50ms, mfu 39.17%
+iter 2710: loss 0.6642, time 4.43ms, mfu 39.21%
+iter 2720: loss 0.6964, time 4.46ms, mfu 39.22%
+iter 2730: loss 0.6980, time 4.32ms, mfu 39.36%
+iter 2740: loss 0.6445, time 4.43ms, mfu 39.38%
+step 2750: train loss 0.6666, val loss 0.6653
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 2750: loss 0.6635, time 1806.08ms, mfu 35.46%
+iter 2760: loss 0.6781, time 4.65ms, mfu 35.69%
+iter 2770: loss 0.6659, time 4.56ms, mfu 35.96%
+iter 2780: loss 0.6624, time 4.62ms, mfu 36.16%
+iter 2790: loss 0.6125, time 4.62ms, mfu 36.34%
+iter 2800: loss 0.6800, time 4.35ms, mfu 36.73%
+iter 2810: loss 0.6422, time 4.38ms, mfu 37.06%
+iter 2820: loss 0.6603, time 4.52ms, mfu 37.23%
+iter 2830: loss 0.6676, time 4.60ms, mfu 37.32%
+iter 2840: loss 0.6655, time 4.37ms, mfu 37.60%
+iter 2850: loss 0.6552, time 4.61ms, mfu 37.64%
+iter 2860: loss 0.6276, time 4.39ms, mfu 37.87%
+iter 2870: loss 0.6700, time 4.59ms, mfu 37.90%
+iter 2880: loss 0.6284, time 4.32ms, mfu 38.17%
+iter 2890: loss 0.6289, time 4.34ms, mfu 38.40%
+iter 2900: loss 0.6485, time 4.49ms, mfu 38.47%
+iter 2910: loss 0.6453, time 4.59ms, mfu 38.44%
+iter 2920: loss 0.6645, time 4.39ms, mfu 38.59%
+iter 2930: loss 0.6872, time 4.54ms, mfu 38.59%
+iter 2940: loss 0.6456, time 4.63ms, mfu 38.53%
+iter 2950: loss 0.6577, time 4.61ms, mfu 38.48%
+iter 2960: loss 0.6561, time 4.54ms, mfu 38.49%
+iter 2970: loss 0.6681, time 4.37ms, mfu 38.66%
+iter 2980: loss 0.6306, time 4.35ms, mfu 38.83%
+iter 2990: loss 0.6710, time 4.67ms, mfu 38.70%
+step 3000: train loss 0.6539, val loss 0.6548
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 3000: loss 0.6374, time 1819.15ms, mfu 34.84%
+iter 3010: loss 0.6863, time 4.79ms, mfu 35.02%
+iter 3020: loss 0.6182, time 4.43ms, mfu 35.47%
+iter 3030: loss 0.6322, time 4.75ms, mfu 35.62%
+iter 3040: loss 0.6334, time 5.53ms, mfu 35.23%
+iter 3050: loss 0.6499, time 4.54ms, mfu 35.57%
+iter 3060: loss 0.6830, time 4.53ms, mfu 35.89%
+iter 3070: loss 0.6839, time 4.49ms, mfu 36.20%
+iter 3080: loss 0.6649, time 4.63ms, mfu 36.37%
+iter 3090: loss 0.6238, time 4.25ms, mfu 36.86%
+iter 3100: loss 0.6525, time 4.56ms, mfu 37.02%
+iter 3110: loss 0.6386, time 4.32ms, mfu 37.38%
+iter 3120: loss 0.6461, time 4.23ms, mfu 37.78%
+iter 3130: loss 0.6676, time 4.27ms, mfu 38.12%
+iter 3140: loss 0.6300, time 4.45ms, mfu 38.24%
+iter 3150: loss 0.6596, time 4.20ms, mfu 38.60%
+iter 3160: loss 0.6485, time 4.38ms, mfu 38.74%
+iter 3170: loss 0.6369, time 4.46ms, mfu 38.80%
+iter 3180: loss 0.6796, time 4.64ms, mfu 38.70%
+iter 3190: loss 0.6235, time 4.22ms, mfu 38.98%
+iter 3200: loss 0.6469, time 4.42ms, mfu 39.05%
+iter 3210: loss 0.6574, time 4.46ms, mfu 39.07%
+iter 3220: loss 0.6414, time 4.65ms, mfu 38.94%
+iter 3230: loss 0.6280, time 4.24ms, mfu 39.18%
+iter 3240: loss 0.6703, time 4.43ms, mfu 39.23%
+step 3250: train loss 0.6439, val loss 0.6463
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 3250: loss 0.6736, time 1791.95ms, mfu 35.32%
+iter 3260: loss 0.6423, time 4.49ms, mfu 35.69%
+iter 3270: loss 0.6297, time 4.47ms, mfu 36.05%
+iter 3280: loss 0.6125, time 4.34ms, mfu 36.48%
+iter 3290: loss 0.6304, time 4.49ms, mfu 36.74%
+iter 3300: loss 0.6462, time 4.19ms, mfu 37.25%
+iter 3310: loss 0.6713, time 4.42ms, mfu 37.49%
+iter 3320: loss 0.6616, time 4.50ms, mfu 37.64%
+iter 3330: loss 0.6394, time 4.62ms, mfu 37.67%
+iter 3340: loss 0.6527, time 4.21ms, mfu 38.07%
+iter 3350: loss 0.5971, time 4.40ms, mfu 38.25%
+iter 3360: loss 0.6357, time 4.32ms, mfu 38.49%
+iter 3370: loss 0.6599, time 4.61ms, mfu 38.44%
+iter 3380: loss 0.6263, time 4.18ms, mfu 38.80%
+iter 3390: loss 0.6283, time 4.43ms, mfu 38.88%
+iter 3400: loss 0.6557, time 4.46ms, mfu 38.92%
+iter 3410: loss 0.6420, time 4.47ms, mfu 38.95%
+iter 3420: loss 0.6462, time 4.20ms, mfu 39.23%
+iter 3430: loss 0.6311, time 4.42ms, mfu 39.28%
+iter 3440: loss 0.6355, time 4.34ms, mfu 39.40%
+iter 3450: loss 0.6167, time 4.43ms, mfu 39.42%
+iter 3460: loss 0.6168, time 4.22ms, mfu 39.64%
+iter 3470: loss 0.6267, time 4.28ms, mfu 39.77%
+iter 3480: loss 0.6468, time 4.29ms, mfu 39.88%
+iter 3490: loss 0.6202, time 4.35ms, mfu 39.92%
+step 3500: train loss 0.6337, val loss 0.6373
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 3500: loss 0.6181, time 1839.56ms, mfu 35.94%
+iter 3510: loss 0.6672, time 4.88ms, mfu 35.94%
+iter 3520: loss 0.6330, time 4.78ms, mfu 36.01%
+iter 3530: loss 0.6708, time 4.47ms, mfu 36.33%
+iter 3540: loss 0.6220, time 4.22ms, mfu 36.86%
+iter 3550: loss 0.6217, time 4.65ms, mfu 36.95%
+iter 3560: loss 0.6214, time 4.47ms, mfu 37.17%
+iter 3570: loss 0.6537, time 4.20ms, mfu 37.63%
+iter 3580: loss 0.6474, time 4.37ms, mfu 37.88%
+iter 3590: loss 0.5964, time 4.66ms, mfu 37.86%
+iter 3600: loss 0.6229, time 4.54ms, mfu 37.93%
+iter 3610: loss 0.6204, time 4.22ms, mfu 38.30%
+iter 3620: loss 0.6161, time 4.42ms, mfu 38.44%
+iter 3630: loss 0.6298, time 4.47ms, mfu 38.52%
+iter 3640: loss 0.6516, time 4.48ms, mfu 38.58%
+iter 3650: loss 0.6104, time 4.17ms, mfu 38.93%
+iter 3660: loss 0.6319, time 4.23ms, mfu 39.18%
+iter 3670: loss 0.6377, time 4.58ms, mfu 39.10%
+iter 3680: loss 0.6248, time 4.52ms, mfu 39.06%
+iter 3690: loss 0.6219, time 4.23ms, mfu 39.31%
+iter 3700: loss 0.6414, time 4.20ms, mfu 39.55%
+iter 3710: loss 0.6402, time 4.30ms, mfu 39.67%
+iter 3720: loss 0.6425, time 4.47ms, mfu 39.62%
+iter 3730: loss 0.6226, time 4.21ms, mfu 39.83%
+iter 3740: loss 0.6169, time 4.45ms, mfu 39.78%
+step 3750: train loss 0.6251, val loss 0.6252
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 3750: loss 0.6101, time 1786.99ms, mfu 35.82%
+iter 3760: loss 0.6086, time 4.41ms, mfu 36.22%
+iter 3770: loss 0.6422, time 4.63ms, mfu 36.38%
+iter 3780: loss 0.6383, time 4.74ms, mfu 36.44%
+iter 3790: loss 0.6251, time 4.39ms, mfu 36.79%
+iter 3800: loss 0.6241, time 5.00ms, mfu 36.61%
+iter 3810: loss 0.6445, time 4.63ms, mfu 36.74%
+iter 3820: loss 0.6545, time 4.55ms, mfu 36.92%
+iter 3830: loss 0.6403, time 4.37ms, mfu 37.24%
+iter 3840: loss 0.6242, time 4.62ms, mfu 37.31%
+iter 3850: loss 0.6239, time 4.41ms, mfu 37.56%
+iter 3860: loss 0.6128, time 4.65ms, mfu 37.58%
+iter 3870: loss 0.6160, time 4.59ms, mfu 37.64%
+iter 3880: loss 0.6126, time 4.66ms, mfu 37.64%
+iter 3890: loss 0.6152, time 4.49ms, mfu 37.78%
+iter 3900: loss 0.6134, time 4.36ms, mfu 38.02%
+iter 3910: loss 0.6222, time 4.61ms, mfu 38.02%
+iter 3920: loss 0.5938, time 4.52ms, mfu 38.10%
+iter 3930: loss 0.6313, time 4.66ms, mfu 38.06%
+iter 3940: loss 0.6073, time 4.66ms, mfu 38.01%
+iter 3950: loss 0.6315, time 4.36ms, mfu 38.24%
+iter 3960: loss 0.6051, time 4.42ms, mfu 38.38%
+iter 3970: loss 0.6120, time 4.65ms, mfu 38.32%
+iter 3980: loss 0.6255, time 4.58ms, mfu 38.32%
+iter 3990: loss 0.5894, time 4.37ms, mfu 38.50%
+step 4000: train loss 0.6169, val loss 0.6177
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 4000: loss 0.6132, time 1808.84ms, mfu 34.66%
+iter 4010: loss 0.6272, time 4.59ms, mfu 35.02%
+iter 4020: loss 0.6319, time 4.51ms, mfu 35.41%
+iter 4030: loss 0.6571, time 4.54ms, mfu 35.73%
+iter 4040: loss 0.6197, time 4.56ms, mfu 36.00%
+iter 4050: loss 0.5935, time 4.57ms, mfu 36.24%
+iter 4060: loss 0.6140, time 4.49ms, mfu 36.52%
+iter 4070: loss 0.5731, time 4.47ms, mfu 36.79%
+iter 4080: loss 0.6345, time 4.38ms, mfu 37.11%
+iter 4090: loss 0.6367, time 4.37ms, mfu 37.42%
+iter 4100: loss 0.6480, time 4.35ms, mfu 37.71%
+iter 4110: loss 0.5966, time 4.62ms, mfu 37.73%
+iter 4120: loss 0.5915, time 4.58ms, mfu 37.79%
+iter 4130: loss 0.6140, time 4.60ms, mfu 37.82%
+iter 4140: loss 0.5982, time 4.52ms, mfu 37.91%
+iter 4150: loss 0.5981, time 4.51ms, mfu 38.01%
+iter 4160: loss 0.6083, time 4.53ms, mfu 38.08%
+iter 4170: loss 0.6125, time 4.49ms, mfu 38.17%
+iter 4180: loss 0.6109, time 4.33ms, mfu 38.41%
+iter 4190: loss 0.6129, time 4.49ms, mfu 38.48%
+iter 4200: loss 0.6250, time 4.25ms, mfu 38.76%
+iter 4210: loss 0.6008, time 4.46ms, mfu 38.81%
+iter 4220: loss 0.6045, time 4.31ms, mfu 39.00%
+iter 4230: loss 0.5962, time 4.46ms, mfu 39.04%
+iter 4240: loss 0.6003, time 4.19ms, mfu 39.33%
+step 4250: train loss 0.6093, val loss 0.6110
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 4250: loss 0.6093, time 1812.11ms, mfu 35.40%
+iter 4260: loss 0.6031, time 4.53ms, mfu 35.74%
+iter 4270: loss 0.5980, time 4.65ms, mfu 35.94%
+iter 4280: loss 0.6028, time 4.25ms, mfu 36.47%
+iter 4290: loss 0.6080, time 4.27ms, mfu 36.93%
+iter 4300: loss 0.6062, time 4.27ms, mfu 37.34%
+iter 4310: loss 0.6258, time 4.87ms, mfu 37.21%
+iter 4320: loss 0.5964, time 4.46ms, mfu 37.42%
+iter 4330: loss 0.6293, time 4.23ms, mfu 37.82%
+iter 4340: loss 0.5956, time 4.27ms, mfu 38.14%
+iter 4350: loss 0.6031, time 4.60ms, mfu 38.14%
+iter 4360: loss 0.6039, time 4.46ms, mfu 38.26%
+iter 4370: loss 0.5794, time 4.26ms, mfu 38.55%
+iter 4380: loss 0.6062, time 4.25ms, mfu 38.82%
+iter 4390: loss 0.6047, time 4.57ms, mfu 38.78%
+iter 4400: loss 0.6116, time 4.57ms, mfu 38.74%
+iter 4410: loss 0.6101, time 4.21ms, mfu 39.04%
+iter 4420: loss 0.6299, time 4.45ms, mfu 39.08%
+iter 4430: loss 0.6270, time 4.38ms, mfu 39.18%
+iter 4440: loss 0.6252, time 4.49ms, mfu 39.16%
+iter 4450: loss 0.5694, time 4.22ms, mfu 39.40%
+iter 4460: loss 0.5870, time 4.46ms, mfu 39.39%
+iter 4470: loss 0.6192, time 4.24ms, mfu 39.59%
+iter 4480: loss 0.6058, time 4.49ms, mfu 39.54%
+iter 4490: loss 0.5869, time 4.33ms, mfu 39.64%
+step 4500: train loss 0.6070, val loss 0.6070
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 4500: loss 0.6319, time 1809.55ms, mfu 35.68%
+iter 4510: loss 0.6112, time 4.47ms, mfu 36.04%
+iter 4520: loss 0.6155, time 4.27ms, mfu 36.55%
+iter 4530: loss 0.6335, time 4.59ms, mfu 36.72%
+iter 4540: loss 0.6062, time 4.50ms, mfu 36.94%
+iter 4550: loss 0.6283, time 4.26ms, mfu 37.36%
+iter 4560: loss 0.6249, time 4.31ms, mfu 37.69%
+iter 4570: loss 0.6054, time 4.48ms, mfu 37.84%
+iter 4580: loss 0.5902, time 4.49ms, mfu 37.96%
+iter 4590: loss 0.5876, time 4.23ms, mfu 38.32%
+iter 4600: loss 0.5920, time 4.21ms, mfu 38.65%
+iter 4610: loss 0.5630, time 4.53ms, mfu 38.66%
+iter 4620: loss 0.5842, time 4.39ms, mfu 38.79%
+iter 4630: loss 0.6097, time 4.22ms, mfu 39.07%
+iter 4640: loss 0.5945, time 4.23ms, mfu 39.31%
+iter 4650: loss 0.5992, time 4.47ms, mfu 39.30%
+iter 4660: loss 0.5836, time 4.32ms, mfu 39.43%
+iter 4670: loss 0.5904, time 4.23ms, mfu 39.64%
+iter 4680: loss 0.5902, time 4.24ms, mfu 39.81%
+iter 4690: loss 0.6029, time 4.68ms, mfu 39.58%
+iter 4700: loss 0.5961, time 4.49ms, mfu 39.53%
+iter 4710: loss 0.5911, time 4.20ms, mfu 39.75%
+iter 4720: loss 0.6076, time 4.23ms, mfu 39.92%
+iter 4730: loss 0.6203, time 4.66ms, mfu 39.70%
+iter 4740: loss 0.6102, time 4.23ms, mfu 39.88%
+step 4750: train loss 0.6010, val loss 0.6038
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 4750: loss 0.5920, time 1775.54ms, mfu 35.90%
+iter 4760: loss 0.5911, time 4.52ms, mfu 36.19%
+iter 4770: loss 0.5738, time 4.61ms, mfu 36.38%
+iter 4780: loss 0.5811, time 4.25ms, mfu 36.86%
+iter 4790: loss 0.5708, time 4.24ms, mfu 37.32%
+iter 4800: loss 0.6134, time 4.34ms, mfu 37.62%
+iter 4810: loss 0.5963, time 4.55ms, mfu 37.72%
+iter 4820: loss 0.5694, time 4.51ms, mfu 37.83%
+iter 4830: loss 0.5880, time 4.29ms, mfu 38.14%
+iter 4840: loss 0.5888, time 4.29ms, mfu 38.42%
+iter 4850: loss 0.6253, time 4.48ms, mfu 38.49%
+iter 4860: loss 0.6143, time 4.33ms, mfu 38.69%
+iter 4870: loss 0.6277, time 4.59ms, mfu 38.65%
+iter 4880: loss 0.5969, time 4.32ms, mfu 38.84%
+iter 4890: loss 0.5647, time 4.43ms, mfu 38.91%
+iter 4900: loss 0.5721, time 4.43ms, mfu 38.99%
+iter 4910: loss 0.5663, time 4.23ms, mfu 39.23%
+iter 4920: loss 0.6159, time 4.53ms, mfu 39.18%
+iter 4930: loss 0.5794, time 4.45ms, mfu 39.21%
+iter 4940: loss 0.6138, time 4.31ms, mfu 39.36%
+iter 4950: loss 0.5930, time 4.20ms, mfu 39.60%
+iter 4960: loss 0.5944, time 4.72ms, mfu 39.35%
+iter 4970: loss 0.6117, time 4.45ms, mfu 39.36%
+iter 4980: loss 0.5851, time 4.53ms, mfu 39.29%
+iter 4990: loss 0.6039, time 4.19ms, mfu 39.55%
+step 5000: train loss 0.5994, val loss 0.6009
+saving checkpoint to out-experiment3_heads-n_head_8
+iter 5000: loss 0.6061, time 1795.55ms, mfu 35.61%
+
+
+STDERR:
+/data/lst141/nanoGPT/train.py:196: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))

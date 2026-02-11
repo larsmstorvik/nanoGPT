@@ -1,0 +1,107 @@
+Experiment: experiment2_width
+Parameter value: 192
+Timestamp: 2026-01-28 15:56:18
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment2_width-n_embd_192'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 2.70M
+Loading meta from data/tinystories/meta.pkl...
+
+The bird sat down and asked, "What does the bird?" The bird nodded and said, "It makes fun with yummy food. It makes me go first." The bird flew away, and the wind had the wall.
+Then, they heard a voice. The wind was shiny and shiny. It was a fun game. It looked shiny and bright. The funny flower looked angry. He wanted to be brave and cold, but he was still scared. He looked everywhere, but he could not find his flower.
+"Don't be scared," he said. "I am sorry, Lily. I was scared of you." The kids said. They were surprised. The poor flower scared a ball from behind him.
+They decided to play with the ball. They were happy. They took dress-up and played with the ball. They had so much fun. They always worked together and shared their flowers.
+<|endoftext|>
+Once upon a time, in a big park, there was a heelthy boy. He was always loyal to his friends. One day, he wanted to play his fan with his friend, the birds.
+The big bird was very heavy. He had an idea. He looked at it and said, "I want
+---------------
+
+<|endoftext|>
+Once upon a time, there was a big, fridge named Tom. Tom lived in a big tree. He was a little angel named Sue. Tom was making the house for his mom. One day, he met a small bird named Tom.
+Sue was trying to catch the tree. Tom said, "Hi, I am Tom. Let's ask for help." Sue said, "I am a shy, Nam. Let's catch it from back to the tree." Tom said, "Okay, Sue. I can't find a treat." Sue was sad, but she knew she had to catch the treats.
+Tom and Sue touched the treats together and went outside. The treats were happy and full. The treats were the best of friends. They all took the treats and were happy.
+<|endoftext|>
+Once upon a time, there was a little boy named Tim. Tim loved to play with his friends in the park. One day, he found a cute purple button in the bushes. He was very happy and wanted to see his mom. Tim said it was near the purple button.
+A little boy named Tim saw the cute. They wanted to help the purple button. Tim said to the button, "I will help you." So Tim too
+---------------
+
+The next day, they became best friends. They enjoyed the park and went home. They played together and shared their toys.
+<|endoftext|>
+Once upon a time, in a big garden, there was a big red house. The hoop was so strong. It could not walk on the wall. But, oh no! The hoop was not ready to say a hook.
+One day, the hook was hopping around him. He said, "Oh no, the hoop hoop!"
+The hoop whoopped the hoop was crying and crying. He held on tight and told his friends about his mom. She said, "OK, you'll try to make the hoop in the hoop of the hoop. When you try into the hoop, something unexpected happened.
+The hoop started because it was foolish to panic. It broke into something big, red so hard. The wind looked nice for Tim and running to his hoop in the hoop. Tim felt angry and sad. His mom said, "Let's unpack the big tree. Please help me unpack the big tree." They both tried to take their soup away, and they both started their soup around the hoop.
+<|endoftext|>
+One day, a smart climbed de
+---------------
+
+One day, a little boy named Tim went to the park. He saw something shiny near the big tree. The tree was shiny and smelly. He wanted to be friends with the big tree.
+Tim saw the big tree and wanted to help. He thought it was a good friend. So, he went to the park to play with his friends to play with. They played and laughed, and had lots of fun. The moral of the story is to be careful, and the story is better than being a bottom day.
+<|endoftext|>
+Once upon a time, there was a big tree in a tiny garden. The tree had many friends. The tree was always loved to rub it. One day, a little boy named Tim found a car in his yard.
+Tim wanted to help his friend. He told Tim, "I need to come to see what is how need!" Tim said, "No, I want to carry more." The car was sad but still wanted to come inside.
+The car ran to Tim's house and showed him the car. They both decided to share the carrot together. They became good friends and played together every day.
+<|endoftext|>
+Once upon a time, in a big 
+---------------
+
+<|endoftext|>
+Once upon a time, in a small house, there lived a little girl named Lily. She had a big razor that she loved very much. It was not a new place to help her mommy to get ready for a new sad or mine.
+One day, Lily heard a strange noise. She was stuck in the ocean and saw a lion. The lion was shiny and noticed the radio. She was scared and started to walk on the edge of the house.
+When Sam heard a strange voice, he saw he was scared. He shouted, "Hello! I want the most and I want to buy it." Sam was angry that he had a bad ending. He said, "Hello! I have a friend to make you share, Sam!"
+Sam was happy. He said, "Thank you, Sam. I like to stand us fun. Why do you think they can do it?" The two dog said, "I am Sam. I like your own ball." Sam looked at Sam and said, "Oh, Sam. You are not scared. That was not strong anymore. I cannot like that." Sam and Sam felt sad and angry.
+"Maybe we can find out or fun." Sam said, still helping Sam.
+They went to the park and skipped and play.
+---------------
+
+Tim saw a big net. He wanted to make the monster go fast. The monster said, "No, Tim! It's just a big smile. Can you help me find me it?"
+Tim nodded and said, "Okay, sweetie. The big smile was. It is fun to play with the monster." It was a long monster named Sam, who lived in a big, exit in the woods. They played near the dirty station with it everyday.
+As the dirty station began to space, it was time for his mom and dad and did his mom. Sam was not scared, but he did not have to get it. Sam tried to get the station back stop, but he was too fast. The dirty statisfed dirty was not a station anymore.
+Sam was very surprised and happy. He thanked the dirty station and said, "Thank you for being so greedy. You are very good and pretty." Later agreed, they went back to the park and the dirty station together.
+<|endoftext|>
+One day, a little girl named Sue found a cold scale with a big box. She was very happy and wanted to show off her friends. She thought it would be fun to tease the scales
+---------------
+
+Later, Later, the bird felt number with a big, round bone. Little Sara did not know what to do. She did not want to make any yellow bone. But her mom said, "No, Anna, it's too big for me to ride out with my sad." Sara was sad and angry.
+"Of course, it's me too big on it," Anna said.
+But her mom said, "No, here, you need to play with your sad doll. It looks shiny and shiny."
+Her mom thought that it was funny. She did not know what to do. She wanted to say sorry to her mom. The mom and dad looked at Anna with her sad. They both helped her struggle. They were happy and learned their lesson. The mom had to find a new friend in the real sea.
+<|endoftext|>
+Once upon a time, there was a little dog named Spot. Spot loved to play with his friend, a little bird named Sue. They would laugh and play together. One day, Spot and Spot were walking together.
+Sue saw a big, hairy skill. She ran to find the sky and picked the big bird. "Spot is free!" said Spot. They played in the sky and had lots of fu
+---------------
+
+One day, the big bird was very happy. The big bird saw a little girl named Sue. She said, "Look, I found a big puddle!" Tim was happy to hear the puddle. The big bird was happy and couldn't play.
+As they played, they saw a big red balloon in the park. The big bird told Sue to catch and said, "I can help you!" Tim and Sue climbed onto the puddle and saw a tiny bird. They felt happy and safe.
+As they played, a big wind came and blew the red balloon down from the tree. The wind took Tim and flew back to the tree. Sue saw Tim and Sue on the floor. She was going to have a red ball with her. Tim picked up the balloon, and Tim felt happy.
+After the balloon, they both continued to play together. They had a great time with the cable and it was time to see them. They played with the balloon all day long, laughing and having so much fun.
+<|endoftext|>
+Once upon a time, there was a little girl named Sue. Sue liked to play with her toy more toys and her brothers. She had a big leaf to play with her
+---------------
+
+While they were walking, Tim met a big, friendly dog. The dog was sad and did not want to leave the fan. Tim asked, "I need you to ride the fan too, but we need to sleep."
+Sue and Tim tried to ride, but the fan was strong. The fan tried to catch the fan sleeping. The fan was still naughty and worked together. Tim was so sad. He decided to lend the fan to the fan. They swung and laughed and played all the time.
+<|endoftext|>
+One day, a little girl named Lily went to play in the park. She saw a pretty flower by watching a picture. Lily wanted to see the flowers with her friends. She did not know what to do.
+Lily went to her mom and said, "Mom, can you hear me?" Her mom looked at the flowers and said, "Is it real bad for you?" Lily looked at the big flowers and said, "I want to try it!" She took the big flowers and started to talk. She tried to talk, but the flowers latered. Mom laughed and said, "You are so loud and smart. That's not mean."
+And they had a great time at the park and the f
+---------------
+
+Mia and the small house walked away from the tree. They saw that the house was gone, and the cat was a bit scared. Mia and the small house became friends and again. They learned that sharing is important to be kind to everyone and make something fun fun too. And everyone in the town knew that everyday it was minding.
+<|endoftext|>
+Once upon a time, there was a little boy named Tim. Tim had a picture of a ball that he loved to play. Every day, he would run around the park in his room, while Tim was running around the house. They saw a big tree with a big smile on its face. Tim was very surprised to help the tree.
+As Tim got closer, a big, scary hair came up to Tim. Tim said, "I will repair my stone, Tim." The scary hair still went in a big tree. Tim was very surprised. The hairy had to see the friends at the top of the tree. The hairy stopped and Tim was still envious. They were so happy that it was sharing and hot and warm.
+<|endoftext|>
+Once upon a time, there was a boy named Tim. He 
+---------------

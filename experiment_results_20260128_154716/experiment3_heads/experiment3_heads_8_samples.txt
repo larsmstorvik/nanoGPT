@@ -1,0 +1,109 @@
+Experiment: experiment3_heads
+Parameter value: 8
+Timestamp: 2026-01-28 16:02:59
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment3_heads-n_head_8'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 4.78M
+Loading meta from data/tinystories/meta.pkl...
+
+The balloon rolled back and rolled down the hill. Lily's friends followed over the balloon and they decided to be friends with it. They all played near the balloons and had a lot of fun.
+From that day on, Lily and her friends always remembered to play together in the sunshine. They were the strong story to show their mom and dad of the bowl. They knew they would be careful and safe.
+<|endoftext|>
+
+Once upon a time there was a little girl named Emily. Emily was very excited and wanted to explore the world to our houses. She put on a big ball and went back to the signs. On the day of the park, Emily found a box.
+She put the box in her pocket and went outside. Emily was so excited to find her mom and dad about the lawyer and the sounds. She sat on the box and found out what it was. She said, "Twants to keep it safe. What are you doing with it!" She gave the box to Sam and her head and said, "It is so cool! I love to play with it."
+Sam thought hard and said, "I will ask my special box if I
+---------------
+
+Anna and Ben said they laughed and said they were clue and sorted their wild only friends. They also learned that not to share and stop was kind to eat them, even when someone else startled to change furniture. Anna and Ben learned that even when they want to increase to be getting caught up to the poster.
+<|endoftext|>
+
+
+Lily wanted to play. She asked her mom if she could use her long tail to make her long tail out. She had a big bag and she said, "I love you very much." The tail was gentle and filled with long peace.
+Lily painted the film from the tail and ate it happily ever. Now, the frog knew it was the special peaceful. Lily made a big stack to play with it and the tail green peace. She was very happy to have special things to her friend, Tom. And she had many friends in the frog and they all lived happily ever after.
+<|endoftext|>
+
+John and his mom were walking in the forest when the sun on the sky. But this day tried to walk around it and sniffe the town, but John forgot about 
+---------------
+
+The next day, they went to the beach and found a big family in the water. They put the fancy fruit in a big box and closed it to the water. The family said, "Thank you for helping me come back soon." They stayed near the water and felt very good when they sneezed it. They all had a great way to discover the fruit.
+<|endoftext|>
+Once upon a time, in a small town, there lived a boy named Tim. He had a unique toy that could talk. Tim loved to play with his toy amazing toy cars. One day, he saw a toy that he was too scared to fill it.
+Tim went to his mom and asked, "Mom, can you help me get the toy?" His mom said, "Yes, but first we can get the toy cars and break." Tim was very excited and wanted to help the toy car. So, he asked his mom if he could help him. They opened the door and found a big, wet toy car inside.
+Tim played with the toy car for a long time. He was happy to see the toy car in the toy car. He learned that it is good to ask for help when you need it.
+<|endoftext|>
+Once upo
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They wanted to play on the swings, so they all found a way to play together. They said to Tim, "See, we can watch ourselves together. It is very big and soft."
+Tim shook his head. He was so happy. He said, "Thank you, Sam. You are good at the shop. Next time, we can allow it." Tim smiled and said, "You're welcome. You're my lazy bear." They all smiled and played together in the big park.
+<|endoftext|>
+
+Jimmy was only three years old. He wanted to pack out his owner and called his friends. 
+Suddenly, the door opened and out of a small bunny's face. He started to shake. It started to move. He ran back home and said, "That is not bad. Just be safe with our journal and can be so respectful."
+Just then, the door opened. It said, "I am a magic bunny now. I am no moving big!" So the bunny laughed and said, "I don't know where the bunny is. It is not easy to help and put it back in its one." 
+The bunny thought about what the bunny 
+---------------
+
+One day, Tom saw a big melon. He was very excited to see what was inside the box. But when he trusted the melon, it turned out his old house. Tom was sad but knew he had to listen to his mom.
+Then, something unexpected happened. The sky turned dark and became very old. Tom and the boy were surprised, but they had been disappointed. They asked their mom for help. They said yes, but they were left with their new place. Tom felt sorry and ashamed. He knew he was a very important like this.
+<|endoftext|>
+One day, a boy named Tom went to the park to play. He saw a big dog with a stand and wanted to play. Tom was very happy and wanted to play too.
+While Tom was playing, a small dog jumped out of the water. Tom said, "Hi, I am a new friend. Can you help me get my tap?" The dog was surprised and said, "No, I can help you play with you."
+Tom was so happy with the dog and they both stayed together. The dog and the cat became good friends and had lots of fun with the string. They knew that the do
+---------------
+
+Tim saw a big net. He wanted to make the net safely. The net was scared of the net. Tim tried to fill the net, but he could not. The net was too small. Tim was sad too. He learned that sharing is better to make things happen. The net was not a good friend.
+<|endoftext|>
+Once upon a time, in a little town, there was a big, dependable bear. The bear was all alone in a small house. He liked to do a horse, but he did not like to do it.
+One day, the bear saw a big red ball in the yard. "Oh no!" he said. "But Sam, I want to choose the box."
+The bear told the bear to move a leaf. He said, "I can do it! Maybe the sun is warm." He took the bear and put the bear back on the shelf. The bear pressed the button, and the bear was not happy.
+Sam was very sad and said, "I lost my bear! Can I help you find your toy bear?" The bear looked scared and said, "Sure, Sam! It makes me happy." The bear took the bear from the little bear and went outside to play.
+The bear saw a big tree for the tree. It was a s
+---------------
+
+Later, Later and said they could have helped each other. They said they should try to share the animals and put them in a hole and enjoyed them together. Mia and Later learned the show together and went back to learning the next animals who were very happy with the animals.
+<|endoftext|>
+Once upon a time, there was a little girl named Lily. Lily loved to play outside in her yard. One day, she went to a shop in her house to find some food. Then, she saw a big three year old side of there. She wanted to climb it, but it was too heavy.
+Lily tried to pull the food and make it for the biggest. She thought it was a magic food in the beach. She spoke the biggest side, and saw that the food was dessert. It was not pretty.
+Lily was sad, but she learned that sometimes, even if something bad happens. Lily and her friends had lost the bad dessert. When it was time to go home, Lily never found her new friend again and they went back to the park.
+<|endoftext|>
+Once upon a time, there was a big fish 
+---------------
+
+One day, a little girl named Lucy found a big box in her room. She loved to play with it and splash water. Lucy was very happy and wanted to play with the box.
+Lucy ran and played with her toys. They ran and jumped, but they did not know how to play it for a long time. Lucy was curious and wanted to play with the box. So, she used the box to make her work better to make the time. They were happy and peaceful. Lucy was very happy to see her friend, and they all played together on the swing.
+<|endoftext|>
+Once upon a time, there was a little girl named Lucy. She had a dream to drink on her face coming today. Lucy had a big heart and a pale ball that she loved to play with.
+One day, Lucy saw a big box near her house. It had a long rainbow in it. She wanted to see what it was, so she ran to the box. It slowly started to rain. It broke into many trees. She felt sad and cooking it.
+Lucy went to her mommy's room and saw a lot of furry too. She helped her mommy walk back to the box and met it 
+---------------
+
+One day, Spot saw a helpless man walking by. The man had a big dream. The man could not find his many home that acted. He was sad and said, "Maybe he is wrong." The man said, "But I don't know that, Tom. We can use it to fix your breat."
+Tom was so happy and wagged his tail. He played with his other toys together. They became best friends. And they lived happily ever after.
+<|endoftext|>
+ 
+Once there was a naughty ranch. He was on the farm with a powerful place. Every day he would go on an adventure and see some things like an orange red story and building. He wanted to go on the right rock, but every time he missed it.
+One day a big brown dog met a sad bird. The bird said, "You can sing so nice, but first you must never forget. You can shoot your car with your teeth when you try." The bird was excited but if someone did not want to sleep. So, they asked the bird to find the car in the tree.
+On the way, the bird found a little bug in the tree. The bug wanted to take the bug home. The b
+---------------
+
+Momo was so happy he helped her put her in a step in her arm. As she was so many things she liked and could gather them and finally find her way. She smiled and hugged her momo and said he was glad she went back to the elderly field.
+<|endoftext|>
+One day, a little girl named Lily wanted to find a drive to our tower. She decided to pass it in the park with her mom. Lily felt miserable because she did not get the driver for taking the driver.
+Lily saw a weak cat stuck in a tree. He wanted to pass the driver and be shake. So, he went to his mom and asked, "Can I pass the driver?"
+His mom said, "No, you need to be careful. Just be careful." Lily was still feeling miserable. She wanted to be brave and restless.
+When the driver finished, all of Tim got cold before he saw the driver. He was so happy to find the driver, but he had a plan. Lily saw a driver and the driver and wanted to play too. The driver said, "Let's organize a driver to give it back!" The driver did not say anything. They l
+---------------

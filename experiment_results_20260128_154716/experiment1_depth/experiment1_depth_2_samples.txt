@@ -1,0 +1,119 @@
+Experiment: experiment1_depth
+Parameter value: 2
+Timestamp: 2026-01-28 15:48:04
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment1_depth-n_layer_2'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 1.63M
+Loading meta from data/tinystories/meta.pkl...
+
+The balloon roared balls on the road. He always had a good day. He had lots of fun with his family. All his family was not grateful for Joe and his mom.
+<|endoftext|>
+One day, a girl named Mia went to the store with her mom. She saw a big star on the store and the store. She looked around and saw a little horse near her grandma. She was scared but she wanted to help her.
+A kind bird came by and said, "Hi, here is so dirty!" Mia said, painting the story and fast. "We are here?"
+The store he had a day. It was a secret surprise coming up the story. The story had a special monkey and made a funny face. It was a bad twisty enormous to complete the bad with.
+The store made a toy that made the answer all always be careless. It was the story and started to come back and see what it was. The story day was happy and had lots of fun.
+<|endoftext|>
+Once upon a time, there was a famous helper. The famous duck would go outside and look at the water all the way. The famous work on the playground were
+---------------
+
+<|endoftext|>
+Once upon a time, there was a big box. The box had many noises on it. In the man, there was a little bird named Bob. Bob lived in a small room, and he would always help the bird.
+One day, while he was very tall animals and playing, he saw a hurt in the water. It landed on the tall tree she was going to fall. Bob wanted to help the hill go near the water. He tried to sleep, but he couldn't see the moon on her favorite car, but it was too excited.
+A little car came running around the room. The dark made a big red all the other dogs came by and smiled. Bob and his friends were happy to have the room with their dog. They learned that it was no longer that could talk anyone who could help him.
+<|endoftext|>
+Once upon a time, there was a little boy named Tim. Tim loved to wear his copcorn very much and he loved to swim. One day, Tim went to the park to play. He saw a big slide and close on the table. The slide was morning and shiny was glad.
+Tim looked and looked. His mom said 
+---------------
+
+The next day, they were very surprised. They explained that it was with the new toy. The new toy mom and dad were lucky to help the she lay down.
+<|endoftext|>
+
+
+Mia loves to build a bowl of lives on the ground. She smiles and vases until she loves her parents. She says she is not building. She does not like them.
+"Sometimes you can can help you go face neat to play with us. It can make you happy."
+Suddenly, Mia says, "Let's make a tall mess the dog!" She does not listen. She tens her mom for the tray on the tall and rush and went to her mom.
+"Let's go on the staff," she says.
+They like spoons and watched the tall tree of the tall together. It makes a big hole in the park. It has a spoon. The spoons wered nose.
+"Hello, mom!" Anna says. "Okay, Anna. What are you doing?" Anna asks.
+They look at the water spoon and read. They read the spoon and a good thing that spoon. They want to be sorry in the garage.
+They start to make a spoon and a lecture to Lila's tower hands. It was ready to the 
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They wanted to find a soft cold heart. Tim asked his mom, "Can I play too?"
+The little boy said, "Yes, let's play with it!" They ran to the park, but the park was not sick. They wanted to say yes. Tim remembered the pretty place together. The pretty picture together and the park.
+<|endoftext|>
+One day, a little boy named Tim went to a big park. He saw a big, mud on a branch. Tim wanted to go to the park to his room, but he had an idea. He asked his mom and dad to help him. Tim saw his favorite toy and wanted to share the park.
+As the kid got closer, he ate the park, he saw a small bird on the ground. The bird looked at Mike, but a scared dog. The bird did not know what it was. Tim wanted to help the bird. He went to the scary, and she started to fly and make sure everyone else.
+<|endoftext|>
+Once upon a time, in a small forest, there was an unusual rock. The rock was very envious. In the end, it was very special. The rock w
+---------------
+
+<|endoftext|>
+Once upon a time, in a small house, there was a little bird named Bella. Bella was a marriange near the slide. The bird lived in a big house. But Bella got married and ran around him.
+One day, Bella met a new friend named Sally. She liked to stay in a big carrot. Salla wanted to be brave and rude. She took Tommy to her and asked him, "What is that?"
+The bear smiled and said, "Let's wait for it, Tom, know!" Salla thought for a moment. She was so proud of her head. She said, "Tommy, we can go on that to the shelf, they do not stop everyone."
+Tommy heard the tiny stop, and he quickly put it on her hair and danced away from her chair to get scared. She saw something in the corner of her back. Tommy said, "I am sorry, Tommy. I will be your friend Sue, Lily." Sue was happy to have her scared back and landed.
+Tommy went to the store to corn. He did not even any story about the scary cat. He said, "Tommy, can you help me with my scars and corn, mom? Let's try to come soon." The s
+---------------
+
+Tim saw a big tree and wanted to play with it. He thought it would be fun to play with. Tim wanted to see what was inside. He just tried to get the balloon, but it was too late.
+Tim went to his mom and said, "I want a special for you. But the balloon is more fun, I will not be your feet anymore." Tim was sad, but he did not want to learn.
+Tim tried to tell his mom and dad about the balloon. He asked his mom, "Can I have a special special special back?" Tim felt better and said, "No, I don't let us! You can't feel the scars too!" The special moment and then said, "You did a great tea special learnt about that the special that back and not good at it with his wings and help you clean more getting dark one."
+The special day, the special finished for the night learnt clean again. It was so big that the special things cleaned so it and help each other.
+<|endoftext|>
+Once upon a time, there was a puzz bird who loved to draw peacopkeas. He lived in a big puzzle with his family and made him sh
+---------------
+
+Later, Lily, but she did not want to put the ball on the slide. The slide down too the ball in the sky. Lily was scared.
+Lily climbed up the ball and tried to catch the ball back with her. Lily looked at Tom, and they both took the ball with the ball, and their ball went inside. They were scared, happy to have a new friend. They both enjoyed the ball all day and had a great time.
+<|endoftext|>
+One day, a little boy named Tom went to the park. He saw a big tree with many toys. Tom was red, but he was stuck in the tree. The tree was very smart and big red ball. Tom said, "I wish there it will fly high in the rain!"
+Tom said, "I'm sad the end. I can help you, but you must use it to make things from the mysterious red." Tom and the end. Their mom walked and saw the sun and they still had a fun day. They learned that sometimes that when they saw it can make them happy.
+<|endoftext|>
+One sunny day, a little girl named Lily went to the park with her mom. She saw a big box of colorful blocks. 
+---------------
+
+Sue and Tom helped the things with the special music, and they put more more toys inside. They made a loud noise and it was hot and shared a flower.
+After a while, they went on a trip to say goodbye to the town stay. But they had made of fun spiders in the pool and stretch. The cat and the dog were happy and thanked the love.
+<|endoftext|>
+
+Once upon a time there was a big leaf. He lived in a popular with many one day. The leaf was very happy and collected in a park. One day the leaf was fit and wanted a house. He saw a toy fire, old child and Sue. The leaf in had an idea. He wanted to join the man.
+The little girl was happy. The next day, while got to the man came, the leaf was only the beautiful man. They looked at him and said, "That sounds fun! Let's play with it, the police dog!" The bear was sad because she had to be more careful and dirty.
+<|endoftext|>
+
+Once upon a time, there was a little bear. He lived in a small house with his mom. The bear was a very pretty doll.
+One day, t
+---------------
+
+<|endoftext|>
+Once upon a time, there was a little girl named Amy. She loved to jump and play all day. Every day, she would sit a stick and a race. The stick had made music. In the race, the race, the store to fly to see what was inside.
+One day, Amy's mom came into the race. She said, "I want to see the toy flower to our flowers." Amy felt sad, but she left all upset. She did not know what it was. She did not listen to her friend Tom.
+So the lady opened the other kids and said, "Tom, come back and go inside the toy. You are not too late. You are a small boy. You can't late." Amy smiled and got help each other. She said, "You are being kind. You can have your sinch to sell the pot." Tom felt bad, and said, "No, Lily. I will be my friend."
+<|endoftext|>
+Once upon a time, there was a little boy named Tim. Tim loved to play with his toys and run around and play. One day, Tim saw a big tree. He tried to take out the tree, but his friend, Sam, said his toys were scared.
+"Wow, you sing the t
+---------------
+
+Mia. He thought it was so proud of himself. He had made sure to help him. But he was not happy. He never left the best all things he is not to know what it was.
+<|endoftext|>
+
+Mum was playing in the sea. He had many friends who liked to soak the flowers and paper with his paper. Everyone knew where there were leading.
+On the way of his friends, a new search stage. He was excited to be with the flowers and a tree away. Suddenly, the stage everyone said, "This animals are nice, there is a different box full of fun soak. What is your friend?"
+The rabbit replied, "Don't worry, I will help you." 
+The rabbit thought about it and gave the different to a stage. They ran after it, but the different toy and the stage. 
+The rabbit rished bouncing and not breakfast. It was a rabbit! The rabbit thought, "Of course! It is cold and shiny!"
+The rabbit said, "No, it is my please. It's not fair!" 
+The rabbit was sad. He went to the rabbit and said, "It's ok, Jilt touch! That's not need the rabbit anymor
+---------------

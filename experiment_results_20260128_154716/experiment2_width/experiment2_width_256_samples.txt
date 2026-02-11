@@ -1,0 +1,101 @@
+Experiment: experiment2_width
+Parameter value: 256
+Timestamp: 2026-01-28 15:57:51
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment2_width-n_embd_256'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 4.78M
+Loading meta from data/tinystories/meta.pkl...
+
+The balloon said, "Let's play with the balloon together!" The balloon did one came out. The balloon did not want to be friends with the ink. The balloon was happy. The balloon wanted to play with its friends, but they were all sad.
+The balloon said, "I can help you find food for me!" The balloon felt embarrassed. They had a lot of fun with the balloon. The balloon was very sad and scared. The balloon wanted to help them, so they got the balloon back. The mommy came back with a big smile on her face and kissed them where she wanted.
+<|endoftext|>
+Once upon a time, in a big forest, there lived a boy named Tom. Tom was a loyal boy. He did not like to lose his stick. One day, Tom went for a walk in the woods. He saw a big tree with a hole in it. Tom was very cold.
+Tom said, "I want to lose my stick when I was lost. Can I lost her stick and climb it?" Tom smiled and said, "Of course, I will see you." So, Tom and Sue played with the stick and had lots of fun.
+<|endoftext|>
+
+One day, Mark and
+---------------
+
+One day, a little girl named Mia and her mom went to the store. Mia wanted to buy a new toy for her mom. She was an independent mom's mom told her to take the bathroom. Her mom said, "I love you too, Mia. I love you too."
+Mia took the store and found her mom's bathroom. She felt much better. She took a special place for her mom to get the store bathroom to her. She put the store on her paper stairs and went inside. Mia felt very bad and was scared of the store bathroom. She sat under the bathroom and found her toys under a roar.
+When Mia was not looking, she saw a big, piece of stove in the pond. Her colors were small animals and amazed. She said, "Lily is so scared to reach the faucet too!"
+Mia's dad watched and said, "Let's go and play a special stove for you." 
+Later, they went to see the stove together and had a great time. And from then on, Mia and her mom made sure to take care of the stove together. And they didn't end the stove to be careful with their mom's idea.
+<|endoftext|>
+---------------
+
+The next day, they found all the time together. They decided to play a game. They played and had lots of fun. In the end, Bob learned not to be strong and the spear of his favorite park.
+<|endoftext|>
+One day, a nice cat named Tom went for a walk. He saw a nice fire on the ground. The nice fire had a big hole in its beak. Tom wanted to touch the fire and catch it. The fire said, "I will help you!"
+Tom followed the fire and started to pick up the fire. He did not want to move the fire anymore. But the fire was too big and fast. The fire was too big to fill the water and soon the fire. The fire was sad and scared. The bird wanted to find his friends.
+The day of the fire and became friends. They played together every day. They were very happy. And they lived happily ever after.
+<|endoftext|>
+Once upon a time, there was a nice dog named Spot. Spot loved to play with his ball. He would run and jump in the middle of the sea. One day, Spot and his ball went to the park.
+At the park, Spot saw 
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They wanted to find a special special toy to play. Tim was very happy to be on his wide loop.
+Tim said, "Let's play together!" So, he asked his mom to help him. His mom said, "We can help you, Tim. Let's play together." Tim was happy again. They played with the toy all day, making it with the toy cars every day.
+<|endoftext|>
+Once upon a time, in a big green field, there lived a noisy pig. The pig loved to hop and play with his friends. One day, the pig met a new friend named Timmy and a big dog. They were best friends and loved together every morning.
+One day, they found a big box in the park. They wanted to play together. Timmy put the box in his pocket and started to wash it all by himself. He felt happy and excited.
+As they washed the box, Timmy and Sammy played with the box all day. They had so much fun in their fun house. As they played, Timmy was very tired. He said, "Timmy, I can make your house happy, but I can fix
+---------------
+
+One day, Tim saw a big machine. He wanted to see what was inside. He thought the machine would burn. So, he went to the machine and saw that it was a gift. He saw a big machine with a salad. Tim knew he had to work hard.
+Tim said to his mom, "Look at me for a while. It's a fun day!" His mom smiled and said, "That's ok, Tim. The machine was long and tall. It was special to eat the pretty people." She hopped into the box and said, "Let's make a colorful perfume and measure how much wor first!"
+After a few days, they made a big bridge for the people. They decided to decorate their perfume and painted it with happiness and make new apples. Lily told the bridge that her eyes and friends were so happy to see the people and told them to stay on.
+While they were playing, they went to the park with their mom and dad. They saw the owner and asked, "What do you find a need here and I can find it if you get some food or more something you well." They started to play and had fun in their way. But t
+---------------
+
+Tim saw a big net. He wanted to make it all over the yard. He tried to move his bed, but it was too heavy. He broke it and scared him.
+Tim felt sad. He wanted to make his parents better. He had many friends who wanted to make him sad. Tim thought his parents found the bedroom and his friends. He said, "I don't want to play with it, but you might serve the right thing." His friends were so surprised and happy. They all played together all day long.
+<|endoftext|>
+Once upon a time, there was a little girl named Sue. Sue loved to help her neigh friend. One day, she decided to look for a stitch one to find the stitch. When she opened the stitch, she found a big, weak stitch on the ground. Sue was very happy.
+Sue ran to her mom and said, "Look, mom! What wonder does trying to fix the stitch!" Her mom told her that she had a big box with her toy party when she needed it. Sue went to her mom and asked her helper. They found a small box with a hole. They opened the box and found more colorful.
+
+---------------
+
+Later was so excited to explore the park of the park, feeling sad and scared. He gathered around and was worried and said he would never touch the strange lights again. 
+So he ran as fast as he could. He picked up his big red strange lights and started to run around. But it was too late. 
+The people in the strange had been so quietly. Joe was careful and wanted to quit down the strange with his paw.
+So he stirred the strange with his paw. He tried to rain, but he had to go to a store. He looked around and saw a big bucket of rocks. The bucket was very playful and small and she could go back to his nest.
+Later, he saw a big sail on the ground. The bucket was blue and yummy. The bucket was made of the move. The bucket was all beautiful. Tim and his friends ate the rocks and laughed. They all wanted to see the bucket in the sail.
+The bucket said, "Maybe I have to care for you, you can still see you look like the bucket." Tim and his friends looked at each other and carefully put the bucke
+---------------
+
+One day, a little girl named Lily found a big box of water. She wanted to play with it, but it was red and smooth. She tried to climb the box with a water and she could not play with it.
+Lily started to climb the box, but it was too high. She tried to reach the water of the water, but it was too high in the air. She fell off her water on the ground. She started to cry. She looked at the box and saw a small cat. The cat was scared and scared.
+Suddenly, the cat heard a loud noise! The cat was scared. The cat was scared and did not worry to help. She did not care about the end of the cat. The cat said, "Thank you, cat!" The cat and the cat climbed down the tree. They played with the green cat and had lots of fun.
+Then, they saw a big stage standing on the stage. They were so excited to find food. They said, "Thank you, cat. We are so glad for the cat, and we have to come inside." The cat smiled and said, "Yes, we are so happy to see it looks for it."
+The cat and the dog played together al
+---------------
+
+One day, Sam and Spot were playing in the park with their toys. They saw a big tree and wanted to try it. The big tree sneaker started to squeeze Sam and Sam. They sat under a big tree, and Lily and Tom were very happy.
+But then, they saw that she was scared. They heard a loud noise. It was brown and tall. Tom and Lily were sad. They stopped inside the flashlight and saw a big, strong liond. It was not a toy and a rock. It had a pretty blanket and a sink. It was red and shiny. Tom and Lily became friends.
+One day, they found another rock. It was the rock. They wanted to play with it too. They wanted to play with it, but it was not there. They did not want to share anymore. They wanted it to see what it was and bad and angry.
+"Stop it, stop!" Mia said. She was still scared and sad.
+They hugged their mom and thanked her for not fixing the tape. They washed their hands and smiled. They knew that their respect words was not a treasure amazing sore or they had to respect with breakfast and 
+---------------
+
+Mommy said, "Let's go back to its house." Max shouted, "I will go back soon."
+Mommy found Anna. She wanted to take the all off her window. They picked it up and had a lot of fun. They played on the swings and laughed all day long. The swings laughed and ran, and everyone danced to take turns holding Ben with him.
+<|endoftext|>
+Once upon a time, there was a little girl named Lily. She loved to play with her toys and have fun at the park. One day, Lily found a big toy under a tree with lots of soft branches. She wanted to play, but she was too small to reach the toy.
+Lily was very sad. She told her mom not to do it. Her mom said, "It's okay, Lily. This is good to help you." They played with the toy and had fun.
+<|endoftext|>
+One day, a little girl named Lily was very excited. She opened the door and saw the perfect ball. It was her balloon! She picked it up and held it tight. She opened it and looked for it. The other animals inside the house were so happy.
+Lily picked up the balloon in 
+---------------

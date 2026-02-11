@@ -1,0 +1,29 @@
+Experiment: Width Sweep (n_embd)
+Parameter varied: n_embd = 128
+Output directory: out-experiment2_width-n_embd_128
+Timestamp: 2026-01-28 15:54:58
+
+Configuration:
+  always_save_checkpoint: False
+  batch_size: 64
+  beta2: 0.99
+  block_size: 256
+  dataset: tinystories
+  device: cuda:1
+  dropout: 0.0
+  eval_interval: 250
+  eval_iters: 200
+  gradient_accumulation_steps: 1
+  learning_rate: 0.001
+  log_interval: 10
+  lr_decay_iters: 5000
+  max_iters: 5000
+  min_lr: 0.0001
+  n_embd: 128
+  n_head: 8
+  n_layer: 6
+  out_dir: out-experiment2_width-n_embd_128
+  wandb_log: False
+  wandb_project: tinystories
+  wandb_run_name: experiment2_width_n_embd_128
+  warmup_iters: 100

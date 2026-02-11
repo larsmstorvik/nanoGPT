@@ -1,0 +1,24 @@
+Sweep: experiment3_heads
+
+Diversity metrics:
+run                      #samples  distinct-1  distinct-2  TTR     
+n_head=4                 14        0.268       0.675       0.268   
+n_head=8                 14        0.292       0.733       0.292   
+n_head=16                12        0.288       0.708       0.288   
+n_head=32                14        0.290       0.724       0.290   
+
+Approx parameter sizes:
+run                      n_layer n_head  n_embd  params(M) 
+n_head=4                 6       4       256     4.84      
+n_head=8                 6       8       256     4.84      
+n_head=16                6       16      256     4.84      
+n_head=32                6       32      256     4.84      
+
+Samples:
+--- n_head=4 sample 1 ---
+The salad was all about a lot of fun walking towards the park, everyone cooked.
+...
+
+--- n_head=4 sample 2 ---
+Once upon a time there was a helpful boy. He was very smart and he was very delighted. He wanted to know what falling around it when he heard a sad sound. He decided to look around and see what was inside the park. The wealthy man asked an asked, "Why are you sad?" His mum said, "I can't play with my ball anymore." The man smiled and said, "I can help you! Let's find a ball for you." The man smile
+...

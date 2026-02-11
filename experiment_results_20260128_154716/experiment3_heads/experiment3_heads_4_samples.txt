@@ -1,0 +1,116 @@
+Experiment: experiment3_heads
+Parameter value: 4
+Timestamp: 2026-01-28 16:01:33
+================================================================================
+
+Overriding config with sample_config_temp.py:
+# Sampling configuration
+init_from = 'resume'
+out_dir = 'out-experiment3_heads-n_head_4'
+start = "\n"
+num_samples = 10
+max_new_tokens = 1000
+temperature = 0.8
+top_k = 200
+seed = 1337
+device = 'cuda:1'
+
+number of parameters: 4.78M
+Loading meta from data/tinystories/meta.pkl...
+
+The salad was all about a lot of fun walking towards the park, everyone cooked.
+<|endoftext|>
+ 
+Once upon a time there was a helpful boy. He was very smart and he was very delighted. He wanted to know what falling around it when he heard a sad sound. He decided to look around and see what was inside the park.
+The wealthy man asked an asked, "Why are you sad?"
+His mum said, "I can't play with my ball anymore." The man smiled and said, "I can help you! Let's find a ball for you." The man smiled and gave the ball back to the shore and the ball.
+<|endoftext|>
+One day, a little girl named Lily went to the park. She saw a big tree with a dream. The big tree said, "Want to help you find my ball?" Lily was very happy and excited. She wanted to eat the tree because it was so pretty.
+At the park, the water saw a big box. The box was very happy. The big box wanted to eat the big box. Lily and the box became friends. They all played together and had lots of fun. And they lived happily ever after.
+
+---------------
+
+Tom's mom smiled and said, "That's good, Tom. You can have some cookies and words." Tom smiled and said, "That's a good day. We can be friends."
+The young star and Tom played all day. They were having so much fun. And from that day on, Tom and his mom were the best of friends, and they all lived happily ever after.
+<|endoftext|>
+Once upon a time, in a small town, there lived a girl named Lucy. She had a big ice cream for her mom. Lucy loved the ice cream very much. She was very happy to be a deper when she helped her mom part.
+One day, Lucy's mom saw her and asked her to help, "Can I have a play for unexpecting waffles, please?" Lucy thought about it and then said, "Yes, you can use the ice-cream to make her mom's lail sound in the flowers." Lucy put on her shoes and added a doll, where her plants taste for her plants. In the end, Lucy would have an idea to make a doll to the picnic.
+Lucy closed her eyes and she was very amazed when she saw the lail her long plants. She said to her mom
+---------------
+
+The next day, they became good friends. They enjoyed the pretty picture of the picture and played together in the living room.
+<|endoftext|>
+One day, a boy named Tim had a basket of paper on his head. He loved his paper very much. The paper was very pretty with many pictures of paper animals. Tim loved to dance and play all day long.
+One day, Tim's friend Sam came over. Sam saw that Sam was hiding in a basket. Sam wanted to help Tim learn his lesson. They danced and danced until they were faster in the basket.
+Finally, Tim had an idea. He put his stick on the stick and started to attach Sam's lesson. They started to build a new stick together. They were very surprised and soon they didn't know what to do. Tim and Sam went back inside the stick and sat down to play.
+<|endoftext|>
+
+
+Lily and Sam were friends who liked to play in the park with many bubbles. One day, they found a big box in the park. It was red and shiny and had a picture of a toy in it.
+"Look! They are red, brown! And flo
+---------------
+
+One day, a little boy named Tim went to the park with his mom. They saw a small box that looked like a little boy with a nosy cup. Tim wanted to see what was inside the box, so he started to write a little sail.
+As they wrote toys, a little bird came by and said, "This is a little sail. Can I get it?" The bird said, "Yes, I would love to stay in the box." They both dropped the little sail and wrote paper as the box went.
+One day, a little girl named Lily went to the box with her mom. They saw a tree with sailing tops. Lily smiled and said, "Mom, we will get the box back! Let's go to the big box and see what we can attach the box."
+Lily and her mom went through the box and found a small, green scarf. They put the scarf on the sticks and trees. The scarf was soft and sour! It was a special idea. Lily and her mom took the idea and went to tell her mom. They told her to share the idea with the box. The idea seemed to share and be perfect. They wished the idea and the box finished someone.
+
+---------------
+
+One day, Tim saw a big message on the ground. He wanted to see what was inside the message. So, Tim picked up the message with his toy car.
+Tim took his blue and put it in his message and went to sleep. He felt like he was a healthy soldier in his mouth. "Wow, Tim!" Tim said. But the message was not his healthy toy. Tim was sad.
+Then, Tim saw a new toy for his mom. He was eating the blue and said, "I am fixing it moves. Please help me put the answer." The new animal was shy and broke into pieces. Tim was so happy to have the blue animals.
+The new animal was able to come back and play with Tim and his friends in the forest. They all played together and had fun.
+<|endoftext|>
+
+
+Tom and Lily are friends. They like to play in the park. One day, Tom says to Lily, "Lily, you can play with me. It is sweet and bigger."
+They run to the park and see the garage. They pretend to be a big party. Tom says, "Lily, please remove me. I will turn you and make us happy." Lily says, "Good kayak, Tom."
+Tom
+---------------
+
+Tim saw a big net. He wanted to make it all over the cake. He tried to touch the net and became a beautiful rabbit. The rabbit said, "Hi Tim, I am a magic cake. I like to play with the cake and make you touch him."
+Tim went to his friend Sam and said, "Let's finish to play with the cake!" Sam thought for a moment and then decided to say kicking the cake. So, Tim and Sam started to fight. They waited in the cake and waited for the cake.
+Later, Tim and Sam found a cake in the cake. They picked up the cake and sat down on it. Tim was so happy to have the cake and made a new friend. From that day on, Tim and Sam became their friends and played together every day in the cake.
+<|endoftext|>
+Once upon a time, there was a little girl named Lily. Lily loved to wear her crayons. One day, she found a big box. It was in her box. Lily was very happy.
+Lily wanted to wear the box and went to see where were the box was. She saw a big red ball and thought it would be fun to play with it in her box. She
+---------------
+
+Later that day on, the bear never forgot the bear of beautiful things on them.
+<|endoftext|>
+Once upon a time, there was a little boy named Tim. Tim loved to play with his toys all day long. He loved to make a big bear with his tail flowers. He had a lot of bears, or incluties, or small his tail.
+One day, he wanted to be wet and bowey, but he could not do it. Tim was very sad and hurt. He cried and couldn't believe it. He did not know how to be friends. So, Tim promised to be a story responsible to the wise other people.
+The next day, Tim and the people decided to make their wishes. They had a lot of fun playing and having fun. With everyone the story day, they were all amazed by their new friend. They learned that when you lost your hole, you can touch the story and make you feel better.
+<|endoftext|>
+
+
+Lily and Mia were playing in the park. They liked to pretend they were painting the squirrel with blocks. They liked to run and jump and make flowers and sizes.
+One day, they saw a big
+---------------
+
+One day, a little girl named Lucy found a big box in her room. She loved to play with the box and help her mom put the box on one. Lucy was very excited to help. She put on her mouth and said, "Mom, can you help me put the box on your own box?"
+Her mom said, "Yes, there is a big mess." Lucy took out the box and it flew out of her car on the town. She worked very hard. Then she saw the owner on the head and put it in her toy box. She was happy to protect her box with her things. She felt good for herself and went to see the town.
+<|endoftext|>
+Once upon a time, in a small town, there was a chubby dog named Max. Max loved to play all day with his ball. He would run, jump and go under the big trees.
+One sunny day, Max went for a walk in the park. He saw a small red ball and stopped playing and wanted to play with it. He played with the ball and the ball fell high in the sky. Max was happy to have a friend. He played and played in the park all day.
+As the sun began to set, Max and his frie
+---------------
+
+When they were done, they looked at each other and said, "It's disgusting in the morning!" But something unexpected happened. The morning would not be successful.
+Together, they decided to find out who could see it strengthes. They never came back on the morning morning with the fancy mouse.
+<|endoftext|>
+One day, a little boy named Tim went to the park with his mom. He had a big red ball and a long string named Ben. Tim was very happy and wanted to sing too. He played with his ball all day long, but he still wanted to play with the ball.
+As Tim played with his ball, he met a tiny dog named Max went to play with his ball. Max said, "Hi, Tim! Want to play with me?" Tim said, "Yes, let's play together!"
+They played and played all day long. But Max and his friends did not see the big red ball playing anymore. They all came and played and played together in the park. And they became best friends.
+<|endoftext|>
+One day, a nosy little girl named Sally went to the park. She saw a big tree wit
+---------------
+
+Mia realized she had enough money for a few money and her money. They had never been able to play and eat something pebark. Mia was so happy and thanked the man. "Thank you, magic man! Now be very safe to eat!"
+Mia smiled and said, "You're welcome, Mia. Now, let's be friends at the park."
+<|endoftext|>
+Once upon a time, there was a pond. In the pond, there was a little boy named Tim. Tim loved to play outside in the pond. He would pretend to play with his toys and his toys when they worked together. One day, Tim saw his box on the ground. He did not know what to do.
+Tim wanted to help the box of the box. He took a piece of paper and a bandage on it. He felt sad and walked to his friends. The box had a small, green ball inside. Tim looked at the ball and said, "You are too funny, but be careful."
+Tim took the ball home and put it on his shovel. He walked to the shovel and turned on it to the big ball. He put the ball and the ball back in it. Tim was happy too. He learned that he should 
+---------------
